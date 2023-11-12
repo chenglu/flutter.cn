@@ -28,7 +28,7 @@ jobs:
           github.repository == 'chenglu/flutter.cn' &&
           github.event.pull_request.head.repo.full_name == github.repository &&
           github.event.pull_request.user.login != 'dependabot[bot]' }}
-        uses: chenglu/action-hosting-deploy@lastest
+        uses: chenglu/action-hosting-deploy
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.SERVICE_KEY }}
