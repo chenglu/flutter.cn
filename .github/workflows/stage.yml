@@ -31,5 +31,5 @@ jobs:
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.SERVICE_KEY }}
-          expires: 7d
+          expires: 14d
           projectId: flutter-cn-docs-prod
