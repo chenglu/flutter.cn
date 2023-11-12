@@ -21,11 +21,10 @@ jobs:
         with:
           submodules: recursive
       - name: Build site and check links
-        # run: make build BUILD_CONFIGS=_config.yml,_config_stage.yml
         run: make move-docs & make build
       - name: Stage site on Firebase
         if: ${{
-          github.repository == 'chenglu/flutter.cn' &&
+          github.repository == 'cfug/flutter.cn' &&
           github.event.pull_request.head.repo.full_name == github.repository &&
           github.event.pull_request.user.login != 'dependabot[bot]' }}
         uses: chenglu/action-hosting-deploy@main
@@ -35,3 +34,6 @@ jobs:
           expires: 14d # 7 or 14 days?
           projectId: flutter-cn-docs-prod
           showDetailedUrls: true
+          fileExtensionFilter: "md, html"
+          originalPath: "src/"
+          replacedPath: "docs/"
