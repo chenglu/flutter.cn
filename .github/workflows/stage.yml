@@ -21,7 +21,8 @@ jobs:
         with:
           submodules: recursive
       - name: Build site and check links
-        run: make build BUILD_CONFIGS=_config.yml,_config_stage.yml
+        # run: make build BUILD_CONFIGS=_config.yml,_config_stage.yml
+        run: make move-docs & make build
       - name: Stage site on Firebase
         if: ${{
           github.repository == 'chenglu/flutter.cn' &&
