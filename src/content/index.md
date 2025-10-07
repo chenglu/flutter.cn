@@ -39,7 +39,7 @@ see [What's new][].**
 Ready to build beautiful, multiplatform apps from a single codebase?
 This video walks you through the fundamentals of Flutter and shows you how to get started.
 
-准备好通过同一套代码来构建精美的跨平台应用程序了吗？
+准备好通过同一套代码来构建精美的跨平台应用了吗？
 以下内容将向你介绍 Flutter 的基础知识，并告诉你如何开始使用。
 
 Once you've [Set up Flutter][],
