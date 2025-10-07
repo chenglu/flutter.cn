@@ -1,0 +1,140 @@
+name: Deploy to Render.com
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch: # 允许手动触发
+
+# Declare default permissions as read only.
+permissions: read-all
+
+env:
+  NODE_VERSION: 22
+
+jobs:
+  # 验证构建（PR 和 push 都会运行）
+  validate-build:
+    name: Validate Render.com build
+    runs-on: ubuntu-latest
+    if: github.repository == 'cfug/flutter.cn'
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      
+      - name: Enable Corepack
+        run: npm i -g corepack@latest && corepack enable
+      
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'pnpm'
+      
+      - name: Setup pnpm
+        run: corepack install
+      
+      - uses: dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c
+        with:
+          sdk: beta
+      
+      - name: Test build script
+        run: |
+          bash tool/build-render.sh
+          echo "✅ Build script executed successfully"
+      
+      - name: Verify build output
+        run: |
+          if [ ! -d "_site" ]; then
+            echo "❌ Error: _site directory not found"
+            exit 1
+          fi
+          if [ ! -f "_site/index.html" ]; then
+            echo "❌ Error: index.html not found"
+            exit 1
+          fi
+          if [ ! -f "_site/_redirects" ]; then
+            echo "⚠️  Warning: _redirects file not found"
+          fi
+          if [ ! -f "_site/_headers" ]; then
+            echo "⚠️  Warning: _headers file not found"
+          fi
+          echo "✅ Build output verified"
+      
+      - name: Check build size
+        run: |
+          SIZE=$(du -sh _site | cut -f1)
+          echo "📦 Build size: $SIZE"
+          echo "build-size=$SIZE" >> $GITHUB_OUTPUT
+      
+      - name: Upload build artifacts (for debugging)
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: build-debug
+          path: |
+            _site
+            *.log
+          retention-days: 7
+
+  # 部署通知（仅在 main 分支 push 时运行）
+  deploy-notification:
+    name: Render.com deployment status
+    needs: validate-build
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'push' &&
+      github.ref == 'refs/heads/main' &&
+      github.repository == 'cfug/flutter.cn'
+    steps:
+      - name: Notify deployment
+        run: |
+          echo "🚀 Build validated successfully!"
+          echo "📡 Render.com will automatically deploy from the main branch."
+          echo "🔗 Check deployment status at: https://dashboard.render.com"
+          echo ""
+          echo "If you haven't connected your repository to Render.com yet:"
+          echo "1. Visit https://dashboard.render.com"
+          echo "2. Create a new Static Site"
+          echo "3. Connect this repository"
+          echo "4. Render will use the render.yaml configuration"
+
+  # PR 预览提示（仅在 PR 时运行）
+  pr-preview-info:
+    name: PR preview information
+    needs: validate-build
+    runs-on: ubuntu-latest
+    if: |
+      github.event_name == 'pull_request' &&
+      github.repository == 'cfug/flutter.cn'
+    steps:
+      - name: PR preview info
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const message = `## 🎨 Render.com Preview
+            
+            ✅ Build validation passed!
+            
+            If you have PR previews enabled in Render.com, a preview deployment will be automatically created for this PR.
+            
+            🔗 Check your preview at: \`https://flutter-cn-docs-pr-${context.issue.number}.onrender.com\`
+            
+            > Note: The preview URL may take a few minutes to become available after the build completes.
+            
+            ### Configuration
+            - Build command: \`bash tool/build-render.sh\`
+            - Publish directory: \`_site\`
+            - Node.js version: ${process.env.NODE_VERSION}
+            `;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: message
+            });

@@ -1,0 +1,44 @@
+# Render.com Redirects Configuration
+# 这个文件将被放置在 _site 目录中，供 Render.com 读取
+# 格式: <source> <destination> <status_code>
+
+# API redirects
+/flutter/* https://api.flutter-io.cn/:splat 301
+/objcdoc/* https://api.flutter-io.cn/:splat 301
+/javadoc/* https://api.flutter-io.cn/:splat 301
+
+# Remove .html extension
+/*.html /:splat 301
+
+# Remove trailing dot
+/*. /:splat 301
+
+# Community and external links
+/ads https://flutter.cn/monetization 301
+/community https://flutter.cn/community 301
+/gallery https://github.com/flutter/gallery#flutter-gallery 301
+/showcase https://flutter.cn/showcase 301
+/support https://flutter.cn/community 301
+/docs/:splat /:splat 301
+/subscribe/** https://flutter.cn#newsletter 301
+
+# Documentation structure redirects
+/accessibility /ui/accessibility-and-internationalization/accessibility 301
+/adaptations /platform-integration/platform-adaptations 301
+/adaptive* /ui/adaptive-responsive 301
+/android-release /deployment/android 301
+/animations /ui/animations 301
+/animations/:splat /ui/animations/:splat 301
+/assets-and-images /ui/assets/assets-and-images 301
+/bootstrap-into-dart /resources/bootstrap-into-dart 301
+/bug-reports /resources/bug-reports 301
+/cd /deployment/cd 301
+/custom-fonts /cookbook/design/fonts 301
+/data-and-backend/json /data-and-backend/serialization/json 301
+/debugging /testing/debugging 301
+
+# Add more redirects as needed based on firebase.json
+# ... (完整的重定向规则可以从 firebase.json 中转换)
+
+# Catch-all for clean URLs
+/*    /index.html   200

@@ -321,6 +321,37 @@ check out the [excerpt updater package documentation][].
 
 [excerpt updater package documentation]: https://github.com/dart-lang/site-shared/tree/main/pkgs/excerpter#readme
 
+## Deployment Options
+
+This site supports multiple deployment platforms:
+
+### Option 1: Render.com (Recommended for simplicity)
+
+Render.com provides a straightforward deployment experience with automatic builds and PR previews.
+
+**Quick Start:**
+
+1. **One-click deploy** - Visit [Render Dashboard](https://dashboard.render.com) and create a new Static Site
+2. **Connect repository** - Link your fork of this repository
+3. **Auto-configuration** - Render will automatically detect the `render.yaml` configuration
+4. **Deploy** - That's it! Render handles the rest
+
+**Features:**
+- ✅ Automatic deployments on push to `main`
+- ✅ Pull request previews
+- ✅ Free SSL certificates
+- ✅ Global CDN
+- ✅ 100GB bandwidth/month on free tier
+
+**Documentation:**
+- 📖 [Quick Start Guide](./RENDER_QUICK_START.md)
+- 📖 [Detailed Deployment Guide](./RENDER_DEPLOY.md)
+
+**Build command:** `bash tool/build-render.sh`  
+**Publish directory:** `_site`
+
+### Option 2: Firebase Hosting (Original deployment method)
+
 ## [Optional] Deploy to a staging site
 
 Submitted pull requests can be automatically staged
