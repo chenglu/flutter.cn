@@ -31,9 +31,6 @@ services:
         - pnpm-lock.yaml
         - _redirects
     
-    # Pull Request 预览
-    previewsEnabled: true
-    
     # 自定义域名（部署后在 Dashboard 配置）
     # domains:
     #   - docs.flutter.cn
