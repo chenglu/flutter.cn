@@ -126,32 +126,6 @@ Coming from another platform? Check out Flutter for:
 也可以关注 [“Flutter 社区”的哔哩哔哩账号](https://space.bilibili.com/344928717)
 了解更多来自社区的内容更新。
 
-{% videoWrapper '观看在 Google I/O 2025 上 Flutter 的新内容！' %}
-{% ytEmbed 'v6Rzo5khNE8', 'What\'s new in Flutter', true %}
-{% endvideoWrapper %}
-<br>
-
-For more Flutter at Google I/O 2025, check out
-[How to build agentic apps with Flutter and Firebase AI Logic][] 
-and [How Flutter makes the most of your platforms][].
-
-在 Google I/O 2025 上更多关于 Flutter 的内容，请观看
-[How to build agentic apps with Flutter and Firebase AI Logic][] 
-和 [How Flutter makes the most of your platforms][]。
-
-<div class="card-grid">
-  <div class="card wrapped-card outlined-card">
-    <div class="card-content">
-      {% ytEmbed 'xo271p-Fl_4', 'How to build agentic apps with Flutter and Firebase AI Logic', true %}
-    </div>
-  </div>
-  <div class="card wrapped-card outlined-card">
-    <div class="card-content">
-      {% ytEmbed 'flwULzNYRac', 'How Flutter makes the most of your platforms', true %}
-    </div>
-  </div>
-</div>
-
 [How to build agentic apps with Flutter and Firebase AI Logic]: {{site.yt.watch}}?v=xo271p-Fl_4
 [How Flutter makes the most of your platforms]: {{site.yt.watch}}?v=flwULzNYRac
 
