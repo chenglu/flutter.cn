@@ -148,12 +148,22 @@ jobs:
 
             const message = `## 🎨 Render.com PR 文档预览
             
-            ✅ 构建已通过！已自动部署本次 PR 的文档预览。
+            ✅ 构建验证已通过！
             
-            ### 预览链接（仅列出本 PR 修改的 Markdown 文档）：
+            ### 🔗 PR 预览链接：
+            https://flutter-cn-docs-pr-${prNumber}.onrender.com
+            
+            ### 📝 本次 PR 修改的 Markdown 文档：
             ${fileList}
             
-            > 预览链接在构建完成后几分钟内可访问。`;
+            ---
+            
+            💡 **预览说明：**
+            - PR 预览会自动构建并部署（免费功能）
+            - 预览链接通常在几分钟内生效
+            - 每次推送新 commit 都会自动更新预览
+            
+            🚀 预览完成后，上述链接即可访问！`;
 
             await github.rest.issues.createComment({
               issue_number: prNumber,
