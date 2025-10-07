@@ -4,9 +4,10 @@ on:
   push:
     branches:
       - main
-  pull_request:
+  pull_request_target:
     branches:
       - main
+    types: [opened, synchronize, reopened]
   workflow_dispatch: # 允许手动触发
 
 # Declare default permissions as read only.
@@ -112,7 +113,7 @@ jobs:
     needs: validate-build
     runs-on: ubuntu-latest
     if: |
-      github.event_name == 'pull_request' &&
+      github.event_name == 'pull_request_target' &&
       github.repository == 'chenglu/flutter.cn'
     steps:
       - name: PR preview info
@@ -145,14 +146,16 @@ jobs:
               fileList = '> 本次 PR 未修改任何 Markdown 文档。';
             }
 
-            const message = `## 🎨 Render.com PR 文档预览 >
+            const message = `## 🎨 Render.com PR 文档预览
+            
             ✅ 构建已通过！已自动部署本次 PR 的文档预览。
+            
             ### 预览链接（仅列出本 PR 修改的 Markdown 文档）：
             ${fileList}
             
-            > 预览链接在构建完成后几分钟内可访问。
+            > 预览链接在构建完成后几分钟内可访问。`;
 
-            github.rest.issues.createComment({
+            await github.rest.issues.createComment({
               issue_number: prNumber,
               owner: context.repo.owner,
               repo: context.repo.repo,
