@@ -84,6 +84,14 @@ jobs:
             _site
             *.log
           retention-days: 7
+      
+      # 成功构建后上传构建产物（仅用于调试）
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-build
+          path: _site
+          retention-days: 1
 
   # 部署通知（仅在 main 分支 push 时运行）
   deploy-notification:
@@ -97,17 +105,12 @@ jobs:
     steps:
       - name: Notify deployment
         run: |
-          echo "🚀 Build validated successfully!"
-          echo "📡 Render.com will automatically deploy from the main branch."
-          echo "🔗 Check deployment status at: https://dashboard.render.com"
-          echo ""
-          echo "If you haven't connected your repository to Render.com yet:"
-          echo "1. Visit https://dashboard.render.com"
-          echo "2. Create a new Static Site"
-          echo "3. Connect this repository"
-          echo "4. Render will use the render.yaml configuration"
+          echo "🚀 构建验证成功！"
+          echo "📡 Render.com 已通过 GitHub 集成自动触发部署"
+          echo "� 主站: https://flutter-cn-docs.onrender.com"
+          echo "� 查看部署状态: https://dashboard.render.com"
 
-  # PR 预览提示（仅在 PR 时运行）
+  # PR 预览信息（仅在 PR 时运行）
   pr-preview-info:
     name: PR preview information
     needs: validate-build
@@ -159,11 +162,12 @@ jobs:
             ---
             
             💡 **预览说明：**
-            - PR 预览会自动构建并部署（免费功能）
-            - 预览链接通常在几分钟内生效
-            - 每次推送新 commit 都会自动更新预览
+            - Render.com 会通过 GitHub 集成自动检测并部署 PR 预览
+            - 预览链接通常在几分钟内生效（首次可能需要更长时间）
+            - 每次推送新 commit 都会自动触发重新部署
+            - 如果预览链接暂时无法访问，请等待 Render.com 完成部署
             
-            🚀 预览完成后，上述链接即可访问！`;
+            🚀 预览将自动部署完成！`;
 
             await github.rest.issues.createComment({
               issue_number: prNumber,
