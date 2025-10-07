@@ -1,41 +1,16 @@
 services:
-  # 主站服务（main 分支）
   - type: web
-    name: flutter-cn-docs
+    name: flutter-cn-demo-preview
     runtime: static
-    
-    # 使用简化的构建脚本
     buildCommand: bash tool/build-render.sh
-    
-    # 静态文件目录
     staticPublishPath: _site
-    
-    # 环境变量
     envVars:
       - key: NODE_VERSION
-        value: 22
+        value: "22"
       - key: PRODUCTION
-        value: true
+        value: "true"
       - key: OPTIMIZE
-        value: true
-    
-    # 自动部署分支
+        value: "true"
     branch: main
-    
-    # 构建过滤器 - 只在这些文件变化时触发构建
-    buildFilter:
-      paths:
-        - src/**
-        - tool/**
-        - eleventy.config.ts
-        - package.json
-        - pnpm-lock.yaml
-        - _redirects
-    
-    # PR 预览配置（免费套餐支持）
     previews:
       generation: automatic
-    
-    # 自定义域名（部署后在 Dashboard 配置）
-    # domains:
-    #   - docs.flutter.cn
