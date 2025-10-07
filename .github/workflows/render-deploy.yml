@@ -20,7 +20,7 @@ jobs:
   validate-build:
     name: Validate Render.com build
     runs-on: ubuntu-latest
-    if: github.repository == 'cfug/flutter.cn'
+    if: github.repository == 'chenglu/flutter.cn'
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
         with:
@@ -89,7 +89,7 @@ jobs:
     if: |
       github.event_name == 'push' &&
       github.ref == 'refs/heads/main' &&
-      github.repository == 'cfug/flutter.cn'
+      github.repository == 'chenglu/flutter.cn'
     steps:
       - name: Notify deployment
         run: |
@@ -110,7 +110,7 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       github.event_name == 'pull_request' &&
-      github.repository == 'cfug/flutter.cn'
+      github.repository == 'chenglu/flutter.cn'
     steps:
       - name: PR preview info
         uses: actions/github-script@v6
