@@ -6,7 +6,6 @@ services:
     staticPublishPath: _site
     previews:
       generation: automatic
-      expireAfterDays: 3
     envVars:
       - key: NODE_VERSION
         value: "22"
