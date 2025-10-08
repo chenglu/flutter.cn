@@ -1,16 +1,20 @@
+previews:
+  generation: automatic
+  expireAfterDays: 3
 services:
-  - type: web
-    name: flutter-cn-demo-preview
-    runtime: static
-    buildCommand: bash tool/build-render.sh
-    staticPublishPath: _site
-    envVars:
-      - key: NODE_VERSION
-        value: "22"
-      - key: PRODUCTION
-        value: "true"
-      - key: OPTIMIZE
-        value: "true"
-    branch: main
-    previews:
-      generation: automatic
+- type: web
+  name: flutter-cn-demo-preview
+  runtime: static
+  buildCommand: bash tool/build-render.sh
+  staticPublishPath: _site
+  envVars:
+    - key: NODE_VERSION
+      value: "22"
+      previewValue: "22"
+    - key: PRODUCTION
+      value: "true"
+      previewValue: "false"
+    - key: OPTIMIZE
+      value: "true"
+      previewValue: "true"
+  branch: main
