@@ -7,6 +7,8 @@ description: 如何将 Manifest/Activity 定义的闪屏页进行迁移。
 
 {% render "docs/breaking-changes.md" %}
 
+
+
 Prior to Flutter 2.5, Flutter apps could add a splash
 screen by defining it within the metadata of their application manifest file
 (`AndroidManifest.xml`), by implementing [`provideSplashScreen`][] within

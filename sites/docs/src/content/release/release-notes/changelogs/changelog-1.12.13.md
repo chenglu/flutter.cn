@@ -1,13 +1,23 @@
 ---
-title: Change log for Flutter 1.12.13
-shortTitle: 1.12.13 change log
-description: Change log for Flutter 1.12.13 containing a list of all PRs merged for this release.
+# title: Change log for Flutter 1.12.13
+title: Flutter 1.12.13 的更改日志
+# shortTitle: 1.12.13 change log
+shortTitle: 1.12.13 变更日志
+# description: Change log for Flutter 1.12.13 containing a list of all PRs merged for this release.
+description: Flutter 1.12.13 的更改日志包含为此版本合并的所有 PR 的列表。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 ## PRs closed in this release of flutter/flutter
 
+## PRs 在此版本的 flutter/flutter 中关闭
+
+
 From Sun Aug 19 17:37:00 2019 -0700 to Mon Nov 25 12:05:00 2019 -0800
+
+从 2019年8月19日星期日 17:37:00 -0700 到 2019年11月25日星期一 12:05:00 -0800
+
 
 
 [34188](https://github.com/flutter/flutter/pull/34188) Use separate isolate for image loading. (a: images, a: tests, cla: yes, framework)
@@ -2110,7 +2120,13 @@ From Sun Aug 19 17:37:00 2019 -0700 to Mon Nov 25 12:05:00 2019 -0800
 
 ## PRs closed in this release of flutter/engine
 
+## PRs 在此版本的 flutter/engine 中关闭
+
+
 From Sun Aug 19 17:37:00 2019 -0700 to Mon Nov 25 12:05:00 2019 -0800
+
+从 2019年8月19日星期日 17:37:00 -0700 到 2019年11月25日星期一 12:05:00 -0800
+
 
 
 [8507](https://github.com/flutter/engine/pull/8507) Add texture support for macOS shell. (affects: desktop, cla: yes, platform-macos, waiting for customer response)
@@ -3439,7 +3455,13 @@ From Sun Aug 19 17:37:00 2019 -0700 to Mon Nov 25 12:05:00 2019 -0800
 
 ## PRs closed in this release of flutter/plugins
 
+## PRs 在此版本的 flutter/plugins 中关闭
+
+
 From Sun Aug 19 17:37:00 2019 -0700 to Mon Nov 25 12:05:00 2019 -0800
+
+从 2019年8月19日星期日 17:37:00 -0700 到 2019年11月25日星期一 12:05:00 -0800
+
 
 
 [1370](https://github.com/flutter/plugins/pull/1370) [camera] Pause/resume video recording for Android & iOS (cla: yes, feature)

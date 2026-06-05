@@ -1,8 +1,12 @@
 ---
-title: Flutter 3.24.0 release notes
-shortTitle: 3.24.0 release notes
-description: Release notes for Flutter 3.24.0.
+# title: Flutter 3.24.0 release notes
+title: Flutter 3.24.0 发行说明
+# shortTitle: 3.24.0 release notes
+shortTitle: 3.24.0 发行说明
+# description: Release notes for Flutter 3.24.0.
+description: Flutter 3.24.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.24.0.
@@ -13,7 +17,13 @@ check out the Flutter [CHANGELOG][].
 
 ## Flutter framework
 
+## Flutter 框架
+
+
 ### Framework
+
+### 框架
+
 
 * `RenderFlex` baseline intrinsics by @LongCatIsLooong in [145483](https://github.com/flutter/flutter/pull/145483)
 * Upgrade leak_tracker. by @polina-c in [145940](https://github.com/flutter/flutter/pull/145940)
@@ -340,6 +350,7 @@ check out the Flutter [CHANGELOG][].
 
 ### Material
 
+
 * Update tokens to v2.3.5 by @QuncCccccc in [145356](https://github.com/flutter/flutter/pull/145356)
 * InputDecorator M3 tests migration - Step7 - container by @bleroux in [145583](https://github.com/flutter/flutter/pull/145583)
 * Add `DataColumn.headingRowAlignment ` for `DataTable` by @TahaTesser in [144006](https://github.com/flutter/flutter/pull/144006)
@@ -541,6 +552,7 @@ check out the Flutter [CHANGELOG][].
 
 ### iOS
 
+
 * Implementing switch expressions in `flutter_tools/` by @nate-thegrate in [145632](https://github.com/flutter/flutter/pull/145632)
 * Remove dead `compareIosVersions` function by @jmagman in [146298](https://github.com/flutter/flutter/pull/146298)
 * Support mdns when attaching to proxied devices. by @chingjun in [146021](https://github.com/flutter/flutter/pull/146021)
@@ -551,9 +563,13 @@ check out the Flutter [CHANGELOG][].
 
 ### Android
 
+
 * [wiki migration] Android team pages by @Piinks in [148585](https://github.com/flutter/flutter/pull/148585)
 
 ### Tooling
+
+### 工具
+
 
 * Point kotlin message in `gradle_errors.dart` towards new place where templates define the kotlin version by @gmackall in [145936](https://github.com/flutter/flutter/pull/145936)
 * Remove trailing commas in android dependency version checking gradle plugin by @gmackall in [145718](https://github.com/flutter/flutter/pull/145718)
@@ -681,6 +697,9 @@ check out the Flutter [CHANGELOG][].
 * [flutter_tools] Update the mapping for the Dart SDK internal URI by @DanTup in [151170](https://github.com/flutter/flutter/pull/151170)
 
 ### Other changes
+
+### 其他变更
+
 
 * Use reporter extended consistently. by @godofredoc in [145617](https://github.com/flutter/flutter/pull/145617)
 * Refactor flutter_plugins by @sealesj in [145870](https://github.com/flutter/flutter/pull/145870)
@@ -832,6 +851,9 @@ check out the Flutter [CHANGELOG][].
 
 ## New contributors
 
+## 新贡献者
+
+
 * @Dimilkalathiya made their first contribution in [146072](https://github.com/flutter/flutter/pull/146072)
 * @leoafarias made their first contribution in [145666](https://github.com/flutter/flutter/pull/145666)
 * @philipfranchi made their first contribution in [145846](https://github.com/flutter/flutter/pull/145846)
@@ -877,9 +899,16 @@ check out the Flutter [CHANGELOG][].
 
 **Full Changelog**: https://github.com/flutter/flutter/compare/3.22.0...3.24.0
 
+**完整变更日志**： https://github.com/flutter/flutter/compare/3.22.0...3.24.0
+
+
 ## Flutter engine
 
+## Flutter 引擎
+
+
 ### Impeller
+
 
 * [Impeller] Optimize away intersect clips that cover the entire pass target. by @bdero in [51736](https://github.com/flutter/engine/pull/51736)
 * Reland: [Impeller] adds a plus advanced blend for f16 pixel formats by @gaaclarke in [51756](https://github.com/flutter/engine/pull/51756)
@@ -1095,6 +1124,7 @@ check out the Flutter [CHANGELOG][].
 
 ### Android
 
+
 * Use the stripped Vulkan validation library in Android engine builds by default by @jason-simmons in [51628](https://github.com/flutter/engine/pull/51628)
 * Add an engine switch that controls whether the platform isolate API is available. by @jason-simmons in [51784](https://github.com/flutter/engine/pull/51784)
 * Bump Robolectric to 4.12.1 by @utzcoz in [51800](https://github.com/flutter/engine/pull/51800)
@@ -1140,6 +1170,7 @@ check out the Flutter [CHANGELOG][].
 
 ### iOS
 
+
 * Remove _dartobservatory._tcp legacy DNS registration type by @jmagman in [51635](https://github.com/flutter/engine/pull/51635)
 * [Impeller] Enable logging a warning when the user opts out of using Impeller. by @chinmaygarde in [51849](https://github.com/flutter/engine/pull/51849)
 * Remove #if SHELL_ENABLE_METAL checks in iOS code by @jmagman in [51636](https://github.com/flutter/engine/pull/51636)
@@ -1181,6 +1212,7 @@ check out the Flutter [CHANGELOG][].
 * [deep link][ios] Update openURL method to reflect the result from framework  by @hangyujin in [52643](https://github.com/flutter/engine/pull/52643)
 
 ### Web
+
 
 * [skwasm] Fix `toString` methods on Paint and ImageFilter/ColorFilter by @eyebrowsoffire in [51766](https://github.com/flutter/engine/pull/51766)
 * [web] Use viewId for text editing by @mdebbar in [51099](https://github.com/flutter/engine/pull/51099)
@@ -1257,6 +1289,9 @@ check out the Flutter [CHANGELOG][].
 
 ### Desktop
 
+### 桌面端
+
+
 * [macOS] Group per-view information in `FlutterCompositor` into a class by @dkwingsmt in [51738](https://github.com/flutter/engine/pull/51738)
 * [Windows] Don't always stop engine on view destruction by @loic-sharma in [51681](https://github.com/flutter/engine/pull/51681)
 * [Windows] Move keyboard initialization by @loic-sharma in [51758](https://github.com/flutter/engine/pull/51758)
@@ -1283,6 +1318,9 @@ check out the Flutter [CHANGELOG][].
 * [macOS] Fix FlutterView cursor hit testing by @bufffun in [53171](https://github.com/flutter/engine/pull/53171)
 
 ### Other changes
+
+### 其他变更
+
 
 * Remove Android API v33 tests from CI. by @matanlurey in [51751](https://github.com/flutter/engine/pull/51751)
 * Remove `--verbose` from clang_tidy execution on CI. by @matanlurey in [51760](https://github.com/flutter/engine/pull/51760)
@@ -1491,6 +1529,9 @@ check out the Flutter [CHANGELOG][].
 
 ## New contributors
 
+## 新贡献者
+
+
 * @brianquinlan made their first contribution in [52239](https://github.com/flutter/engine/pull/52239)
 * @PurplePolyhedron made their first contribution in [52156](https://github.com/flutter/engine/pull/52156)
 * @bc-lee made their first contribution in [52326](https://github.com/flutter/engine/pull/52326)
@@ -1505,3 +1546,6 @@ check out the Flutter [CHANGELOG][].
 * @hakonber made their first contribution in [53428](https://github.com/flutter/engine/pull/53428)
 
 **Full Changelog**: https://github.com/flutter/engine/compare/3.22.0...3.24.0
+
+**完整变更日志**： https://github.com/flutter/engine/compare/3.22.0...3.24.0
+

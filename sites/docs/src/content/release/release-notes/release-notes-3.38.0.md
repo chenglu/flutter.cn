@@ -1,15 +1,28 @@
 ---
-title: Flutter 3.38.0 release notes
-shortTitle: 3.38.0 release notes
-description: Release notes for Flutter 3.38.0.
+# title: Flutter 3.38.0 release notes
+title: Flutter 3.38.0 发行说明
+# shortTitle: 3.38.0 release notes
+shortTitle: 3.38.0 发行说明
+# description: Release notes for Flutter 3.38.0.
+description: Flutter 3.38.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for Flutter 3.38.
 
+此页面包含 Flutter 3.38 的发行说明。
+
+
 ## What's changed
 
+## 变更内容
+
+
 ### Framework
+
+### 框架
+
 
 * Add dartpad example to `RoundedSuperellipseBorder` by @dkwingsmt in [172185](https://github.com/flutter/flutter/pull/172185)
 * [web] Remove all usages of js_util. by @ksokolovskyi in [171871](https://github.com/flutter/flutter/pull/171871)
@@ -135,6 +148,7 @@ This page has release notes for Flutter 3.38.
 * Selecting an implementation widget with the on-device inspector opens the code location for the nearest project widget by @elliette in [176530](https://github.com/flutter/flutter/pull/176530)
 
 ### Material
+
 
 * No SystemContextMenu when readOnly is true by @justinmc in [171242](https://github.com/flutter/flutter/pull/171242)
 * Fix mutating Paint bug by @justinmc in [171180](https://github.com/flutter/flutter/pull/171180)
@@ -283,6 +297,7 @@ This page has release notes for Flutter 3.38.
 
 ### iOS
 
+
 * Fix a race in FlutterEngineTest.CanLogToStdout by @jason-simmons in [172025](https://github.com/flutter/flutter/pull/172025)
 * Revert #160653 Fix view removal process for AutofillContextAction.cancel by @LongCatIsLooong in [172490](https://github.com/flutter/flutter/pull/172490)
 * Adapt xcresult parser for Xcode 16 changes by @okorohelijah in [172596](https://github.com/flutter/flutter/pull/172596)
@@ -320,6 +335,7 @@ This page has release notes for Flutter 3.38.
 * [CP-beta]Add guided error for precompiled cache error by @flutteractionsbot in [177607](https://github.com/flutter/flutter/pull/177607)
 
 ### Android
+
 
 * fix: produce pom/jar files with content_hash by @jtmcdole in [172378](https://github.com/flutter/flutter/pull/172378)
 * Update warnGradleVersion to `8.7.0` by @jesswrd in [172576](https://github.com/flutter/flutter/pull/172576)
@@ -388,6 +404,7 @@ This page has release notes for Flutter 3.38.
 
 ### Windows
 
+
 * Using a shared message-only HWND for clip board data on win32 instead of the implicit view by @mattkae in [173076](https://github.com/flutter/flutter/pull/173076)
 * Provide monitor list, display size, refresh rate, and more for Windows by @9AZX in [164460](https://github.com/flutter/flutter/pull/164460)
 * Regular windows win32 engine by @mattkae in [173424](https://github.com/flutter/flutter/pull/173424)
@@ -396,6 +413,7 @@ This page has release notes for Flutter 3.38.
 * [win32] Runloop should use high resolution timer and avoid deadlock by @knopp in [176023](https://github.com/flutter/flutter/pull/176023)
 
 ### Linux
+
 
 * Perform OpenGL compositing in the Flutter thread and write to a framebuffer. by @robert-ancell in [172090](https://github.com/flutter/flutter/pull/172090)
 * Refactor handling of frame waiting. by @robert-ancell in [172277](https://github.com/flutter/flutter/pull/172277)
@@ -413,6 +431,7 @@ This page has release notes for Flutter 3.38.
 * [CP-beta]Fix accessibility events not being correctly translated to ATK by @flutteractionsbot in [177427](https://github.com/flutter/flutter/pull/177427)
 
 ### Web
+
 
 * [skwasm] Decrease reliance on finalizers/GC by @eyebrowsoffire in [172187](https://github.com/flutter/flutter/pull/172187)
 * [web] Add tests for unified platform view embedding behavior by @harryterkelsen in [172313](https://github.com/flutter/flutter/pull/172313)
@@ -448,6 +467,9 @@ This page has release notes for Flutter 3.38.
 * Remove references to dart:js_util by @fishythefish in [176323](https://github.com/flutter/flutter/pull/176323)
 
 ### Tooling
+
+### 工具
+
 
 * Roll pub packages by @flutter-pub-roller-bot in [172193](https://github.com/flutter/flutter/pull/172193)
 * Refactor and forbid `base/exit.dart` outside of `lib/runner.dart` by @matanlurey in [171923](https://github.com/flutter/flutter/pull/171923)
@@ -592,9 +614,15 @@ This page has release notes for Flutter 3.38.
 
 ### Documentation
 
+### 文档
+
+
 * Remove jetifier usages  by @reidbaker in [173548](https://github.com/flutter/flutter/pull/173548)
 
 ### Other changes
+
+### 其他变更
+
 
 * Licenses_cpp: Parses NOTICES and DEPS by @gaaclarke in [172044](https://github.com/flutter/flutter/pull/172044)
 * Use `release-*.version` to simplify `last_engine_commit.sh` (no branch operations) by @matanlurey in [172236](https://github.com/flutter/flutter/pull/172236)
@@ -811,6 +839,9 @@ This page has release notes for Flutter 3.38.
 * Update `engine.version` for 3.38.1 hotfix release by @camsim99 in [177675](https://github.com/flutter/flutter/pull/177675)
 
 ## New contributors
+
+## 新贡献者
+
 
 * @MohiuddinM made their first contribution in [170223](https://github.com/flutter/flutter/pull/170223)
 * @iamtoricool made their first contribution in [171054](https://github.com/flutter/flutter/pull/171054)

@@ -1,15 +1,28 @@
 ---
-title: Flutter 1.20.0 release notes
-shortTitle: 1.20.0 release notes
-description: Release notes for Flutter 1.20.0.
+# title: Flutter 1.20.0 release notes
+title: Flutter 1.20.0 发行说明
+# shortTitle: 1.20.0 release notes
+shortTitle: 1.20.0 发行说明
+# description: Release notes for Flutter 1.20.0.
+description: Flutter 1.20.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 ##  Merged pull requests by label
 
+## 按标签合并拉取请求
+
+
 ### Merged PRs by labels for `flutter/flutter`
 
+### 按标签分类的 `flutter/flutter` 已合并 PR
+
+
 #### tool - 435 pull request(s)
+
+#### 工具 - 435 个拉取请求
+
 
 [50581](https://github.com/flutter/flutter/pull/50581) Implements --machine flag for `devices` command (cla: yes, tool)
 
@@ -1318,6 +1331,9 @@ skipTemplateRendering: true
 
 #### framework - 413 pull request(s)
 
+#### 框架 - 413 个拉取请求
+
+
 [42940](https://github.com/flutter/flutter/pull/42940) Revise Action API (cla: yes, f: cupertino, f: material design, framework, team)
 
 
@@ -2559,6 +2575,9 @@ skipTemplateRendering: true
 
 #### team - 283 pull request(s)
 
+#### 团队 - 283 个拉取请求
+
+
 [42940](https://github.com/flutter/flutter/pull/42940) Revise Action API (cla: yes, f: cupertino, f: material design, framework, team)
 
 
@@ -3410,6 +3429,9 @@ skipTemplateRendering: true
 
 #### f: material design - 204 pull request(s)
 
+#### f：材料设计 - 204 个拉取请求
+
+
 [42940](https://github.com/flutter/flutter/pull/42940) Revise Action API (cla: yes, f: cupertino, f: material design, framework, team)
 
 
@@ -4024,6 +4046,9 @@ skipTemplateRendering: true
 
 #### a: tests - 67 pull request(s)
 
+#### a：测试 - 67 个拉取请求
+
+
 [52507](https://github.com/flutter/flutter/pull/52507) enable avoid_equals_and_hash_code_on_mutable_classes (a: tests, cla: yes, d: examples, f: cupertino, f: material design, framework, team, team: gallery, tool, waiting for tree to go green)
 
 
@@ -4227,6 +4252,9 @@ skipTemplateRendering: true
 
 #### f: cupertino - 53 pull request(s)
 
+#### f：库比蒂诺 - 53 个拉取请求
+
+
 [42940](https://github.com/flutter/flutter/pull/42940) Revise Action API (cla: yes, f: cupertino, f: material design, framework, team)
 
 
@@ -4388,6 +4416,9 @@ skipTemplateRendering: true
 
 #### a: internationalization - 34 pull request(s)
 
+#### a：国际化 - 34 个拉取请求
+
+
 [50915](https://github.com/flutter/flutter/pull/50915) Implement barrierDismissible for `showCupertinoDialog` (a: internationalization, cla: yes, f: cupertino, f: material design, framework, waiting for tree to go green)
 
 
@@ -4492,6 +4523,9 @@ skipTemplateRendering: true
 
 #### engine - 33 pull request(s)
 
+#### 引擎 - 33 个拉取请求
+
+
 [54111](https://github.com/flutter/flutter/pull/54111) Manual roll of engine 9b8dcc7ecffe..df257e59c241 (cla: no, engine)
 
 
@@ -4593,6 +4627,9 @@ skipTemplateRendering: true
 
 #### d: examples - 28 pull request(s)
 
+#### d：示例 - 28 个拉取请求
+
+
 [52507](https://github.com/flutter/flutter/pull/52507) enable avoid_equals_and_hash_code_on_mutable_classes (a: tests, cla: yes, d: examples, f: cupertino, f: material design, framework, team, team: gallery, tool, waiting for tree to go green)
 
 
@@ -4679,6 +4716,9 @@ skipTemplateRendering: true
 
 #### a: accessibility - 25 pull request(s)
 
+#### a：可访问性 - 25 个拉取请求
+
+
 [53616](https://github.com/flutter/flutter/pull/53616) Improving A11y for Flutter Gallery Demos (a: accessibility, a: tests, cla: yes, f: material design, framework, team)
 
 
@@ -4756,6 +4796,9 @@ skipTemplateRendering: true
 
 #### platform-ios - 19 pull request(s)
 
+#### platform-ios - 19 个拉取请求
+
+
 [54140](https://github.com/flutter/flutter/pull/54140) iOS Text Selection Menu Overflow (a: text input, cla: yes, f: cupertino, f: material design, framework, platform-ios)
 
 
@@ -4815,6 +4858,9 @@ skipTemplateRendering: true
 
 #### a: quality - 16 pull request(s)
 
+#### a：质量 - 16 个拉取请求
+
+
 [50412](https://github.com/flutter/flutter/pull/50412) Make CircularProgressIndicator's animation match native (a: fidelity, a: quality, cla: yes, f: material design, framework, waiting for tree to go green)
 
 
@@ -4865,6 +4911,9 @@ skipTemplateRendering: true
 
 #### a: text input - 15 pull request(s)
 
+#### a：文本输入 - 15 个拉取请求
+
+
 [53381](https://github.com/flutter/flutter/pull/53381) Characters Package (a: text input, cla: yes, f: material design, framework, team, tool, waiting for tree to go green)
 
 
@@ -4912,6 +4961,9 @@ skipTemplateRendering: true
 
 #### d: api docs - 13 pull request(s)
 
+#### d：api 文档 - 13 个拉取请求
+
+
 [50673](https://github.com/flutter/flutter/pull/50673) Update AppBar MediaQuery documentation (cla: yes, d: api docs, f: material design, framework, waiting for tree to go green)
 
 
@@ -4953,6 +5005,9 @@ skipTemplateRendering: true
 
 #### documentation - 11 pull request(s)
 
+#### 文档 - 11 个拉取请求
+
+
 [54317](https://github.com/flutter/flutter/pull/54317) PageStorage sample (cla: yes, d: api docs, d: examples, documentation, framework, team, waiting for tree to go green)
 
 
@@ -4987,6 +5042,9 @@ skipTemplateRendering: true
 
 
 #### severe: performance - 11 pull request(s)
+
+#### 严重：性能 - 11 个拉取请求
+
 
 [54494](https://github.com/flutter/flutter/pull/54494) Add A/B test mode to local devicelab runner (cla: yes, severe: performance, team, waiting for tree to go green)
 
@@ -5023,6 +5081,9 @@ skipTemplateRendering: true
 
 #### severe: API break - 11 pull request(s)
 
+#### 严重：API 中断 - 11 个拉取请求
+
+
 [54806](https://github.com/flutter/flutter/pull/54806) Roll engine deef2663aca4..e6a2534b63ac (20 commits) (cla: yes, severe: API break, waiting for tree to go green, will affect goldens)
 
 
@@ -5057,6 +5118,9 @@ skipTemplateRendering: true
 
 
 #### f: scrolling - 11 pull request(s)
+
+#### f：滚动 - 11 个拉取请求
+
 
 [55069](https://github.com/flutter/flutter/pull/55069) Prioritize scrolling away nested overscroll (a: fidelity, a: quality, cla: yes, customer: crowd, f: scrolling, framework, platform-ios, waiting for tree to go green)
 
@@ -5093,6 +5157,9 @@ skipTemplateRendering: true
 
 #### t: xcode - 10 pull request(s)
 
+#### t：xcode - 10 个拉取请求
+
+
 [54691](https://github.com/flutter/flutter/pull/54691) Migrate Runner project base configuration (cla: yes, d: examples, t: xcode, team, tool)
 
 
@@ -5125,6 +5192,9 @@ skipTemplateRendering: true
 
 #### will affect goldens - 9 pull request(s)
 
+#### 将影响黄金 - 9 个拉取请求
+
+
 [51656](https://github.com/flutter/flutter/pull/51656) Set AA flag for painting images (a: images, cla: yes, framework, waiting for tree to go green, will affect goldens)
 
 
@@ -5153,6 +5223,9 @@ skipTemplateRendering: true
 
 
 #### platform-web - 9 pull request(s)
+
+#### platform-web - 9 个拉取请求
+
 
 [51581](https://github.com/flutter/flutter/pull/51581) Fix outline button solid path when BorderSize.width is used (cla: yes, f: material design, framework, platform-web, waiting for tree to go green)
 
@@ -5183,6 +5256,9 @@ skipTemplateRendering: true
 
 #### a: null-safety - 8 pull request(s)
 
+#### a：空安全 - 8 个拉取请求
+
+
 [54208](https://github.com/flutter/flutter/pull/54208) [flutter_tools] migrate engine location check (a: null-safety, cla: yes, tool)
 
 
@@ -5209,6 +5285,9 @@ skipTemplateRendering: true
 
 #### a: fidelity - 7 pull request(s)
 
+#### a：保真度 - 7 个拉取请求
+
+
 [50412](https://github.com/flutter/flutter/pull/50412) Make CircularProgressIndicator's animation match native (a: fidelity, a: quality, cla: yes, f: material design, framework, waiting for tree to go green)
 
 
@@ -5231,6 +5310,9 @@ skipTemplateRendering: true
 
 
 #### a: images - 7 pull request(s)
+
+#### a：图像 - 7 个拉取请求
+
 
 [51656](https://github.com/flutter/flutter/pull/51656) Set AA flag for painting images (a: images, cla: yes, framework, waiting for tree to go green, will affect goldens)
 
@@ -5255,6 +5337,9 @@ skipTemplateRendering: true
 
 #### work in progress; do not review - 5 pull request(s)
 
+#### 正在进行的工作；不审查 - 5 个拉取请求
+
+
 [53879](https://github.com/flutter/flutter/pull/53879) Collect chrome://tracing data in Web benchmarks (cla: yes, team, work in progress; do not review)
 
 
@@ -5271,6 +5356,9 @@ skipTemplateRendering: true
 
 
 #### platform-android - 5 pull request(s)
+
+#### platform-android - 5 个拉取请求
+
 
 [50111](https://github.com/flutter/flutter/pull/50111) fix memory leak of android view (a: platform-views, cla: yes, p: framework, perf: memory, platform-android, plugin, waiting for tree to go green)
 
@@ -5289,6 +5377,9 @@ skipTemplateRendering: true
 
 #### CQ+1 - 4 pull request(s)
 
+#### CQ+1 - 4 个拉取请求
+
+
 [54131](https://github.com/flutter/flutter/pull/54131) flutter/flutter 1.17.0-dev.3.1 cherrypicks (CQ+1, cla: yes, framework, tool)
 
 
@@ -5302,6 +5393,9 @@ skipTemplateRendering: true
 
 
 #### a: existing-apps - 4 pull request(s)
+
+#### a：现有应用程序 - 4 个拉取请求
+
 
 [59217](https://github.com/flutter/flutter/pull/59217) Deprecate make-host-app-editable (a: existing-apps, cla: yes, tool, waiting for tree to go green)
 
@@ -5317,6 +5411,9 @@ skipTemplateRendering: true
 
 #### severe: new feature - 4 pull request(s)
 
+#### 严重：新功能 - 4 个拉取请求
+
+
 [53868](https://github.com/flutter/flutter/pull/53868) [gen_l10n] Add scriptCode handling (a: internationalization, cla: yes, severe: new feature, team, tool)
 
 
@@ -5330,6 +5427,9 @@ skipTemplateRendering: true
 
 
 #### perf: memory - 4 pull request(s)
+
+#### perf：内存 - 4 个拉取请求
+
 
 [50111](https://github.com/flutter/flutter/pull/50111) fix memory leak of android view (a: platform-views, cla: yes, p: framework, perf: memory, platform-android, plugin, waiting for tree to go green)
 
@@ -5345,6 +5445,9 @@ skipTemplateRendering: true
 
 #### f: routes - 4 pull request(s)
 
+#### f：路线 - 4 个拉取请求
+
+
 [55998](https://github.com/flutter/flutter/pull/55998) Fixes the navigator pages update crashes when there is still route wa… (cla: yes, f: routes, framework, severe: API break, waiting for tree to go green)
 
 
@@ -5359,6 +5462,9 @@ skipTemplateRendering: true
 
 #### a: desktop - 3 pull request(s)
 
+#### a：桌面 - 3 个拉取请求
+
+
 [53888](https://github.com/flutter/flutter/pull/53888) Add visualDensity and focus support to ListTile (a: desktop, cla: yes, f: material design, framework, team, waiting for tree to go green)
 
 
@@ -5369,6 +5475,9 @@ skipTemplateRendering: true
 
 
 #### perf: speed - 3 pull request(s)
+
+#### perf：速度 - 3 个拉取请求
+
 
 [55181](https://github.com/flutter/flutter/pull/55181) Add performance tests for the new gallery (cla: yes, perf: speed, severe: performance, team, waiting for tree to go green)
 
@@ -5381,6 +5490,9 @@ skipTemplateRendering: true
 
 #### a: triage improvements - 3 pull request(s)
 
+#### a：分类改进 - 3 个拉取请求
+
+
 [53882](https://github.com/flutter/flutter/pull/53882) Remove URL shortening from GitHub reporter similar issues URL (a: triage improvements, cla: yes, tool)
 
 
@@ -5391,6 +5503,9 @@ skipTemplateRendering: true
 
 
 #### a: typography - 3 pull request(s)
+
+#### a：版式 - 3 个拉取请求
+
 
 [54234](https://github.com/flutter/flutter/pull/54234) Fix right alignment TWB longestLine (a: typography, cla: yes, framework)
 
@@ -5403,6 +5518,9 @@ skipTemplateRendering: true
 
 #### team: infra - 3 pull request(s)
 
+#### 团队：infra - 3 个拉取请求
+
+
 [54478](https://github.com/flutter/flutter/pull/54478) Fix environment leakage in doctor_test (cla: yes, team, team: flakes, team: infra, tool)
 
 
@@ -5413,6 +5531,9 @@ skipTemplateRendering: true
 
 
 #### a: error message - 3 pull request(s)
+
+#### a：错误消息 - 3 个拉取请求
+
 
 [55001](https://github.com/flutter/flutter/pull/55001) FlutterErrorDetails.context docs fix (a: error message, a: tests, cla: yes, d: api docs, d: examples, documentation, framework, waiting for tree to go green)
 
@@ -5425,6 +5546,9 @@ skipTemplateRendering: true
 
 #### f: focus - 3 pull request(s)
 
+#### f：焦点 - 3 个拉取请求
+
+
 [52990](https://github.com/flutter/flutter/pull/52990) Update Highlight mode initial value calculation. (cla: yes, f: focus, framework, waiting for tree to go green)
 
 
@@ -5435,6 +5559,9 @@ skipTemplateRendering: true
 
 
 #### customer: money (g3) - 3 pull request(s)
+
+#### 客户：钱 (g3) - 3 个拉取请求
+
 
 [58482](https://github.com/flutter/flutter/pull/58482) Expose ComputePlatformResolvedLocale (a: internationalization, cla: yes, customer: money (g3), framework, waiting for tree to go green)
 
@@ -5447,6 +5574,9 @@ skipTemplateRendering: true
 
 #### customer: crowd - 2 pull request(s)
 
+#### 客户：人群 - 2 个拉取请求
+
+
 [55069](https://github.com/flutter/flutter/pull/55069) Prioritize scrolling away nested overscroll (a: fidelity, a: quality, cla: yes, customer: crowd, f: scrolling, framework, platform-ios, waiting for tree to go green)
 
 
@@ -5454,6 +5584,9 @@ skipTemplateRendering: true
 
 
 #### severe: regression - 2 pull request(s)
+
+#### 严重：回归 - 2 个拉取请求
+
 
 [55408](https://github.com/flutter/flutter/pull/55408) Fix InputDecorator intrinsic height reporting (a: text input, cla: yes, f: material design, f: scrolling, framework, severe: regression, waiting for tree to go green)
 
@@ -5463,6 +5596,9 @@ skipTemplateRendering: true
 
 #### a: platform-views - 2 pull request(s)
 
+#### a：平台视图 - 2 个拉取请求
+
+
 [50111](https://github.com/flutter/flutter/pull/50111) fix memory leak of android view (a: platform-views, cla: yes, p: framework, perf: memory, platform-android, plugin, waiting for tree to go green)
 
 
@@ -5470,6 +5606,9 @@ skipTemplateRendering: true
 
 
 #### a: animation - 2 pull request(s)
+
+#### a：动画 - 2 个拉取请求
+
 
 [60726](https://github.com/flutter/flutter/pull/60726) Doc and Error Message Improvements (a: animation, a: annoyance, a: error message, a: quality, a: text input, cla: yes, d: api docs, d: examples, documentation, f: cupertino, f: material design, framework, waiting for tree to go green)
 
@@ -5479,6 +5618,9 @@ skipTemplateRendering: true
 
 #### a: annoyance - 2 pull request(s)
 
+#### a：烦恼 - 2 个拉取请求
+
+
 [59187](https://github.com/flutter/flutter/pull/59187) Support floating the header slivers of a NestedScrollView (a: annoyance, a: quality, cla: yes, customer: crowd, customer: quill (g3), d: api docs, d: examples, documentation, f: material design, f: scrolling, framework, waiting for tree to go green)
 
 
@@ -5486,6 +5628,9 @@ skipTemplateRendering: true
 
 
 #### t: flutter doctor - 2 pull request(s)
+
+#### t：flutter doctor - 2 个拉取请求
+
 
 [56928](https://github.com/flutter/flutter/pull/56928) Add mirror overrides to doctor output (a: triage improvements, cla: yes, t: flutter doctor, tool, waiting for tree to go green)
 
@@ -5495,116 +5640,188 @@ skipTemplateRendering: true
 
 #### found in release: 1.17 - 1 pull request(s)
 
+#### 在版本中找到：1.17 - 1 个拉取请求
+
+
 [57037](https://github.com/flutter/flutter/pull/57037) Making DropdownButtonFormField to re-render if parent widget changes (cla: yes, f: material design, found in release: 1.17, found in release: 1.18, framework, severe: regression, waiting for tree to go green)
 
 
 #### f: inspector - 1 pull request(s)
+
+#### f：检查员 - 1 个拉取请求
+
 
 [55911](https://github.com/flutter/flutter/pull/55911) Text field height fix (a: text input, cla: yes, f: inspector, f: material design, framework, waiting for tree to go green)
 
 
 #### f: gestures - 1 pull request(s)
 
+#### f：手势 - 1 个拉取请求
+
+
 [57838](https://github.com/flutter/flutter/pull/57838) Add sample code of  GestureDetector with no children (cla: yes, d: api docs, d: examples, documentation, f: gestures, framework, waiting for tree to go green)
 
 
 #### platform-mac - 1 pull request(s)
+
+#### platform-mac - 1 个拉取请求
+
 
 [56794](https://github.com/flutter/flutter/pull/56794) [web & desktop] Hide all characters in a TextField, when obscureText is true on web & desktop (cla: yes, f: material design, framework, platform-mac, platform-web, waiting for tree to go green)
 
 
 #### customer: quill (g3) - 1 pull request(s)
 
+#### 客户：quill (g3) - 1 个拉取请求
+
+
 [59187](https://github.com/flutter/flutter/pull/59187) Support floating the header slivers of a NestedScrollView (a: annoyance, a: quality, cla: yes, customer: crowd, customer: quill (g3), d: api docs, d: examples, documentation, f: material design, f: scrolling, framework, waiting for tree to go green)
 
 
 #### plugin - 1 pull request(s)
+
+#### 插件 - 1 个拉取请求
+
 
 [50111](https://github.com/flutter/flutter/pull/50111) fix memory leak of android view (a: platform-views, cla: yes, p: framework, perf: memory, platform-android, plugin, waiting for tree to go green)
 
 
 #### customer: peppermint - 1 pull request(s)
 
+#### 客户：peppermint - 1 个拉取请求
+
+
 [52126](https://github.com/flutter/flutter/pull/52126) Autofill  Part 1 (cla: yes, customer: peppermint, f: cupertino, f: material design, framework, waiting for tree to go green)
 
 
 #### severe: crash - 1 pull request(s)
+
+#### 严重：崩溃 - 1 个拉取请求
+
 
 [60546](https://github.com/flutter/flutter/pull/60546) Fix daemon device discovery crash when Xcode isn't installed (cla: yes, severe: crash, t: xcode, tool, waiting for tree to go green)
 
 
 #### customer: octopod - 1 pull request(s)
 
+#### 客户：octopod - 1 个拉取请求
+
+
 [59363](https://github.com/flutter/flutter/pull/59363) Add material state mouse cursor to TextField (a: text input, cla: yes, customer: octopod, f: material design, framework, waiting for tree to go green)
 
 
 #### customer: fun (g3) - 1 pull request(s)
+
+#### 客户：有趣 (g3) - 1 个拉取请求
+
 
 [54919](https://github.com/flutter/flutter/pull/54919) Add MediaQueryData.navigationMode and allow controls to be focused when disabled. (cla: yes, customer: fun (g3), f: material design, framework)
 
 
 #### customer: fuchsia - 1 pull request(s)
 
+#### 客户：紫红色 - 1 个拉取请求
+
+
 [60152](https://github.com/flutter/flutter/pull/60152) Remove unused physicalDepth code (a: tests, cla: yes, customer: fuchsia, framework, waiting for tree to go green)
 
 
 #### p: framework - 1 pull request(s)
+
+#### p：框架 - 1 个拉取请求
+
 
 [50111](https://github.com/flutter/flutter/pull/50111) fix memory leak of android view (a: platform-views, cla: yes, p: framework, perf: memory, platform-android, plugin, waiting for tree to go green)
 
 
 #### t: flutter driver - 1 pull request(s)
 
+#### t：颤振驱动程序 - 1 个拉取请求
+
+
 [55609](https://github.com/flutter/flutter/pull/55609) Add benchmark for hybrid composition on Android (a: platform-views, cla: yes, t: flutter driver, team)
 
 
 #### customer: dream (g3) - 1 pull request(s)
+
+#### 客户：梦想 (g3) - 1 个拉取请求
+
 
 [53880](https://github.com/flutter/flutter/pull/53880) Use `no` locale as synonym for `nb` (a: internationalization, cla: yes, customer: dream (g3), f: cupertino, f: material design, team, waiting for tree to go green)
 
 
 #### cla: no - 1 pull request(s)
 
+#### cla：否 - 1 个拉取请求
+
+
 [54111](https://github.com/flutter/flutter/pull/54111) Manual roll of engine 9b8dcc7ecffe..df257e59c241 (cla: no, engine)
 
 
 #### team: flakes - 1 pull request(s)
+
+#### 团队：flakes - 1 个拉取请求
+
 
 [54478](https://github.com/flutter/flutter/pull/54478) Fix environment leakage in doctor_test (cla: yes, team, team: flakes, team: infra, tool)
 
 
 #### team: gallery - 1 pull request(s)
 
+#### 团队：画廊 - 1 个拉取请求
+
+
 [52507](https://github.com/flutter/flutter/pull/52507) enable avoid_equals_and_hash_code_on_mutable_classes (a: tests, cla: yes, d: examples, f: cupertino, f: material design, framework, team, team: gallery, tool, waiting for tree to go green)
 
 
 #### a: video - 1 pull request(s)
+
+#### a：视频 - 1 个拉取请求
+
 
 [59966](https://github.com/flutter/flutter/pull/59966) Added a filterQuality parameter to texture (a: quality, a: video, cla: yes, framework, waiting for tree to go green)
 
 
 #### a: mouse - 1 pull request(s)
 
+#### a：鼠标 - 1 个拉取请求
+
+
 [59883](https://github.com/flutter/flutter/pull/59883) Refactor mouse hit testing system: Direct mouse hit test (a: mouse, cla: yes, f: material design, framework, severe: performance, waiting for tree to go green)
 
 
 #### waiting for customer response - 1 pull request(s)
+
+#### 等待客户响应 - 1 个拉取请求
+
 
 [54133](https://github.com/flutter/flutter/pull/54133) [flutter_tools] ensure the tool can find SDK manager on windows (cla: yes, tool, waiting for customer response)
 
 
 #### a: debugging - 1 pull request(s)
 
+#### a：调试 - 1 个拉取请求
+
+
 [59877](https://github.com/flutter/flutter/pull/59877) Allow detection of images using more memory than necessary (a: debugging, a: error message, a: images, cla: yes, framework)
 
 
 #### found in release: 1.18 - 1 pull request(s)
 
+#### 在版本中找到：1.18 - 1 个拉取请求
+
+
 [57037](https://github.com/flutter/flutter/pull/57037) Making DropdownButtonFormField to re-render if parent widget changes (cla: yes, f: material design, found in release: 1.17, found in release: 1.18, framework, severe: regression, waiting for tree to go green)
 
 ### Merged PRs by labels for `flutter/engine`
 
+### 按 `flutter/engine` 的标签合并 PRs
+
+
 #### platform-android - 62 pull request(s)
+
+#### platform-android - 62 个拉取请求
+
 
 [17509](https://github.com/flutter/engine/pull/17509) Implement repeat filtering logic in Android Embedder (affects: text input, cla: yes, platform-android)
 
@@ -5794,6 +6011,9 @@ skipTemplateRendering: true
 
 #### platform-ios - 21 pull request(s)
 
+#### platform-ios - 21 个拉取请求
+
+
 [18379](https://github.com/flutter/engine/pull/18379) Remove currentLocale prepend on iOS (cla: yes, platform-ios)
 
 
@@ -5859,6 +6079,9 @@ skipTemplateRendering: true
 
 #### severe: performance - 16 pull request(s)
 
+#### 严重：性能 - 16 个拉取请求
+
+
 [17175](https://github.com/flutter/engine/pull/17175) Enhance image_filter_layer caching to filter a cached child (cla: yes, perf: speed, severe: performance, waiting for tree to go green)
 
 
@@ -5909,6 +6132,9 @@ skipTemplateRendering: true
 
 #### perf: speed - 13 pull request(s)
 
+#### 性能：速度 - 13 个拉取请求
+
+
 [17175](https://github.com/flutter/engine/pull/17175) Enhance image_filter_layer caching to filter a cached child (cla: yes, perf: speed, severe: performance, waiting for tree to go green)
 
 
@@ -5949,6 +6175,9 @@ skipTemplateRendering: true
 
 
 #### platform-web - 13 pull request(s)
+
+#### platform-web - 13 个拉取请求
+
 
 [17495](https://github.com/flutter/engine/pull/17495) [web] Detect when the mouseup occurs outside of window (cla: yes, platform-web, waiting for tree to go green)
 
@@ -5991,6 +6220,9 @@ skipTemplateRendering: true
 
 #### platform-fuchsia - 6 pull request(s)
 
+#### platform-fuchsia - 6 个拉取请求
+
+
 [18625](https://github.com/flutter/engine/pull/18625) Add tests & --unopt to build_fuchsia_artifacts (cla: yes, platform-fuchsia)
 
 
@@ -6011,6 +6243,9 @@ skipTemplateRendering: true
 
 #### perf: memory - 5 pull request(s)
 
+#### perf：内存 - 5 个拉取请求
+
+
 [18164](https://github.com/flutter/engine/pull/18164) Fix iOS platform view not deallocated (cla: yes, perf: memory, severe: performance)
 
 
@@ -6028,6 +6263,9 @@ skipTemplateRendering: true
 
 #### affects: engine - 3 pull request(s)
 
+#### 影响：引擎 - 3 个拉取请求
+
+
 [18492](https://github.com/flutter/engine/pull/18492) fuchsia: Fix runtime_tests and shell_tests (affects: engine, bug, cla: yes, waiting for tree to go green)
 
 
@@ -6038,6 +6276,9 @@ skipTemplateRendering: true
 
 
 #### affects: tests - 3 pull request(s)
+
+#### 影响：测试 - 3 个拉取请求
+
 
 [17615](https://github.com/flutter/engine/pull/17615) [web] Combine duplicate platform message spy implementations (affects: tests, cla: yes, platform-web)
 
@@ -6050,6 +6291,9 @@ skipTemplateRendering: true
 
 #### code health - 3 pull request(s)
 
+#### 代码健康状况 - 3 个拉取请求
+
+
 [19003](https://github.com/flutter/engine/pull/19003) Move fuchsia/scenic integration behind #define (affects: engine, cla: yes, code health, platform-fuchsia)
 
 
@@ -6061,6 +6305,9 @@ skipTemplateRendering: true
 
 #### affects: text input - 2 pull request(s)
 
+#### 影响：文本输入 - 2 个拉取请求
+
+
 [17420](https://github.com/flutter/engine/pull/17420) Make DPAD movement consider grapheme clusters (affects: text input, cla: yes)
 
 
@@ -6068,6 +6315,9 @@ skipTemplateRendering: true
 
 
 #### platform-windows - 2 pull request(s)
+
+#### platform-windows - 2 个拉取请求
+
 
 [18878](https://github.com/flutter/engine/pull/18878) Refactor Win32FlutterWindow in preparation for UWP windowing implementation (cla: yes, platform-windows)
 
@@ -6077,30 +6327,48 @@ skipTemplateRendering: true
 
 #### bug - 1 pull request(s)
 
+#### bug - 1 个拉取请求
+
+
 [18492](https://github.com/flutter/engine/pull/18492) fuchsia: Fix runtime_tests and shell_tests (affects: engine, bug, cla: yes, waiting for tree to go green)
 
 
 #### bug (regression) - 1 pull request(s)
+
+#### bug（回归）- 1 个拉取请求
+
 
 [18193](https://github.com/flutter/engine/pull/18193) Add fullscreen padding workarounds to v2 android embedding (bug (regression), cla: yes, platform-android)
 
 
 #### crash - 1 pull request(s)
 
+#### 崩溃 - 1 个拉取请求
+
+
 [19280](https://github.com/flutter/engine/pull/19280) skip ios safari tests on felt level (cla: yes, crash)
 
 
 #### perf: app size - 1 pull request(s)
+
+#### perf：应用程序大小 - 1 个拉取请求
+
 
 [18439](https://github.com/flutter/engine/pull/18439) Roll buildroot to flutter/buildroot@a4f3c4d5023e080ee50596e6623d179e9c5f839b (cla: yes, perf: app size, perf: speed, severe: performance, waiting for tree to go green)
 
 
 #### platform-linux - 1 pull request(s)
 
+#### platform-linux - 1 个拉取请求
+
+
 [19339](https://github.com/flutter/engine/pull/19339) Fix broken mac/fuchsia compiles (affects: tests, cla: yes, platform-android, platform-fuchsia, platform-ios, platform-linux, platform-macos, platform-windows)
 
 
 #### platform-macos - 1 pull request(s)
+
+#### platform-macos - 1 个拉取请求
+
 
 [19339](https://github.com/flutter/engine/pull/19339) Fix broken mac/fuchsia compiles (affects: tests, cla: yes, platform-android, platform-fuchsia, platform-ios, platform-linux, platform-macos, platform-windows)
 
@@ -6108,7 +6376,13 @@ skipTemplateRendering: true
 
 ### Merged PRs by labels for `flutter/plugins`
 
+### 按 `flutter/plugins` 的标签合并 PRs
+
+
 #### submit queue - 3 pull request(s)
+
+#### 提交队列 - 3 个拉取请求
+
 
 [831](https://github.com/flutter/plugins/pull/831) [google_maps_flutter] add zoom controls property (cla: yes, feature, submit queue)
 
@@ -6121,6 +6395,9 @@ skipTemplateRendering: true
 
 #### waiting for test harness - 3 pull request(s)
 
+#### 等待测试工具 - 3 个拉取请求
+
+
 [2634](https://github.com/flutter/plugins/pull/2634) [google_sign_in] Add serverAuthCode attribute to google_sign_in_platform_interface (cla: yes, submit queue, waiting for test harness)
 
 
@@ -6132,6 +6409,9 @@ skipTemplateRendering: true
 
 #### in review - 2 pull request(s)
 
+#### 正在审核中 - 2 个拉取请求
+
+
 [2116](https://github.com/flutter/plugins/pull/2116) [google_sign_in] Add ability to return serverAuthCode (cla: yes, in review)
 
 
@@ -6140,28 +6420,49 @@ skipTemplateRendering: true
 
 #### bugfix - 1 pull request(s)
 
+#### 错误修复 - 1 个拉取请求
+
+
 [2757](https://github.com/flutter/plugins/pull/2757) [url_launcher] Initialize previousAutomaticSystemUiAdjustment in launch (bugfix, cla: yes)
 
 
 #### documentation - 1 pull request(s)
+
+#### 文档 - 1 个拉取请求
+
 
 [2766](https://github.com/flutter/plugins/pull/2766) [url_launcher] update README with enableJavaScript info (cla: yes, documentation, webview)
 
 
 #### feature - 1 pull request(s)
 
+#### 功能 - 1 个拉取请求
+
+
 [831](https://github.com/flutter/plugins/pull/831) [google_maps_flutter] add zoom controls property (cla: yes, feature, submit queue)
 
 
 #### webview - 1 pull request(s)
 
+#### webview - 1 个拉取请求
+
+
 [2766](https://github.com/flutter/plugins/pull/2766) [url_launcher] update README with enableJavaScript info (cla: yes, documentation, webview)
 
 ## All merged pull requests
 
+## 所有合并的拉取请求
+
+
 ### Merged PRs in `flutter/flutter`
 
+### 将 PRs 合并到 `flutter/flutter` 中
+
+
 There were 1243 pull requests.
+
+有 1243 个拉取请求。
+
 
 [42940](https://github.com/flutter/flutter/pull/42940) Revise Action API (cla: yes, f: cupertino, f: material design, framework, team)
 
@@ -8651,7 +8952,13 @@ There were 1243 pull requests.
 
 ### Merged PRs in `flutter/engine`
 
+### 将 PRs 合并到 `flutter/engine` 中
+
+
 There were 1316 pull requests.
+
+有 1316 个拉取请求。
+
 
 [13959](https://github.com/flutter/engine/pull/13959) iOS UITextInput autocorrection prompt (cla: yes)
 
@@ -11287,7 +11594,13 @@ There were 1316 pull requests.
 
 ### Merged PRs in `flutter/plugins`
 
+### 将 PRs 合并到 `flutter/plugins` 中
+
+
 There were 153 pull requests.
+
+有 153 个拉取请求。
+
 
 [831](https://github.com/flutter/plugins/pull/831) [google_maps_flutter] add zoom controls property (cla: yes, feature, submit queue)
 

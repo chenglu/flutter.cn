@@ -1,19 +1,32 @@
 ---
-title: Flutter release notes
-shortTitle: Release notes
-description: Release notes for Flutter for prior releases.
+# title: Flutter release notes
+title: Flutter 发行说明
+# shortTitle: Release notes
+shortTitle: 发行说明
+# description: Release notes for Flutter for prior releases.
+description: 先前版本的 Flutter 的发行说明。
 showToc: false
+ai-translated: true
 ---
 
 This page links to announcements and release notes for
 releases to the stable channel.
 
+此页面链接到稳定渠道版本的公告和发行说明。
+
+
 :::note
 For information about bug-fix releases,
 check out the Flutter repository [changelog][].
 
+有关错误修复版本的信息，请查看 Flutter 存储库[changelog][].
+
+
 To see what's changed in beta releases, follow the steps
 outlined in the [Beta channel][] section of the [SDK archive][] page.
+
+要查看 Beta 版本中的更改，请按照[Beta channel][]的部分[SDK archive][]页。
+
 :::
 
 [changelog]: {{site.repo.flutter}}/blob/stable/CHANGELOG.md
@@ -22,105 +35,405 @@ outlined in the [Beta channel][] section of the [SDK archive][] page.
 
 ## Stable releases
 
+## 稳定版发布
+
+
 * 3.44.0
+
+  3.44.0
+
   * [3.44.0 release notes & change log][]
+
+    [3.44.0 发行说明和变更日志][3.44.0 release notes & change log]
+
   * [3.44.0 breaking changes & migrations][]
+
+    [3.44.0 重大变更和迁移][3.44.0 breaking changes & migrations]
+
 * 3.41.0
+
+  3.41.0
+
   * [3.41.0 announcement][]
+
+    [3.41.0公告][3.41.0 announcement]
+
   * [3.41.0 release notes & change log][]
+
+    [3.41.0 发行说明和变更日志][3.41.0 release notes & change log]
+
   * [3.41.0 breaking changes & migrations][]
+
+    [3.41.0 重大变更和迁移][3.41.0 breaking changes & migrations]
+
 * 3.38.0
+
+  3.38.0
+
   * [3.38.0 announcement][]
+
+    [3.38.0公告][3.38.0 announcement]
+
   * [3.38.0 release notes & change log][]
+
+    [3.38.0 发行说明和变更日志][3.38.0 release notes & change log]
+
   * [3.38.0 breaking changes & migrations][]
+
+    [3.38.0 重大变更和迁移][3.38.0 breaking changes & migrations]
+
 * 3.35.0
+
+  3.35.0
+
   * [3.35.0 announcement][]
+
+    [3.35.0公告][3.35.0 announcement]
+
   * [3.35.0 release notes & change log][]
+
+    [3.35.0 发行说明和变更日志][3.35.0 release notes & change log]
+
   * [3.35.0 breaking changes & migrations][]
+
+    [3.35.0 重大变更和迁移][3.35.0 breaking changes & migrations]
+
 * 3.32.0
+
+  3.32.0
+
   * [3.32.0 announcement][]
+
+    [3.32.0公告][3.32.0 announcement]
+
   * [3.32.0 release notes & change log][]
+
+    [3.32.0 发行说明和变更日志][3.32.0 release notes & change log]
+
   * [3.32.0 breaking changes & migrations][]
+
+    [3.32.0 重大变更和迁移][3.32.0 breaking changes & migrations]
+
 * 3.29.0
+
+  3.29.0
+
   * [3.29.0 announcement][]
+
+    [3.29.0公告][3.29.0 announcement]
+
   * [3.29.0 release notes & change log][]
+
+    [3.29.0 发行说明和变更日志][3.29.0 release notes & change log]
+
   * [3.29.0 breaking changes & migrations][]
+
+    [3.29.0 重大变更和迁移][3.29.0 breaking changes & migrations]
+
 * 3.27.0
+
+  3.27.0
+
   * [3.27.0 announcement][]
+
+    [3.27.0公告][3.27.0 announcement]
+
   * [3.27.0 release notes & change log][]
+
+    [3.27.0 发行说明和变更日志][3.27.0 release notes & change log]
+
   * [3.27.0 breaking changes & migrations][]
+
+    [3.27.0 重大变更和迁移][3.27.0 breaking changes & migrations]
+
 * 3.24.0
+
+  3.24.0
+
   * [3.24.0 announcement][]
+
+    [3.24.0公告][3.24.0 announcement]
+
   * [3.24.0 release notes & change log][]
+
+    [3.24.0 发行说明和变更日志][3.24.0 release notes & change log]
+
   * [3.24.0 breaking changes & migrations][]
+
+    [3.24.0 重大变更和迁移][3.24.0 breaking changes & migrations]
+
 * 3.22.0
+
+  3.22.0
+
   * [3.22.0 announcement][]
+
+    [3.22.0公告][3.22.0 announcement]
+
   * [3.22.0 release notes & change log][]
+
+    [3.22.0 发行说明和变更日志][3.22.0 release notes & change log]
+
   * [3.22.0 breaking changes & migrations][]
+
+    [3.22.0 重大变更和迁移][3.22.0 breaking changes & migrations]
+
 * 3.19.0
+
+  3.19.0
+
   * [3.19.0 announcement][]
+
+    [3.19.0公告][3.19.0 announcement]
+
   * [3.19.0 release notes & change log][]
+
+    [3.19.0 发行说明和变更日志][3.19.0 release notes & change log]
+
   * [3.19.0 breaking changes & migrations][]
+
+    [3.19.0 重大变更和迁移][3.19.0 breaking changes & migrations]
+
 * 3.16.0
+
+  3.16.0
+
   * [3.16.0 announcement][]
+
+    [3.16.0公告][3.16.0 announcement]
+
   * [3.16.0 release notes & change log][]
+
+    [3.16.0 发行说明和变更日志][3.16.0 release notes & change log]
+
   * [3.16.0 breaking changes & migrations][]
+
+    [3.16.0 重大变更和迁移][3.16.0 breaking changes & migrations]
+
 * 3.13.0
+
+  3.13.0
+
   * [3.13.0 announcement][]
+
+    [3.13.0公告][3.13.0 announcement]
+
   * [3.13.0 release notes & change log][]
+
+    [3.13.0 发行说明和变更日志][3.13.0 release notes & change log]
+
   * [3.13.0 breaking changes & migrations][]
+
+    [3.13.0 重大变更和迁移][3.13.0 breaking changes & migrations]
+
 * 3.10.0
+
+  3.10.0
+
   * [3.10.0 announcement][]
+
+    [3.10.0公告][3.10.0 announcement]
+
   * [3.10.0 release notes & change log][]
+
+    [3.10.0 发行说明和变更日志][3.10.0 release notes & change log]
+
   * [3.10.0 breaking changes & migrations][]
+
+    [3.10.0 重大变更和迁移][3.10.0 breaking changes & migrations]
+
 * 3.7.0
+
+  3.7.0
+
   * [3.7.0 announcement][]
+
+    [3.7.0公告][3.7.0 announcement]
+
   * [3.7.0 release notes & change log][]
+
+    [3.7.0 发行说明和变更日志][3.7.0 release notes & change log]
+
   * [3.7.0 breaking changes & migrations][]
+
+    [3.7.0 重大变更和迁移][3.7.0 breaking changes & migrations]
+
 * 3.3.0
+
+  3.3.0
+
   * [3.3.0 announcement][]
+
+    [3.3.0公告][3.3.0 announcement]
+
   * [3.3.0 release notes & change log][]
+
+    [3.3.0 发行说明和变更日志][3.3.0 release notes & change log]
+
   * [3.3.0 breaking changes & migrations][]
+
+    [3.3.0 重大变更和迁移][3.3.0 breaking changes & migrations]
+
 * 3.0.0
+
+  3.0.0
+
   * [3.0.0 announcement][]
+
+    [3.0.0公告][3.0.0 announcement]
+
   * [3.0.0 release notes & change log][]
+
+    [3.0.0 发行说明和变更日志][3.0.0 release notes & change log]
+
   * [3.0.0 breaking changes & migrations][]
+
+    [3.0.0 重大变更和迁移][3.0.0 breaking changes & migrations]
+
 * 2.10.0
+
+  2.10.0
+
   * [2.10.0 announcement][]
+
+    [2.10.0公告][2.10.0 announcement]
+
   * [2.10.0 release notes & change log][]
+
+    [2.10.0 发行说明和变更日志][2.10.0 release notes & change log]
+
   * [2.10.0 breaking changes & migrations][]
+
+    [2.10.0 重大变更和迁移][2.10.0 breaking changes & migrations]
+
 * 2.8.0
+
+  2.8.0
+
   * [2.8.0 announcement][]
+
+    [2.8.0公告][2.8.0 announcement]
+
   * [2.8.0 release notes & change log][]
+
+    [2.8.0 发行说明和变更日志][2.8.0 release notes & change log]
+
 * 2.5.0
+
+  2.5.0
+
   * [2.5.0 announcement][]
+
+    [2.5.0公告][2.5.0 announcement]
+
   * [2.5.0 release notes & change log][]
+
+    [2.5.0 发行说明和变更日志][2.5.0 release notes & change log]
+
   * [2.5.0 breaking changes & migrations][]
+
+    [2.5.0 重大变更和迁移][2.5.0 breaking changes & migrations]
+
 * 2.2.0
+
+  2.2.0
+
   * [2.2.0 announcement][]
+
+    [2.2.0公告][2.2.0 announcement]
+
   * [2.2.0 release notes & change log][]
+
+    [2.2.0 发行说明和变更日志][2.2.0 release notes & change log]
+
   * [2.2.0 breaking changes & migrations][]
+
+    [2.2.0 重大变更和迁移][2.2.0 breaking changes & migrations]
+
 * 2.0.0
+
+  2.0.0
+
   * [2.0.0 announcement][]
+
+    [2.0.0公告][2.0.0 announcement]
+
   * [2.0.0 release notes & change log][]
+
+    [2.0.0 发行说明和变更日志][2.0.0 release notes & change log]
+
   * [2.0.0 breaking changes & migrations][]
+
+    [2.0.0 重大变更和迁移][2.0.0 breaking changes & migrations]
+
 * 1.22.0
+
+  1.22.0
+
   * [1.22.0 announcement][]
+
+    [1.22.0公告][1.22.0 announcement]
+
   * [1.22.0 release notes & change log][]
+
+    [1.22.0 发行说明和变更日志][1.22.0 release notes & change log]
+
   * [1.22.0 breaking changes & migrations][]
+
+    [1.22.0 重大变更和迁移][1.22.0 breaking changes & migrations]
+
 * 1.20.0
+
+  1.20.0
+
   * [1.20.0 announcement][]
+
+    [1.20.0公告][1.20.0 announcement]
+
   * [1.20.0 release notes & change log][]
+
+    [1.20.0 发行说明和变更日志][1.20.0 release notes & change log]
+
   * [1.20.0 breaking changes & migrations][]
+
+    [1.20.0 重大变更和迁移][1.20.0 breaking changes & migrations]
+
 * 1.17.0
+
+  1.17.0
+
   * [1.17.0 announcement][]
+
+    [1.17.0公告][1.17.0 announcement]
+
   * [1.17.0 release notes and change log][]
+
+    [1.17.0 发行说明和变更日志][1.17.0 release notes and change log]
+
   * [1.17.0 breaking changes & migrations][]
+
+    [1.17.0 重大变更和迁移][1.17.0 breaking changes & migrations]
+
 * 1.12.13
+
+  1.12.13
+
   * [1.12.13 announcement][]
+
+    [13年12月12日公告][1.12.13 announcement]
+
   * [1.12.13 release notes and change log][]
+
+    [1.12.13 发行说明和变更日志][1.12.13 release notes and change log]
+
 * Earlier
+
+  早些时候
+
   * [Archived release notes][]
+
+    [存档的发行说明][Archived release notes]
+
 
 [3.44.0 release notes & change log]: /release/release-notes/release-notes-3.44.0
 [3.44.0 breaking changes & migrations]: /release/breaking-changes#released-in-flutter-3-44

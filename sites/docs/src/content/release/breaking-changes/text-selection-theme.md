@@ -1,12 +1,20 @@
 ---
-title: TextSelectionTheme migration
+# title: TextSelectionTheme migration
+title: 文本选择主题迁移
+# description: >
+#   The default properties for text selection are migrating to TextSelectionTheme.
 description: >
-  The default properties for text selection are migrating to TextSelectionTheme.
+  文本选择的默认属性正在迁移到 TextSelectionTheme。
+ai-translated: true
 ---
 
 {% render "docs/breaking-changes.md" %}
 
+
 ## Summary
+
+## 摘要
+
 
 The `ThemeData` properties that controlled the look of
 selected text in Material widgets have been moved into
@@ -16,7 +24,13 @@ their own `TextSelectionTheme`. These properties include
 properties have also been changed to match the Material
 Design specification.
 
+控制 Material widget 中所选文本外观的“ThemeData”属性已移至其自己的“TextSelectionTheme”中。这些属性包括“cursorColor”、“textSelectionColor”和“textSelectionHandleColor”。这些属性的默认值也已更改以符合 Material Design 规范。
+
+
 ## Context
+
+## 背景
+
 
 As part of the larger [Material Theme Updates][],
 we have introduced a new [Text Selection Theme][]
@@ -27,13 +41,23 @@ and update their default values to match the Material
 Design specification. This document describes how
 applications can migrate to this new API.
 
+作为更大的[Material 主题更新][Material Theme Updates]的一部分，我们引入了一个新的文本选择主题，用于指定“TextField”和“SelectableText”widget 中所选文本的属性。这些替换了 `ThemeData` 的几个顶级属性，并更新了它们的默认值以匹配 Material Design 规范。本文档描述了应用程序如何迁移到这个新的 API。
+
+
 ## Migration guide
+
+## 迁移指南
+
 
 If you are currently using the following properties of
 `ThemeData`, you need to update them to use the new
 equivalent properties on `ThemeData.textSelectionTheme`:
 
+如果你当前正在使用 `ThemeData` 的以下属性，则需要更新它们以使用 `ThemeData.textSelectionTheme` 上的新等效属性：
+
+
 | Before                               | After                                         |
+| 前 | 后 |
 |--------------------------------------|-----------------------------------------------|
 | `ThemeData.cursorColor`              | `TextSelectionThemeData.cursorColor`          |
 | `ThemeData.textSelectionColor`       | `TextSelectionThemeData.selectionColor`       |
@@ -42,6 +66,9 @@ equivalent properties on `ThemeData.textSelectionTheme`:
 <br/>
 
 **Code before migration:**
+
+**迁移前的代码：**
+
 
 ```dart
 ThemeData(
@@ -52,6 +79,9 @@ ThemeData(
 ```
 
 **Code after migration:**
+
+**迁移后的代码：**
+
 
 ```dart
 ThemeData(
@@ -65,11 +95,17 @@ ThemeData(
 
 **Default changes**
 
+**默认更改**
+
+
 If you weren't using these properties explicitly,
 but depended on the previous default colors used
 for text selection you can add a new field to your
 `ThemeData` for your app to return to the old defaults
 as shown:
+
+如果你没有明确使用这些属性，而是依赖于之前用于文本选择的默认颜色，你可以向“ThemeData”添加一个新字段，以便你的应用程序返回到旧的默认值，如下所示：
+
 
 ```dart
 // Old defaults for a light theme
@@ -98,25 +134,49 @@ but have failing golden file tests, you
 can update your master golden files using the
 following command:
 
+如果你对新的默认设置感到满意，但黄金文件测试失败，则可以使用以下命令更新你的主黄金文件：
+
+
 ```console
 $ flutter test --update-goldens
 ```
 
 ## Timeline
 
+## 时间轴
+
+
 Landed in version: 1.23.0-4.0.pre<br>
 In stable release: 2.0.0
 
+登陆版本：1.23.0-4.0.pre<br> 稳定版本：2.0.0
+
+
 ## References
+
+## 参考
+
 
 API documentation:
 
+API 文档：
+
+
 * [`TextSelectionThemeData`][]
+
+
 * [`ThemeData`][]
+
 
 Relevant PRs:
 
+相关 PR：
+
+
 * [PR 62014: TextSelectionTheme support][]
+
+  [PR 62014：文本选择主题支持][PR 62014: TextSelectionTheme support]
+
 
 [Material Theme Updates]: /go/material-theme-system-updates
 [PR 62014: TextSelectionTheme support]: {{site.repo.flutter}}/pull/62014

@@ -1,14 +1,24 @@
 ---
-title: Change log for Flutter 1.7.8
-shortTitle: 1.7.8 change log
-description: Change log for Flutter 1.7.8 containing a list of all PRs merged for this release.
+# title: Change log for Flutter 1.7.8
+title: Flutter 1.7.8 的更改日志
+# shortTitle: 1.7.8 change log
+shortTitle: 1.7.8 变更日志
+# description: Change log for Flutter 1.7.8 containing a list of all PRs merged for this release.
+description: Flutter 1.7.8 的更改日志包含为此版本合并的所有 PR 的列表。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 
 ## PRs closed in this release of flutter/flutter
 
+## PRs 在此版本的 flutter/flutter 中关闭
+
+
 From Wed May 1 16:56:00 2019 -0700 to Thu Jul 18 08:04:00 2019 -0700
+
+从 2019年5月1日星期三 16:56:00 -0700 到 2019年7月18日星期四 08:04:00 -0700
+
 
 
 [28808](https://github.com/flutter/flutter/pull/28808)  updated tearDownAll function (cla: yes, t: flutter driver, team, tool, waiting for tree to go green)
@@ -1382,7 +1392,13 @@ From Wed May 1 16:56:00 2019 -0700 to Thu Jul 18 08:04:00 2019 -0700
 
 ## PRs closed in this release of flutter/engine
 
+## PRs 在此版本的 flutter/engine 中关闭
+
+
 From Wed May 1 16:56:00 2019 -0700 to Thu Jul 18 08:04:00 2019 -0700
+
+从 2019年5月1日星期三 16:56:00 -0700 到 2019年7月18日星期四 08:04:00 -0700
+
 
 
 [7847](https://github.com/flutter/engine/pull/7847) Extracted PlatformViewsChannel from PlatformViewsController. (cla: yes)
@@ -2130,7 +2146,13 @@ From Wed May 1 16:56:00 2019 -0700 to Thu Jul 18 08:04:00 2019 -0700
 
 ## PRs closed in this release of flutter/plugins
 
+## PRs 在此版本的 flutter/plugins 中关闭
+
+
 From Wed May 1 16:56:00 2019 -0700 to Thu Jul 18 08:04:00 2019 -0700
+
+从 2019年5月1日星期三 16:56:00 -0700 到 2019年7月18日星期四 08:04:00 -0700
+
 
 
 [826](https://github.com/flutter/plugins/pull/826) [google_maps_flutter] enable/disable indoor view (cla: yes, feature, needs love)

@@ -9,6 +9,9 @@ description:  >-
    Flutter 破坏性改动的通知与迁移指南合集。
 ---
 
+{% render "docs/breaking-changes.md" %}
+
+
 <!-- 请勿翻译该文档。 -->
 
 As described in the [breaking change policy][],
@@ -18,7 +21,6 @@ for migrating code across a breaking change.
 正如 [破坏性改动策略][breaking change policy] 中描述的，
 我们会不定期地发布关于破坏性改动的迁移指南。
 
-{% render "docs/breaking-changes.md" %}
 
 To be notified about future breaking changes,
 join the groups [Flutter announce][] and [Dart announce][].

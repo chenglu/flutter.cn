@@ -1,15 +1,28 @@
 ---
-title: Flutter 3.44.0 release notes
-shortTitle: 3.44.0 release notes
-description: Release notes for Flutter 3.44.0.
+# title: Flutter 3.44.0 release notes
+title: Flutter 3.44.0 发行说明
+# shortTitle: 3.44.0 release notes
+shortTitle: 3.44.0 发行说明
+# description: Release notes for Flutter 3.44.0.
+description: Flutter 3.44.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for Flutter 3.44.
 
+此页面包含 Flutter 3.44 的发行说明。
+
+
 ## What's changed
 
+## 变更内容
+
+
 ### Framework
+
+### 框架
+
 
 * Add new motion accessibility features to iOS. by @ksokolovskyi in [178102](https://github.com/flutter/flutter/pull/178102)
 * Implementation of tooltip windows for win32 by @mattkae in [179147](https://github.com/flutter/flutter/pull/179147)
@@ -251,6 +264,7 @@ This page has release notes for Flutter 3.44.
 
 ### Material
 
+
 * Fix typo in dropdown_menu.dart by @Koichi5 in [180172](https://github.com/flutter/flutter/pull/180172)
 * [A11y ] Add `clearSemantics`in table by @hannah-hyj in [180665](https://github.com/flutter/flutter/pull/180665)
 * Add TabBar API example for scroll notification integration by @huycozy in [180728](https://github.com/flutter/flutter/pull/180728)
@@ -369,6 +383,7 @@ This page has release notes for Flutter 3.44.
 
 ### iOS
 
+
 * Fix iOS xattr removal to clear all extended attributes by @Saqib198 in [180355](https://github.com/flutter/flutter/pull/180355)
 * Reverts "Fix iOS xattr removal to clear all extended attributes (#180355)" by @auto-submit[bot] in [180709](https://github.com/flutter/flutter/pull/180709)
 * Implement macOS wide gamut (Display P3) support by @westito in [181769](https://github.com/flutter/flutter/pull/181769)
@@ -402,6 +417,7 @@ This page has release notes for Flutter 3.44.
 * [CP-beta][SwiftPM] Enable package resolution on xcodebuild commands by @flutteractionsbot in [185746](https://github.com/flutter/flutter/pull/185746)
 
 ### Android
+
 
 * Re-prioritize pipeline compile jobs and perform them eagerly instead of waiting. by @chinmaygarde in [180022](https://github.com/flutter/flutter/pull/180022)
 * Improve code quality in `BinaryMessenger.java` by @AbdeMohlbi in [180733](https://github.com/flutter/flutter/pull/180733)
@@ -455,6 +471,7 @@ This page has release notes for Flutter 3.44.
 
 ### Windows
 
+
 * [win32] Fix overflow in TaskRunnerWindow. by @knopp in [182822](https://github.com/flutter/flutter/pull/182822)
 * Roll GoogleTest to e9907112b472 by @jason-simmons in [182795](https://github.com/flutter/flutter/pull/182795)
 * Roll RapidJSON to a branch based on the current upstream head by @jason-simmons in [183048](https://github.com/flutter/flutter/pull/183048)
@@ -465,6 +482,7 @@ This page has release notes for Flutter 3.44.
 * [CP-beta][Win32] FlutterDesktopEngineGetGraphicsAdapter should use out parameter by @flutteractionsbot in [185634](https://github.com/flutter/flutter/pull/185634)
 
 ### Linux
+
 
 * fix build fail for wayland only platform by @HuQian in [182057](https://github.com/flutter/flutter/pull/182057)
 * Remove unused function prototype by @robert-ancell in [182915](https://github.com/flutter/flutter/pull/182915)
@@ -480,6 +498,7 @@ This page has release notes for Flutter 3.44.
 * Protect access to renderables with a mutex by @robert-ancell in [183813](https://github.com/flutter/flutter/pull/183813)
 
 ### Web
+
 
 * Move all getUniformX tests to web_ui/test. by @walley892 in [180910](https://github.com/flutter/flutter/pull/180910)
 * [canvaskit] Fix image decoding in CPU-only mode by @harryterkelsen in [180706](https://github.com/flutter/flutter/pull/180706)
@@ -529,6 +548,9 @@ This page has release notes for Flutter 3.44.
 * [web_ui] Fix avoid_type_to_string lint violation by @srawlins in [184342](https://github.com/flutter/flutter/pull/184342)
 
 ### Tooling
+
+### 工具
+
 
 * [ Widget Preview ] Move widget_preview_scaffold tests to `dev/integration_tests/widget_preview_scaffold` by @bkonyi in [180658](https://github.com/flutter/flutter/pull/180658)
 * [web] Don't serve files outside of project by @mdebbar in [180699](https://github.com/flutter/flutter/pull/180699)
@@ -659,9 +681,15 @@ This page has release notes for Flutter 3.44.
 
 ### Documentation
 
+### 文档
+
+
 * Update example description by @robert-ancell in [182067](https://github.com/flutter/flutter/pull/182067)
 
 ### Other changes
+
+### 其他变更
+
 
 * Update flutter changelog for 3.38.6 by @walley892 in [180708](https://github.com/flutter/flutter/pull/180708)
 * Update CODEOWNERS to remove chinmaygarde. by @chinmaygarde in [180703](https://github.com/flutter/flutter/pull/180703)
@@ -941,6 +969,9 @@ This page has release notes for Flutter 3.44.
 
 ## New contributors
 
+## 新贡献者
+
+
 * @Koichi5 made their first contribution in [180172](https://github.com/flutter/flutter/pull/180172)
 * @vhaudiquet made their first contribution in [178711](https://github.com/flutter/flutter/pull/178711)
 * @augustocesarperin made their first contribution in [180824](https://github.com/flutter/flutter/pull/180824)
@@ -1004,3 +1035,6 @@ This page has release notes for Flutter 3.44.
 * @TrangLeQuynh made their first contribution in [183488](https://github.com/flutter/flutter/pull/183488)
 
 **Full Changelog**: https://github.com/flutter/flutter/compare/3.41.0...3.44.0-0.3.pre
+
+**完整变更日志**： https://github.com/flutter/flutter/compare/3.41.0...3.44.0-0.3.pre
+

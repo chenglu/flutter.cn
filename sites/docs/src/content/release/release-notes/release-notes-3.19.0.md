@@ -1,19 +1,32 @@
 ---
-title: Flutter 3.19.0 release notes
-shortTitle: 3.19.0 release notes
-description: Release notes for Flutter 3.19.0.
+# title: Flutter 3.19.0 release notes
+title: Flutter 3.19.0 发行说明
+# shortTitle: 3.19.0 release notes
+shortTitle: 3.19.0 发行说明
+# description: Release notes for Flutter 3.19.0.
+description: Flutter 3.19.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.19.0.
 For information about subsequent bug-fix releases,
 see our [CHANGELOG][].
 
+此页面包含 3.19.0 的发行说明。
+有关后续错误修复版本的信息，
+请参阅我们的 [CHANGELOG][]。
+
+
 [CHANGELOG]: https://github.com/flutter/flutter/blob/main/CHANGELOG.md
 
 ## Flutter
 
+
 ### Framework
+
+### 框架
+
 * Update logic for getting `Analytics` instance from package:unified_analytics by @eliasyishak in [134756](https://github.com/flutter/flutter/pull/134756)
 * Expose onAttach and onDetach in ScrollController subclasses by @Piinks in [135721](https://github.com/flutter/flutter/pull/135721)
 * Upgrade leak_tracker to fix flackiness. by @polina-c in [135760](https://github.com/flutter/flutter/pull/135760)
@@ -259,6 +272,7 @@ see our [CHANGELOG][].
 * Manual pub roll pinning web socket channel by @christopherfujino in [141040](https://github.com/flutter/flutter/pull/141040)
 * Roll engine version to 968e2945. by @godofredoc in [142275](https://github.com/flutter/flutter/pull/142275)
 ### Material
+
 * Update localizations. by @godofredoc in [135691](https://github.com/flutter/flutter/pull/135691)
 * Update `Drawer` tests for M2/M3 by @TahaTesser in [135752](https://github.com/flutter/flutter/pull/135752)
 * DraggableScrollableController should dispatch creation in constructor. by @ksokolovskyi in [135423](https://github.com/flutter/flutter/pull/135423)
@@ -411,6 +425,7 @@ see our [CHANGELOG][].
 * Fix scrollable `TabBar` expands to full width when the divider is removed by @TahaTesser in [140963](https://github.com/flutter/flutter/pull/140963)
 * Fix refresh cancelation by @lukehutch in [139535](https://github.com/flutter/flutter/pull/139535)
 ### iOS
+
 * Skip injecting Bonjour settings when port publication is disabled by @vashworth in [136562](https://github.com/flutter/flutter/pull/136562)
 * Reverts "Skip injecting Bonjour settings when port publication is disabled" by @auto-submit in [136750](https://github.com/flutter/flutter/pull/136750)
 * [Reland] Skip injecting Bonjour settings when port publication is disabled by @vashworth in [136751](https://github.com/flutter/flutter/pull/136751)
@@ -428,14 +443,20 @@ see our [CHANGELOG][].
 * [flutter_tools] handle FileSystemException trying to delete temp directory from core_devices.dart by @christopherfujino in [140415](https://github.com/flutter/flutter/pull/140415)
 * in `flutter run`, throw tool exit when `--flavor` is provided but is not supported on the target device by @andrewkolos in [139045](https://github.com/flutter/flutter/pull/139045)
 ### Android
+
 * Chore/gradle remove redundant apply by @bartekpacia in [135348](https://github.com/flutter/flutter/pull/135348)
 * Native assets support for Android by @dcharkes in [135148](https://github.com/flutter/flutter/pull/135148)
 * [CP][Android] Revert "Reland: "Fix how Gradle resolves Android plugin" (#137115)" by @camsim99 in [142491](https://github.com/flutter/flutter/pull/142491)
 ### macOS
+
 * Restore and fix flavors_test_macos by @andrewkolos in [139841](https://github.com/flutter/flutter/pull/139841)
 ### Web
+
 * #60704: Pass cert for TLS localhost connection by @arpitgandhi9 in [106635](https://github.com/flutter/flutter/pull/106635)
 ### Tooling
+
+### 工具
+
 * Update the wasm bootstrap to allow access to the emscripten wrapper to skwasm. by @eyebrowsoffire in [135723](https://github.com/flutter/flutter/pull/135723)
 * Use platform dill from the engine when compiling with dart2wasm. by @eyebrowsoffire in [134970](https://github.com/flutter/flutter/pull/134970)
 * Bump dart-lang/native deps by @dcharkes in [135905](https://github.com/flutter/flutter/pull/135905)
@@ -551,8 +572,14 @@ see our [CHANGELOG][].
 * [cp] Replace deprecated `exists` in podhelper.rb by @stuartmorgan in [141381](https://github.com/flutter/flutter/pull/141381)
 * CP: [Beta] Update DWDS to version 23.0.0+1 by @elliette in [142168](https://github.com/flutter/flutter/pull/142168)
 ### Documentation
+
+### 文档
+
 * Check sample links for malformed links by @gspencergoog in [137807](https://github.com/flutter/flutter/pull/137807)
 ### Other Changes
+
+### 其他变更
+
 * Temporarily disable NexusLowRes, version=29 by @ricardoamador in [135785](https://github.com/flutter/flutter/pull/135785)
 * Add device ready check by @ricardoamador in [135526](https://github.com/flutter/flutter/pull/135526)
 * Add support for `setup` steps in flutter customer tests by @kenzieschmoll in [135726](https://github.com/flutter/flutter/pull/135726)
@@ -714,6 +741,9 @@ see our [CHANGELOG][].
 * [flutter_releases] Flutter beta 3.19.0-0.4.pre Framework Cherrypicks by @itsjustkevin in [142777](https://github.com/flutter/flutter/pull/142777)
 
 ## New Contributors
+
+## 新贡献者
+
 * @Pante made their first contribution in [135897](https://github.com/flutter/flutter/pull/135897)
 * @droidbg made their first contribution in [136169](https://github.com/flutter/flutter/pull/136169)
 * @fischerscode made their first contribution in [135823](https://github.com/flutter/flutter/pull/135823)
@@ -754,9 +784,16 @@ see our [CHANGELOG][].
 
 **Full Changelog**: https://github.com/flutter/flutter/compare/3.16.0...3.19.0-0.4.pre
 
+**完整变更日志**： https://github.com/flutter/flutter/compare/3.16.0...3.19.0-0.4.pre
+
+
 ## Engine
 
+## 引擎
+
+
 ### Impeller
+
 * [Impeller] revert stencil config changes. by @jonahwilliams in [46386](https://github.com/flutter/engine/pull/46386)
 * [Impeller] Implements canvas recorder with trace serializer by @gaaclarke in [46376](https://github.com/flutter/engine/pull/46376)
 * [Impeller] simplify invert colors flag by supporting composed color filters. by @jonahwilliams in [46391](https://github.com/flutter/engine/pull/46391)
@@ -1008,6 +1045,7 @@ see our [CHANGELOG][].
 * [Impeller] remove SamplerLibrary forward declare. by @jonahwilliams in [49573](https://github.com/flutter/engine/pull/49573)
 * [CP] [Impeller] allow non-square corner radii for fast blurs by @flar in [50023](https://github.com/flutter/engine/pull/50023)
 ### Android
+
 * Disable enableHardwareBufferRenderingTarget by @CaseyHillers in [46425](https://github.com/flutter/engine/pull/46425)
 * Add an AndroidManifest.xml flag to disable ImageReader backed Platform Views by @johnmccutchan in [46430](https://github.com/flutter/engine/pull/46430)
 * Restrict ImageReader backed Platform Views to Android 33+ by @johnmccutchan in [46478](https://github.com/flutter/engine/pull/46478)
@@ -1061,6 +1099,7 @@ see our [CHANGELOG][].
 * Android Platform Views support Verified Input Events by @johnmccutchan in [49268](https://github.com/flutter/engine/pull/49268)
 * Fix a crash in the new SurfaceProducer external texture by @johnmccutchan in [49496](https://github.com/flutter/engine/pull/49496)
 ### iOS
+
 * [ios] Link PlatformView back to semantics tree by @cyanglaz in [46471](https://github.com/flutter/engine/pull/46471)
 * Replace deprecated [UIScreen mainScreen] in FlutterView.mm by @mossmana in [46802](https://github.com/flutter/engine/pull/46802)
 * Don't respond to the `insertionPointColor` selector on iOS 17+ by @LongCatIsLooong in [46373](https://github.com/flutter/engine/pull/46373)
@@ -1084,6 +1123,7 @@ see our [CHANGELOG][].
 * Fix `NSPrivacyCollectedDataTypes` array in privacy manifest by @jmagman in [49041](https://github.com/flutter/engine/pull/49041)
 * Rolls clang to 725656bdd885483c39f482a01ea25d67acf39c46 by @zanderso in [49248](https://github.com/flutter/engine/pull/49248)
 ### Web
+
 * Use `dart:_wasm` constructs to avoid dependence on `WebAssembly.Function` by @eyebrowsoffire in [46388](https://github.com/flutter/engine/pull/46388)
 * Remove support for `Paint.enableDithering=false` in `dart:ui`. by @matanlurey in [46745](https://github.com/flutter/engine/pull/46745)
 * Roll goldctl forward by @zanderso in [46771](https://github.com/flutter/engine/pull/46771)
@@ -1167,6 +1207,9 @@ see our [CHANGELOG][].
 * Reland "[web] Enforce onDrawFrame/onBeginFrame render rule" by @harryterkelsen in [49336](https://github.com/flutter/engine/pull/49336)
 * [web] make TextStyle implementations consistent by @yjbanov in [49465](https://github.com/flutter/engine/pull/49465)
 ### Desktop
+
+### 桌面端
+
 * [macOS] Ensure first responder is consistent during and after text input by @knopp in [46032](https://github.com/flutter/engine/pull/46032)
 * [macOS] FlutterMutatorView should clip to bounds by @knopp in [46463](https://github.com/flutter/engine/pull/46463)
 * [macOS] Fix tests failing on Sonoma by @knopp in [46461](https://github.com/flutter/engine/pull/46461)
@@ -1203,6 +1246,9 @@ see our [CHANGELOG][].
 * [Windows] Move DWM composition status to Windows proc table for mocking by @loic-sharma in [49397](https://github.com/flutter/engine/pull/49397)
 * [Windows] Move DWM flush to Windows proc table for mocking by @loic-sharma in [49398](https://github.com/flutter/engine/pull/49398)
 ### Other Changes
+
+### 其他变更
+
 * Bump impeller-cmake to head by @bdero in [46385](https://github.com/flutter/engine/pull/46385)
 * Multi-view Rasterizer  by @dkwingsmt in [45512](https://github.com/flutter/engine/pull/45512)
 * [Linux] Rename 'set_allow_channel_overflow' to 'set_warns_on_channel_… by @bleroux in [46360](https://github.com/flutter/engine/pull/46360)
@@ -1431,6 +1477,9 @@ see our [CHANGELOG][].
 * [flutter_releases] Flutter beta 3.19.0-0.4.pre Engine Cherrypicks by @itsjustkevin in [50209](https://github.com/flutter/engine/pull/50209)
 
 ## New Contributors
+
+## 新贡献者
+
 * @CoderDake made their first contribution in [46720](https://github.com/flutter/engine/pull/46720)
 * @eriko13 made their first contribution in [46429](https://github.com/flutter/engine/pull/46429)
 * @natebosch made their first contribution in [46592](https://github.com/flutter/engine/pull/46592)
@@ -1443,3 +1492,6 @@ see our [CHANGELOG][].
 * @zoujunhua made their first contribution in [48397](https://github.com/flutter/engine/pull/48397)
 
 **Full Changelog**: https://github.com/flutter/engine/compare/3.16.0...3.19.0-0.4.pre
+
+**完整变更日志**： https://github.com/flutter/engine/compare/3.16.0...3.19.0-0.4.pre
+

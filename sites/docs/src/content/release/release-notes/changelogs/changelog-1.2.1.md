@@ -1,14 +1,24 @@
 ---
-title: Change log for Flutter 1.2.2
-shortTitle: 1.2.2 change log
-description: Change log for Flutter 1.2.2 containing a list of all PRs merged for this release.
+# title: Change log for Flutter 1.2.2
+title: Flutter 1.2.2 的更改日志
+# shortTitle: 1.2.2 change log
+shortTitle: 1.2.2 变更日志
+# description: Change log for Flutter 1.2.2 containing a list of all PRs merged for this release.
+description: Flutter 1.2.2 的更改日志包含为此版本合并的所有 PR 的列表。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 
 ## PRs closed in this release of flutter/flutter
 
+## PRs 在此版本的 flutter/flutter 中关闭
+
+
 From Fri Nov 29 19:41:00 2018 -0800 to Thu Feb 21 20:22:00 2019 -0800
+
+从 2018 年 11 月 29 日星期五 19:41:00 -0800 至 2019 年 2 月 21 日星期四 20:22:00 -0800
+
 
 
 [21157](https://github.com/flutter/flutter/pull/21157) Swap scope with gesture (cla: yes, f: scrolling, framework)
@@ -1130,7 +1140,13 @@ From Fri Nov 29 19:41:00 2018 -0800 to Thu Feb 21 20:22:00 2019 -0800
 
 ## PRs closed in this release of flutter/engine
 
+## PRs 在此版本的 flutter/engine 中关闭
+
+
 From Fri Nov 29 19:41:00 2018 -0800 to Thu Feb 21 20:22:00 2019 -0800
+
+从 2018 年 11 月 29 日星期五 19:41:00 -0800 至 2019 年 2 月 21 日星期四 20:22:00 -0800
+
 
 
 [6399](https://github.com/flutter/engine/pull/6399) System Channels, Plugins, Dart Entrypoint, FlutterFragment (cla: yes)
@@ -1717,7 +1733,13 @@ From Fri Nov 29 19:41:00 2018 -0800 to Thu Feb 21 20:22:00 2019 -0800
 
 ## PRs closed in this release of flutter/plugins
 
+## PRs 在此版本的 flutter/plugins 中关闭
+
+
 From Fri Nov 29 19:41:00 2018 -0800 to Thu Feb 21 20:22:00 2019 -0800
+
+从 2018 年 11 月 29 日星期五 19:41:00 -0800 至 2019 年 2 月 21 日星期四 20:22:00 -0800
+
 
 
 [690](https://github.com/flutter/plugins/pull/690) [video_player] Fix aspect ratio (cla: yes)

@@ -1,11 +1,18 @@
 ---
-title: Required Kotlin version
+# title: Required Kotlin version
+title: 所需的 Kotlin 版本
+# description: >
+#     Flutter apps built for the Android platform
+#     now require Kotlin 1.5.31 or greater.
 description: >
-    Flutter apps built for the Android platform
-    now require Kotlin 1.5.31 or greater.
+    为 Android 平台构建的 Flutter 应用
+    现在需要 Kotlin 1.5.31 或更高版本。
+ai-translated: true
 ---
 
 {% render "docs/breaking-changes.md" %}
+
+
 
 :::important
 As of Flutter 3.16, the default Gradle build scripts differ across
@@ -15,6 +22,12 @@ If you have generated your project with
 an older version of Flutter, it's advisable to upgrade
 your build scripts to the newest form. For more information,
 see [Issue 10380][] and [Issue 135392].
+
+从 Flutter 3.16 起，默认 Gradle 构建脚本因 Flutter 版本而异。
+例如，Kotlin 版本现在在 `android/settings.gradle` 文件中配置。
+如果你使用较旧版本的 Flutter 生成项目，
+建议将构建脚本升级到最新形式。更多信息请参阅
+[Issue 10380][] 和 [Issue 135392]。
 :::
 
 [Issue 10380]:  {{site.github}}/flutter/website/issues/10380
@@ -22,10 +35,17 @@ see [Issue 10380][] and [Issue 135392].
 
 ## Summary
 
+## 摘要
+
 To build a Flutter app for Android, Kotlin 1.5.31 or greater is required.
+
+要为 Android 构建 Flutter 应用，需要 Kotlin 1.5.31 或更高版本。
 
 If your app uses a lower version,
 you will receive the following error message:
+
+如果你的应用使用较低版本，
+你将收到以下错误信息：
 
 ```plaintext noHighlight
 ┌─ Flutter Fix ────────────────────────────────────────────────────────────┐
@@ -41,18 +61,33 @@ you will receive the following error message:
 
 ## Context
 
+## 背景
+
 Flutter added support for [foldable devices][1] on Android.
 This required adding an AndroidX dependency to the Flutter embedding that
 requires apps to use Kotlin 1.5.31 or greater.
 
+Flutter 在 Android 上添加了对[可折叠设备][1]的支持。
+这需要在 Flutter embedding 中添加 AndroidX 依赖，
+要求应用使用 Kotlin 1.5.31 或更高版本。
+
 ## Description of change
+
+## 变更说明
 
 A Flutter app compiled for Android now includes the Gradle dependency
 `androidx.window:window-java`.
 
+为 Android 编译的 Flutter 应用现在包含 Gradle 依赖
+`androidx.window:window-java`。
+
 ## Migration guide
 
+## 迁移指南
+
 Open `<app-src>/android/build.gradle`, and change `ext.kotlin_version`:
+
+打开 `<app-src>/android/build.gradle`，并更改 `ext.kotlin_version`：
 
 ```groovy diff
   buildscript {
@@ -62,14 +97,25 @@ Open `<app-src>/android/build.gradle`, and change `ext.kotlin_version`:
 
 ## Timeline
 
+## 时间线
+
 Landed in version: v2.9.0 beta<br>
 In stable release: 2.10
 
+合入版本：v2.9.0 beta<br>
+稳定版发布：2.10
+
 ## References
+
+## 参考资料
 
 Relevant PR:
 
+相关 PR：
+
 * [PR 29585: Display Features support][]
+
+  [PR 29585：Display Features 支持][PR 29585: Display Features support]
 
 
 [PR 29585: Display Features support]: {{site.repo.engine}}/pull/29585

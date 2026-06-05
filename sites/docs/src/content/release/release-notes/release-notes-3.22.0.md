@@ -1,19 +1,32 @@
 ---
-title: Flutter 3.22.0 release notes
-shortTitle: 3.22.0 release notes
-description: Release notes for Flutter 3.22.0.
+# title: Flutter 3.22.0 release notes
+title: Flutter 3.22.0 发行说明
+# shortTitle: 3.22.0 release notes
+shortTitle: 3.22.0 发行说明
+# description: Release notes for Flutter 3.22.0.
+description: Flutter 3.22.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.22.0.
 For information about subsequent bug-fix releases,
 see our [CHANGELOG][].
 
+此页面包含 3.22.0 的发行说明。
+有关后续错误修复版本的信息，
+请参阅我们的 [CHANGELOG][]。
+
+
 [CHANGELOG]: https://github.com/flutter/flutter/blob/main/CHANGELOG.md
 
 ## Flutter
 
+
 ### Framework
+
+### 框架
+
 * Disable test shuffling in widget_tester_leaks_test.dart by @zanderso in [141110](https://github.com/flutter/flutter/pull/141110)
 * Fix spell check throws when text contains regex reserved characters by @bleroux in [140384](https://github.com/flutter/flutter/pull/140384)
 * Remove conditions that depend on order. by @polina-c in [141183](https://github.com/flutter/flutter/pull/141183)
@@ -236,6 +249,7 @@ see our [CHANGELOG][].
 * [web] Add BackgroundIsolateBinaryMessenger.ensureInitialized to web. by @ditman in [145786](https://github.com/flutter/flutter/pull/145786)
 * Add `viewId` to `TextInputConfiguration` by @mdebbar in [145708](https://github.com/flutter/flutter/pull/145708)
 ### Material
+
 * [docs] Add document content related to chip shape by @asci-00 in [140015](https://github.com/flutter/flutter/pull/140015)
 * Update `chip_test.dart` tests for Material 3 by @TahaTesser in [140964](https://github.com/flutter/flutter/pull/140964)
 * Update  Chips and `ChipTheme` tests and  for Material 3 by @TahaTesser in [141022](https://github.com/flutter/flutter/pull/141022)
@@ -429,6 +443,7 @@ see our [CHANGELOG][].
 * Remove deprecated `TextTheme` members by @Renzo-Olivares in [139255](https://github.com/flutter/flutter/pull/139255)
 * Update `TabBar` and `TabBar.secondary` to use indicator height/color M3 tokens by @TahaTesser in [145753](https://github.com/flutter/flutter/pull/145753)
 ### iOS
+
 * Native assets: roll deps by @dcharkes in [141684](https://github.com/flutter/flutter/pull/141684)
 * Revert "Native assets: roll deps" by @Jasguerrero in [141748](https://github.com/flutter/flutter/pull/141748)
 * Native assets: package in framework on iOS and MacOS by @dcharkes in [140907](https://github.com/flutter/flutter/pull/140907)
@@ -441,10 +456,15 @@ see our [CHANGELOG][].
 * Print warning and exit when iOS device is unpaired by @jmagman in [144551](https://github.com/flutter/flutter/pull/144551)
 * Fixed race condition in PollingDeviceDiscovery. by @chingjun in [145506](https://github.com/flutter/flutter/pull/145506)
 ### Android
+
 * hello_world app: migrate to Gradle Kotlin DSL by @bartekpacia in [141541](https://github.com/flutter/flutter/pull/141541)
 ### Windows
+
 * Add check for Bank of Brazil security module to Windows Flutter Doctor validators by @yaakovschectman in [141135](https://github.com/flutter/flutter/pull/141135)
 ### Tooling
+
+### 工具
+
 * Native assets support for Android Add2app by @dcharkes in [140802](https://github.com/flutter/flutter/pull/140802)
 * Replace deprecated `exists` in podhelper.rb by @stuartmorgan in [141169](https://github.com/flutter/flutter/pull/141169)
 * Unpin package:vm_service by @derekxu16 in [141279](https://github.com/flutter/flutter/pull/141279)
@@ -579,9 +599,15 @@ see our [CHANGELOG][].
 * Be tolerant of backticks around directory name in `pub` output. by @eyebrowsoffire in [145768](https://github.com/flutter/flutter/pull/145768)
 * Roll pub packages and regenerate gradle lockfiles by @christopherfujino in [145727](https://github.com/flutter/flutter/pull/145727)
 ### Documentation
+
+### 文档
+
 * bind missing add icon in platform_view example by @TJRoger in [132028](https://github.com/flutter/flutter/pull/132028)
 * [iOS] Fix naming in platform_view example by @cbracken in [144247](https://github.com/flutter/flutter/pull/144247)
 ### Other Changes
+
+### 其他变更
+
 * Shift mac Pixel 7 Pro tests to prod by @zanderso in [141142](https://github.com/flutter/flutter/pull/141142)
 * Bump github/codeql-action from 3.22.11 to 3.23.0 by @dependabot in [141132](https://github.com/flutter/flutter/pull/141132)
 * Run tests on iOS 16 or iOS 17 by @vashworth in [141178](https://github.com/flutter/flutter/pull/141178)
@@ -758,6 +784,9 @@ see our [CHANGELOG][].
 * [flutter_releases] Flutter beta 3.22.0-0.0.pre Framework Cherrypicks by @itsjustkevin in [146239](https://github.com/flutter/flutter/pull/146239)
 
 ## New Contributors
+
+## 新贡献者
+
 * @asci-00 made their first contribution in [140015](https://github.com/flutter/flutter/pull/140015)
 * @nikkivirtuoso made their first contribution in [140947](https://github.com/flutter/flutter/pull/140947)
 * @SharbelOkzan made their first contribution in [135578](https://github.com/flutter/flutter/pull/135578)
@@ -794,9 +823,16 @@ see our [CHANGELOG][].
 
 **Full Changelog**: https://github.com/flutter/flutter/compare/3.19.0...3.22.0-0.1.pre
 
+**完整变更日志**： https://github.com/flutter/flutter/compare/3.19.0...3.22.0-0.1.pre
+
+
 ## Engine
 
+## 引擎
+
+
 ### Impeller
+
 * [Impeller] new blur: chop off blur extremities by @gaaclarke in [49574](https://github.com/flutter/engine/pull/49574)
 * [Flutter GPU] Shader bundle improvements: Uniform structs & member offset reflection, GLES metadata, separate from runtime stage. by @bdero in [49485](https://github.com/flutter/engine/pull/49485)
 * [Impeller] Start and end a frame in the RenderTargetCache for each rendering of an entity in the playgrounds by @jason-simmons in [49576](https://github.com/flutter/engine/pull/49576)
@@ -1060,6 +1096,7 @@ see our [CHANGELOG][].
 * [Impeller] correct multisample resolve/store configuration for Vulkan. by @jonahwilliams in [51740](https://github.com/flutter/engine/pull/51740)
 * Reverts "[Impeller] adds a `plus` advanced blend for f16 pixel formats (#51589)" by @auto-submit in [51741](https://github.com/flutter/engine/pull/51741)
 ### Android
+
 * Resize the RenderTarget before creating and passing its Surface to the VirtualDisplay by @johnmccutchan in [49619](https://github.com/flutter/engine/pull/49619)
 * Simplify PlatformViewRenderTarget interface by @johnmccutchan in [49639](https://github.com/flutter/engine/pull/49639)
 * Make `shell/platform/android` IDE-friendly, and add documentation by @matanlurey in [49612](https://github.com/flutter/engine/pull/49612)
@@ -1129,6 +1166,7 @@ see our [CHANGELOG][].
 * Platform channel for predictive back in route transitions on android by @maRci002 in [49093](https://github.com/flutter/engine/pull/49093)
 * Make EmbedderExternalViewEmbedder present to the correct view by @dkwingsmt in [51719](https://github.com/flutter/engine/pull/51719)
 ### iOS
+
 * Remove iOS 12 availability checks by @jmagman in [49771](https://github.com/flutter/engine/pull/49771)
 * [macOS] Fix: Memory sanitizer violated when encoding indirect strings by @dkwingsmt in [49995](https://github.com/flutter/engine/pull/49995)
 * Log FlutterJSONMessageCodec decode errors before asserting by @jmagman in [50163](https://github.com/flutter/engine/pull/50163)
@@ -1144,6 +1182,7 @@ see our [CHANGELOG][].
 * [iOS] remove arbitrary framerate cap. by @jonahwilliams in [51663](https://github.com/flutter/engine/pull/51663)
 * [ios]ignore single edge pixel instead of rounding by @hellohuanlin in [51687](https://github.com/flutter/engine/pull/51687)
 ### Web
+
 * Refactor flutter.js to do dart2wasm bootstrapping and CanvasKit/Skwasm preloading. by @eyebrowsoffire in [49037](https://github.com/flutter/engine/pull/49037)
 * [web] Leave blob URLs untouched in TT policy. by @ditman in [49782](https://github.com/flutter/engine/pull/49782)
 * [web] fix ==/hashCode/toString for several classes across renderers by @yjbanov in [49786](https://github.com/flutter/engine/pull/49786)
@@ -1235,6 +1274,9 @@ see our [CHANGELOG][].
 * Prevent `solo: true` from being committed by @mdebbar in [51712](https://github.com/flutter/engine/pull/51712)
 * [skwasm] Use text position affinity when calculating word boundaries. by @eyebrowsoffire in [51753](https://github.com/flutter/engine/pull/51753)
 ### Desktop
+
+### 桌面端
+
 * Fix macOS text composing by @LongCatIsLooong in [49314](https://github.com/flutter/engine/pull/49314)
 * [Windows] Add README by @loic-sharma in [49779](https://github.com/flutter/engine/pull/49779)
 * [Windows] Remove unnecessary statics in keyboard by @loic-sharma in [49834](https://github.com/flutter/engine/pull/49834)
@@ -1282,6 +1324,9 @@ see our [CHANGELOG][].
 * [macOS] Disable FlutterEngineTest.CanOverrideBackgroundColor by @cbracken in [51669](https://github.com/flutter/engine/pull/51669)
 * [macOS] Consolidate FlutterViewController static types/data by @cbracken in [51486](https://github.com/flutter/engine/pull/51486)
 ### Other Changes
+
+### 其他变更
+
 * Enforce consistent stack size for Flutter threads by @knopp in [49111](https://github.com/flutter/engine/pull/49111)
 * Fix memory leaks in some embedder unit tests that send key events by @jason-simmons in [49548](https://github.com/flutter/engine/pull/49548)
 * When building clang-tidy commands, filter out the sed command that may be appended to each compile command by @jason-simmons in [49605](https://github.com/flutter/engine/pull/49605)
@@ -1595,6 +1640,9 @@ see our [CHANGELOG][].
 * [flutter_releases] Flutter beta 3.22.0-0.0.pre Engine Cherrypicks by @itsjustkevin in [51851](https://github.com/flutter/engine/pull/51851)
 
 ## New Contributors
+
+## 新贡献者
+
 * @zijiehe-google-com made their first contribution in [49650](https://github.com/flutter/engine/pull/49650)
 * @iinozemtsev made their first contribution in [49598](https://github.com/flutter/engine/pull/49598)
 * @hasali19 made their first contribution in [49784](https://github.com/flutter/engine/pull/49784)
@@ -1609,3 +1657,6 @@ see our [CHANGELOG][].
 * @Breakthrough made their first contribution in [51447](https://github.com/flutter/engine/pull/51447)
 
 **Full Changelog**: https://github.com/flutter/engine/compare/3.19.0...3.22.0-0.1.pre
+
+**完整变更日志**： https://github.com/flutter/engine/compare/3.19.0...3.22.0-0.1.pre
+
