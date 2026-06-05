@@ -1,34 +1,60 @@
 ---
-title: IconData class marked as final
+# title: IconData class marked as final
+title: IconData 类标记为 final
+# description: >-
+#   The IconData class is now marked as final,
+#   preventing it from being extended or implemented.
 description: >-
-  The IconData class is now marked as final,
-  preventing it from being extended or implemented.
+  IconData 类现在标记为 final，
+  阻止被扩展或实现。
+ai-translated: true
 ---
 
 {% render "docs/breaking-changes.md" %}
 
+
+
 ## Summary
+
+## 摘要
 
 The `IconData` class is now marked as [`final`][],
 which prevents it from being implemented or extended.
 This change is part of an effort to generalize the
 mechanism for tree-shaking assets and native code.
 
+`IconData` 类现在标记为 [`final`][],
+阻止被实现或扩展。
+此变更是泛化 tree-shaking asset 和原生代码机制的一部分。
+
 [`final`]: {{site.dart-site}}/language/class-modifiers#final
 
 ## Background
+
+## 背景
 
 The Flutter team is working on a generalized mechanism to
 bring tree-shaking of assets and native code to packages.
 The existing bespoke Icon Tree Shaker is
 being folded into this general mechanism.
 
+Flutter 团队正在开发泛化机制，
+将 asset 和原生代码的 tree-shaking 引入 package。
+现有的定制 Icon Tree Shaker 正被纳入此泛化机制。
+
 For performance, locality, and understandability, the general mechanism doesn't
 support recording `const` instances in complex type hierarchies.
 Therefore, the `IconData` class is now marked as `final`.
 
+出于性能、局部性和可理解性，泛化机制不支持
+在复杂类型层次结构中记录 `const` 实例。
+因此，`IconData` 类现在标记为 `final`。
+
 Code that implements or extends `IconData` now
 fails to compile with the following error:
+
+实现或扩展 `IconData` 的代码现在
+编译失败并显示以下错误：
 
 ```text
 The class 'IconData' is 'final' and can't be extended or implemented outside of its library.
@@ -36,17 +62,30 @@ The class 'IconData' is 'final' and can't be extended or implemented outside of 
 
 ## Migration guide
 
+## 迁移指南
+
 Instead of implementing `IconData`,
 such as with an `enum` that supports dot shorthand,
 type safety, and an automated `.values` list,
 use a wrapper class with `static const` instances.
 
+不要实现 `IconData`，
+例如支持点简写、类型安全和自动 `.values` 列表的 `enum`，
+请使用带有 `static const` 实例的包装类。
+
 ### Migrating custom icon types
+
+### 迁移自定义图标类型
 
 If you used an `enum` that implements `IconData`,
 migrate to a class with `static const` instances and a custom widget.
 
+如果你使用了实现 `IconData` 的 `enum`，
+请迁移到带有 `static const` 实例和自定义 widget 的类。
+
 Code before migration:
+
+迁移前的代码：
 
 ```dart
 enum AppIcons implements IconData {
@@ -77,7 +116,12 @@ Widget build(BuildContext context) {
 To maintain dot shorthand support and type safety,
 use a wrapper class and a custom widget.
 
+要保持点简写支持和类型安全，
+请使用包装类和自定义 widget。
+
 Code after migration:
+
+迁移后的代码：
 
 ```dart
 final class AppIconData {
@@ -116,13 +160,24 @@ If you rely on `.values` for tools like Widgetbook,
 you can maintain the `values` list manually as shown in
 the previous example or use code generation.
 
+如果你依赖 `.values` 用于 Widgetbook 等工具，
+可以如前一示例所示手动维护 `values` 列表，或使用代码生成。
+
 ### Ignore the `mustBeConst` lint
+
+### 忽略 `mustBeConst` lint
 
 To enable tree-shaking, some `IconData` parameters are
 marked with the `mustBeConst` annotation.
 If you must use a non-const `IconData` and
 are willing to forgo tree-shaking for that icon,
 add an ignore comment for the lint.
+
+要启用 tree-shaking，部分 `IconData` 参数
+标记了 `mustBeConst` 注解。
+如果你必须使用非 const `IconData` 且
+愿意放弃该图标的 tree-shaking，
+请为 lint 添加 ignore 注释。
 
 ```dart
 // ignore: non_const_argument_for_const_parameter
@@ -131,19 +186,36 @@ Icon(myDynamicIconData);
 
 ## Timeline
 
+## 时间线
+
 Landed in version: 3.44.0-0.1.pre<br>
 In stable release: 3.44
 
+合入版本：3.44.0-0.1.pre<br>
+稳定版发布：3.44
+
 ## References
+
+## 参考资料
 
 Relevant PR:
 
+相关 PR：
+
 * [Mark `IconData` `final` and `@mustBeConst`][pr-181345]
+
+  将 `IconData` 标记为 `final` 和 `@mustBeConst`
 
 Relevant issues:
 
+相关 issue：
+
 * [Breaking Change: Marking `class IconData` as `final`][issue-181342]
+
+  破坏性变更：将 `class IconData` 标记为 `final`
 * [Marking `IconData`'s constructor parameters as `@mustBeConst`][issue-181344]
+
+  将 `IconData` 的构造函数参数标记为 `@mustBeConst`
 
 [pr-181345]: {{site.repo.flutter}}/pull/181345
 [issue-181342]: {{site.repo.flutter}}/issues/181342

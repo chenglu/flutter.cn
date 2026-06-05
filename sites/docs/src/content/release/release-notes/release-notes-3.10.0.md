@@ -1,17 +1,29 @@
 ---
-title: Flutter 3.10.0 release notes
-shortTitle: 3.10.0 release notes
-description: Release notes for Flutter 3.10.0.
+# title: Flutter 3.10.0 release notes
+title: Flutter 3.10.0 发行说明
+# shortTitle: 3.10.0 release notes
+shortTitle: 3.10.0 发行说明
+# description: Release notes for Flutter 3.10.0.
+description: Flutter 3.10.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.10.0.
 For information about subsequent bug-fix releases,
 see our [CHANGELOG][].
 
+此页面包含 3.10.0 的发行说明。
+有关后续错误修复版本的信息，
+请参阅我们的 [CHANGELOG][]。
+
+
 [CHANGELOG]: https://github.com/flutter/flutter/blob/main/CHANGELOG.md
 
 ## Framework
+
+## 框架
+
 
 * Tweak directional focus traversal by @gspencergoog in [116230](https://github.com/flutter/flutter/pull/116230)
 * [framework] make ImageFiltered a repaint boundary by @jonahwilliams in [116385](https://github.com/flutter/flutter/pull/116385)
@@ -576,6 +588,9 @@ see our [CHANGELOG][].
 * Cherry Pick Spell Check Fixes by @justinmc in [125517](https://github.com/flutter/flutter/pull/125517)
 * [CP] Integration tests support AGP 8.0 by @reidbaker in [125686](https://github.com/flutter/flutter/pull/125686)
 ### Tooling
+
+### 工具
+
 * [gen_l10n] keys can contain dollar sign by @asashour in [114808](https://github.com/flutter/flutter/pull/114808)
 * [tools]build ipa validate launch image using template files by @hellohuanlin in [116242](https://github.com/flutter/flutter/pull/116242)
 * [flutter_tools] Pin path_provider_android and roll pub packages by @christopherfujino in [116377](https://github.com/flutter/flutter/pull/116377)
@@ -806,10 +821,16 @@ see our [CHANGELOG][].
 * flutter tool: log dart2wasm vs dart2js as appropriate during build by @kevmoo in [124331](https://github.com/flutter/flutter/pull/124331)
 * [Cp] analytics update by @eliasyishak in [125445](https://github.com/flutter/flutter/pull/125445)
 ### MacOS
+
+### macOS
+
 * Remove macOS impeller benchmarks by @jmagman in [118917](https://github.com/flutter/flutter/pull/118917)
 * Verify Mac artifact codesigning on x64 and arm64 by @jmagman in [119971](https://github.com/flutter/flutter/pull/119971)
 
 ## New Contributors
+
+## 新贡献者
+
 * @parlough made their first contribution in [116474](https://github.com/flutter/flutter/pull/116474)
 * @ivirtex made their first contribution in [110127](https://github.com/flutter/flutter/pull/110127)
 * @Dev-dfm made their first contribution in [110854](https://github.com/flutter/flutter/pull/110854)
@@ -870,7 +891,13 @@ see our [CHANGELOG][].
 
 **Full Changelog**: https://github.com/flutter/flutter/compare/3.7.0...3.10.0-1.5.pre
 
+**完整变更日志**： https://github.com/flutter/flutter/compare/3.7.0...3.10.0-1.5.pre
+
+
 ## Engine
+
+## 引擎
+
 
 * Roll Skia from 6f6793b298ff to b273c4c744be (1 revision) by @skia-flutter-autoroll in [38009](https://github.com/flutter/engine/pull/38009)
 * [Impeller Scene] Add offline mesh importer by @bdero in [37981](https://github.com/flutter/engine/pull/37981)
@@ -2778,6 +2805,9 @@ see our [CHANGELOG][].
 * [flutter_releases] Flutter beta 3.10.0-1.5.pre Engine Cherrypicks by @Jasguerrero in [41670](https://github.com/flutter/engine/pull/41670)
 
 ## New Contributors
+
+## 新贡献者
+
 * @Kingtous made their first contribution in [36143](https://github.com/flutter/engine/pull/36143)
 * @DenisovAV made their first contribution in [37493](https://github.com/flutter/engine/pull/37493)
 * @endless7 made their first contribution in [37107](https://github.com/flutter/engine/pull/37107)
@@ -2795,3 +2825,6 @@ see our [CHANGELOG][].
 * @thomasgales made their first contribution in [40736](https://github.com/flutter/engine/pull/40736)
 
 **Full Changelog**: https://github.com/flutter/engine/compare/3.7.4...3.10.0-1.5.pre
+
+**完整变更日志**： https://github.com/flutter/engine/compare/3.7.4...3.10.0-1.5.pre
+

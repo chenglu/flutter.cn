@@ -1,19 +1,34 @@
 ---
-title: Flutter 3.29.0 release notes
-shortTitle: 3.29.0 release notes
-description: Release notes for Flutter 3.29.0.
+# title: Flutter 3.29.0 release notes
+title: Flutter 3.29.0 发行说明
+# shortTitle: 3.29.0 release notes
+shortTitle: 3.29.0 发行说明
+# description: Release notes for Flutter 3.29.0.
+description: Flutter 3.29.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.29.0.
 For information about subsequent bug-fix releases,
 check out the Flutter [CHANGELOG][].
 
+此页面包含 3.29.0 的发行说明。
+有关后续错误修复版本的信息，
+请查看 Flutter [CHANGELOG][]。
+
+
 [CHANGELOG]: https://github.com/flutter/flutter/blob/main/CHANGELOG.md
 
 ## Flutter framework
 
+## Flutter 框架
+
+
 ### Framework
+
+### 框架
+
 
 * Remove `gradle_deprecated_settings` test app, and remove reference from lockfile exclusion yaml by @gmackall in 161622
 * Check that localization files of stocks app are up-to-date by @goderbauer in 161608

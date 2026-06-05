@@ -1,8 +1,12 @@
 ---
-title: Flutter 3.35.0 release notes
-shortTitle: 3.35.0 release notes
-description: Release notes for Flutter 3.35.0.
+# title: Flutter 3.35.0 release notes
+title: Flutter 3.35.0 发行说明
+# shortTitle: 3.35.0 release notes
+shortTitle: 3.35.0 发行说明
+# description: Release notes for Flutter 3.35.0.
+description: Flutter 3.35.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.35.0.
@@ -13,7 +17,13 @@ check out the Flutter [CHANGELOG][].
 
 ## What's changed
 
+## 变更内容
+
+
 ### Framework
+
+### 框架
+
 
 * Fix TreeSliver rendering offset. by @yiiim in [166442](https://github.com/flutter/flutter/pull/166442)
 * SliverEnsureSemantics by @Renzo-Olivares in [165589](https://github.com/flutter/flutter/pull/165589)
@@ -208,6 +218,7 @@ check out the Flutter [CHANGELOG][].
 
 ### Material
 
+
 * fix(ListTileTheme): isThreeLine is missing. by @StanleyCocos in [165481](https://github.com/flutter/flutter/pull/165481)
 * Fix CarouselView demo page is not functional using mouse scroll by @huycozy in [166512](https://github.com/flutter/flutter/pull/166512)
 * Fix: Focus on leading icon when null by @whopavan in [164966](https://github.com/flutter/flutter/pull/164966)
@@ -373,6 +384,7 @@ check out the Flutter [CHANGELOG][].
 
 ### iOS
 
+
 * Add runtime flag for enable flutter_gpu, off by default. by @jonahwilliams in [165337](https://github.com/flutter/flutter/pull/165337)
 * [iOS/macOS] Add Xcode error if dev dependencies are incorrect by @loic-sharma in [165916](https://github.com/flutter/flutter/pull/165916)
 * Don't throw on error for mDNS when searching for Dart VML url on core devices by @vashworth in [167135](https://github.com/flutter/flutter/pull/167135)
@@ -426,6 +438,7 @@ check out the Flutter [CHANGELOG][].
 * [CP-beta]Revert #160653 Fix view removal process for AutofillContextAction.cancel by @flutteractionsbot in [172675](https://github.com/flutter/flutter/pull/172675)
 
 ### Android
+
 
 * [Impeller] Speed up vulkan startup time by re-using existing vulkan context. by @jonahwilliams in [166784](https://github.com/flutter/flutter/pull/166784)
 * Reverts "[Impeller] Speed up vulkan startup time by re-using existing vulkan context. (#166784)" by @auto-submit[bot] in [166938](https://github.com/flutter/flutter/pull/166938)
@@ -486,6 +499,7 @@ check out the Flutter [CHANGELOG][].
 
 ### Windows
 
+
 * [Windows] Enable merged platform and UI thread by default by @knopp in [163726](https://github.com/flutter/flutter/pull/163726)
 * Revert "[Windows] Enable merged platform and UI thread by default" by @loic-sharma in [167420](https://github.com/flutter/flutter/pull/167420)
 * Ignore stdout in WindowsTest.LaunchMainHasNoOutput by @jason-simmons in [167583](https://github.com/flutter/flutter/pull/167583)
@@ -498,6 +512,7 @@ check out the Flutter [CHANGELOG][].
 * Multi-window support (engine) by @knopp in [168728](https://github.com/flutter/flutter/pull/168728)
 
 ### Linux
+
 
 * [Linux] Merge UI And Platform thread by @knopp in [162671](https://github.com/flutter/flutter/pull/162671)
 * Fix uninitalized fields in FlutterWindowMetricsEvent by @robert-ancell in [168446](https://github.com/flutter/flutter/pull/168446)
@@ -513,6 +528,7 @@ check out the Flutter [CHANGELOG][].
 * Refactor compositor classes by @robert-ancell in [171414](https://github.com/flutter/flutter/pull/171414)
 
 ### Web
+
 
 * Remove package:macros and package:_macros from pubspec.yaml by @alexmarkov in [166749](https://github.com/flutter/flutter/pull/166749)
 * [web:skwasm] be consistent about handling imbalanced layer push/pop sequence by @yjbanov in [166887](https://github.com/flutter/flutter/pull/166887)
@@ -551,6 +567,9 @@ check out the Flutter [CHANGELOG][].
 * [web] Delete unused files in the engine by @harryterkelsen in [172035](https://github.com/flutter/flutter/pull/172035)
 
 ### Tooling
+
+### 工具
+
 
 * Allow dart pub deps --json to fail without causing an explicit crash. by @matanlurey in [166778](https://github.com/flutter/flutter/pull/166778)
 * Roll pub packages by @flutter-pub-roller-bot in [166779](https://github.com/flutter/flutter/pull/166779)
@@ -758,10 +777,16 @@ check out the Flutter [CHANGELOG][].
 
 ### Documentation
 
+### 文档
+
+
 * Adding utf-8 encoding to hello world's html template by @Markzipan in [168162](https://github.com/flutter/flutter/pull/168162)
 * Update hello_world example to current layout flutter create uses by @robert-ancell in [168571](https://github.com/flutter/flutter/pull/168571)
 
 ### Other changes
+
+### 其他变更
+
 
 * Re-disable microbenchmarks iOS. by @jonahwilliams in [166788](https://github.com/flutter/flutter/pull/166788)
 * [Impeller] disable no decal metal test. by @jonahwilliams in [166771](https://github.com/flutter/flutter/pull/166771)
@@ -1090,6 +1115,9 @@ check out the Flutter [CHANGELOG][].
 * Update engine.version again for 3.35-0.2 by @eyebrowsoffire in [173116](https://github.com/flutter/flutter/pull/173116)
 
 ## New contributors
+
+## 新贡献者
+
 
 * @vially made their first contribution in [164455](https://github.com/flutter/flutter/pull/164455)
 * @whopavan made their first contribution in [164966](https://github.com/flutter/flutter/pull/164966)

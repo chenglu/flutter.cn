@@ -1,8 +1,12 @@
 ---
-title: Flutter 1.12.13 release notes
-shortTitle: 1.12.13 release notes
-description: Release notes for Flutter 1.12.13.
+# title: Flutter 1.12.13 release notes
+title: Flutter 1.12.13 发行说明
+# shortTitle: 1.12.13 release notes
+shortTitle: 1.12.13 发行说明
+# description: Release notes for Flutter 1.12.13.
+description: Flutter 1.12.13 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 Welcome to Flutter 1.12, our biggest stable release so far!
@@ -16,28 +20,67 @@ release to support Catalina). In the recent
 [GitHub Octoverse report][],
 Flutter is listed as one of the top 3 active repos on GitHub!
 
+欢迎来到 Flutter 1.12，这是我们迄今为止最大的稳定版本！在此版本中，我们合并了来自 188 位贡献者（包括 Google 员工和非 Google 贡献者）的 1,905 个 Pull 请求！请参阅下表了解每个版本中 PR 的数量。在过去的一年里，每个版本中 PR 的数量都在增长（Flutter 1.9 除外，它是支持 Catalina 的带外版本）。在最近的[GitHub Octoverse report][], Flutter 被列为 GitHub 上最活跃的 3 个存储库之一！
+
+
 As the holiday season is upon us, we would like to express
 our sincerest appreciation to our amazing developer community
 who believe in Flutter, advocate for Flutter, and contribute to Flutter.
 It's been an incredible year for us all! We look forward to
 working with you in the years to come.
 
+假期即将来临，我们谨向相信 Flutter、倡导 Flutter 并为 Flutter 做出贡献的优秀开发者社区表示最诚挚的谢意。对于我们所有人来说，这是令人难以置信的一年！我们期待在未来的岁月里与你合作。
+
+
 As always, you can find interesting PRs listed below.
 And there are lots of interesting things to mention in this
 release, including:
 
+与往常一样，你可以找到下面列出的有趣的 PR。此版本中有很多有趣的事情值得一提，包括：
+
+
 *   Some breaking API changes
+
+  一些重大 API 更改
+
 *   Some severe issues caught and fixed
+
+  一些严重的 issues 被捕获并修复
+
 *   Web support is now available in the beta channel
+
+  Web 支持现已在测试版通道中提供
+
 *   MacOS support is enabled in the dev channel as of 1.13
+
+  自 1.13 起，开发通道中启用了 MacOS 支持
+
 *   Improved SDK to add Flutter to existing Android/iOS apps
+
+  改进了 SDK，将 Flutter 添加到现有 Android/iOS 应用程序
+
 *   iOS 13 visual refresh including the support for iOS Dark mode
+
+  iOS 13 次视觉刷新，包括对 iOS 深色模式的支持
+
 *   Enhanced tooling experiences
+
+  增强的工具体验
+
 *   New widgets and features
+
+  新 widget 和功能
+
 *   And more!
+
+  还有更多！
+
 
 
 ## Breaking changes
+
+## 重大变化
+
 
 In general, we want to avoid introducing breaking changes to Flutter,
 our plugins, or our packages. However, sometimes it is inevitable
@@ -48,9 +91,15 @@ For more information, see [this post from Ian Hickson][]
 on [flutter-announce][] and the
 [breaking change policy on the Flutter wiki][].
 
+一般来说，我们希望避免对 Flutter、我们的插件或我们的包引入重大更改。然而，有时当我们需要使 API 更加直观时，这是不可避免的。我们实施了一个新流程，邀请你提交测试以帮助我们检测重大更改。有关更多信息，请参阅[this post from Ian Hickson][]在[flutter-announce][]和[breaking change policy on the Flutter wiki][].
+
+
 The following list includes breaking changes in this release.
 Please see the related announcements so that you can move
 forward with your code.
+
+以下列表包含此版本中的重大更改。请参阅相关公告，以便你可以继续编写你的代码。
+
 
 [37024]({{site.repo.flutter}}/pull/37024) [Implement PageView using SliverLayoutBuilder, Deprecate RenderSliverFillViewport](https://groups.google.com/g/flutter-announce/c/1CUo2GCjrD4/m/VGKsyVirFQAJ)
 
@@ -91,7 +140,13 @@ forward with your code.
 
 ## Severe crash & performance bugs
 
+## 严重崩溃和性能错误
+
+
 In every stable release, we make an effort to improve the quality of Flutter. In 1.12, we fixed several severe issues; this includes the following  crashes and performance issues.
+
+在每个稳定版本中，我们都努力提高 Flutter 的质量。在1.12中，我们修复了几个严重的issues；这包括以下崩溃和性能 issues。
+
 
 [40009]({{site.repo.flutter}}/pull/40009) Add null check to _IndicatorPainter._tabOffsetsEqual() to prevent crash
 
@@ -118,11 +173,17 @@ In every stable release, we make an effort to improve the quality of Flutter. In
 
 ## New features
 
+## 新功能
+
+
 Flutter 1.12 introduces several new features including the
 [SliverOpacity]({{site.api}}/flutter/widgets/SliverOpacity-class.html)
 widget, the
 [SliverAnimatedList]({{site.api}}/flutter/widgets/SliverAnimatedList-class.html),
 and the ability to configure a stretch effect for a SliverAppBar.
+
+Flutter 1.12 引入了几个新功能，包括[SliverOpacity]({{site.api}}/flutter/widgets/SliverOpacity-class.html)widget，[SliverAnimatedList]({{site.api}}/flutter/widgets/SliverAnimatedList-class.html)，以及为 SliverAppBar 配置拉伸效果的能力。
+
 
 [37416]({{site.repo.flutter}}/pull/37416) Add MediaQuery.systemGestureInsets to support Android Q
 
@@ -151,6 +212,9 @@ and the ability to configure a stretch effect for a SliverAppBar.
 
 ## iOS support
 
+## iOS 支持
+
+
 iOS continues to be a big investment area for Flutter.
 With this release, we've made a visual refresh to our
 Cupertino library to match the iOS 13 look. We now support
@@ -160,6 +224,9 @@ and [CupertinoSlidingSegmentedControl]({{site.api}}/flutter/cupertino/CupertinoS
 and made improvements to segmented control widgets,
 [CupertinoAlertDialog]({{site.api}}/flutter/cupertino/CupertinoAlertDialog-class.html),
 and [CupertinoDatePicker]({{site.api}}/flutter/cupertino/CupertinoDatePicker-class.html)
+
+iOS 仍然是 Flutter 的一个重要投资领域。在此版本中，我们对 Cupertino 库进行了视觉刷新，以匹配 iOS 13 外观。我们现在在 Cupertino widgets 中支持深色模式，添加了两个新的 widgets，称为[CupertinoContextMenu]({{site.api}}/flutter/cupertino/CupertinoContextMenu-class.html)和[CupertinoSlidingSegmentedControl]({{site.api}}/flutter/cupertino/CupertinoSlidingSegmentedControl-class.html)，并对分段控制 widgets 进行了改进，[CupertinoAlertDialog]({{site.api}}/flutter/cupertino/CupertinoAlertDialog-class.html)， 和[CupertinoDatePicker]({{site.api}}/flutter/cupertino/CupertinoDatePicker-class.html)
+
 
 [36871]({{site.repo.flutter}}/pull/36871) Audit use of defaultTargetPlatform
 
@@ -330,7 +397,13 @@ and [CupertinoDatePicker]({{site.api}}/flutter/cupertino/CupertinoDatePicker-cla
 
 ## Android
 
+## Android
+
+
 In this release, we've merged a list of changes to support Android 10, including a new activity zoom transition.
+
+在此版本中，我们合并了一系列更改以支持 Android 10，包括新的活动缩放过渡。
+
 
 [37526]({{site.repo.flutter}}/pull/37526) catch errors during gradle update
 
@@ -399,7 +472,13 @@ In this release, we've merged a list of changes to support Android 10, including
 
 ## Add to App feature
 
+## 添加到应用程序功能
+
+
 We've made a significant upgrade to Add-to-App, the feature that allows you to integrate a Flutter module into your Android or iOS app. Can't wait to try it? Check out the [Add-to-App documentation](/add-to-app).
+
+我们对“添加到应用程序”进行了重大升级，该功能让你将 Flutter 模块集成到 Android 或 iOS 应用程序中。迫不及待想尝试一下吗？查看[Add-to-App documentation](/add-to-app).
+
 
 [41666]({{site.repo.flutter}}/pull/41666) Generate projects using the new Android embedding
 
@@ -954,11 +1033,17 @@ We've made a significant upgrade to Add-to-App, the feature that allows you to i
 
 ## Material
 
+## 材料
+
+
 Material continues to a focus for the Flutter team.
 In this release, we refreshed all Material widgets
 with dark mode support. Also, we added support for
 extending the height of the Scaffold's body behind
 the app bar, which was contributed by a community member!
+
+材料仍然是 Flutter 团队的重点。在此版本中，我们刷新了所有材质 widget 并支持深色模式。此外，我们还添加了对扩展应用栏后面脚手架主体高度的支持，这是由社区成员贡献的！
+
 
 [36998]({{site.repo.flutter}}/pull/36998) Added properties in DropdownButtonFormField to match DropdownButton
 
@@ -1103,7 +1188,13 @@ the app bar, which was contributed by a community member!
 
 ## Text & Accessibility
 
+## 文本和辅助功能
+
+
 In Text and Accessibility, we have several enhancements in ButtonBar and AlertDialog to prevent text overflow.
+
+在文本和辅助功能中，我们对 ButtonBar 和 AlertDialog 进行了多项增强，以防止文本溢出。
+
 
 [40468]({{site.repo.flutter}}/pull/40468) Propagate textfield character limits to semantics
 
@@ -1126,10 +1217,16 @@ In Text and Accessibility, we have several enhancements in ButtonBar and AlertDi
 
 ## Animation & Scroll
 
+## 动画和滚动
+
+
 For animation, we released the
 [TweenAnimationBuilder]({{site.api}}/flutter/widgets/TweenAnimationBuilder-class.html)
 for building custom implicit animations. For more information,
 check out this [TweenAnimationBuilder video](https://www.youtube.com/watch?reload=9&v=6KiPEqzJIKQ) on Youtube.
+
+对于动画，我们发布了[TweenAnimationBuilder]({{site.api}}/flutter/widgets/TweenAnimationBuilder-class.html)用于构建自定义隐式动画。欲了解更多信息，请查看此[TweenAnimationBuilder video](https://www.youtube.com/watch?reload=9&v=6KiPEqzJIKQ)在 YouTube 上。
+
 
 [38317]({{site.repo.flutter}}/pull/38317) TweenAnimationBuilder for building custom animations without managing an AnimationController
 
@@ -1144,7 +1241,13 @@ check out this [TweenAnimationBuilder video](https://www.youtube.com/watch?reloa
 
 ## Web
 
+## Web
+
+
 We increased our support for web, moving it from the dev channel to the beta channel. For more details, please check [web support blog post](https://blog.flutter.dev/web-support-for-flutter-goes-beta-35b64a1217c0).
+
+我们增加了对网络的支持，将其从开发通道转移到测试通道。欲了解更多详情，请查看[web support blog post](https://blog.flutter.dev/web-support-for-flutter-goes-beta-35b64a1217c0).
+
 
 [37819]({{site.repo.flutter}}/pull/37819) Add HtmlElementView (the Flutter Web platform view)
 
@@ -1359,8 +1462,14 @@ We increased our support for web, moving it from the dev channel to the beta cha
 
 ## Desktop
 
+## 桌面
+
+
 We are also moving macOS support from tech preview to alpha,
 enabling it in the dev channel.
+
+我们还将 macOS 支持从技术预览版移至 alpha，在开发通道中启用它。
+
 
 [37901]({{site.repo.flutter}}/pull/37901) [macos] Check for special keys before creating a logical key
 
@@ -1475,7 +1584,13 @@ enabling it in the dev channel.
 
 ## Framework
 
+## 框架
+
+
 We've fixed many bugs in this release to improve the quality and stability of our framework.
+
+我们在此版本中修复了许多错误，以提高框架的质量和稳定性。
+
 
 [38643]({{site.repo.flutter}}/pull/38643) PlatformViewLink handles focus
 
@@ -1612,7 +1727,13 @@ We've fixed many bugs in this release to improve the quality and stability of ou
 
 ## Engine
 
+## 引擎
+
+
 In this update, the core engine continues to see many improvements, including a fix that solves the long-requested scrolling performance issue on iPhoneX/Xs.
+
+在此更新中，核心引擎继续得到许多改进，包括解决了 iPhoneX/Xs 上长期以来要求的滚动性能 issue 的修复。
+
 
 [9386]({{site.repo.engine}}/pull/9386) [glfw] Send the glfw key data to the framework.
 
@@ -2335,6 +2456,9 @@ In this update, the core engine continues to see many improvements, including a 
 
 ## Plugins
 
+## 插件
+
+
 We have made significant improvements in our plugins.
 We upgraded a set of plugins to support web development.
 Also, to support Add to App scenarios,
@@ -2344,6 +2468,9 @@ If you are currently maintaining an Android plugin.
 We encourage you to check the
 [Migrating your plugin to the new APIs][] documentation,
 and upgrade your plugins accordingly.
+
+我们对插件进行了重大改进。我们升级了一组插件来支持 Web 开发。此外，为了支持“添加到应用程序”场景，我们提供了一组新的 API，可供现有 Android 插件升级。如果你当前正在维护 Android 插件。我们鼓励你检查[Migrating your plugin to the new APIs][]文档，并相应地升级你的插件。
+
 
 [Migrating your plugin to the new APIs]: /release/breaking-changes/plugin-api-migration
 
@@ -2388,17 +2515,29 @@ and upgrade your plugins accordingly.
 
 #### Plugin: Android Alarm Manager
 
+#### 插件：Android 报警管理器
+
+
 We added the ability to get id in the callback in the Android Alarm Manager plugin.
+
+我们在 Android 警报管理器插件的回调中添加了获取 id 的功能。
+
 
 [1985]({{site.github}}/flutter/plugins/pull/1985) [android_alarm_manager] Added ability to get id in the callback
 
 
 #### Plugin: Android Intent
 
+#### 插件：Android 意图
+
+
 We made several improvements in the Android Intent plugin
 including adding the ability to pass intent flags
 (contributed by a community member!),
 and upgrading it to the [new plugin API][].
+
+我们对 Android Intent 插件进行了多项改进，包括添加传递意图标志的功能（由社区成员贡献！），并将其升级到[new plugin API][].
+
 
 [new plugin API]: /release/breaking-changes/plugin-api-migration
 
@@ -2419,15 +2558,27 @@ and upgrading it to the [new plugin API][].
 
 #### Plugin: Battery
 
+#### 插件：电池
+
+
 General bug fix in the Battery plugin.
+
+电池插件中的一般错误修复。
+
 
 [2189]({{site.github}}/flutter/plugins/pull/2189) [battery] relax the example app minimal required Flutter version
 
 
 #### Plugin: Camera
 
+#### 插件：相机
+
+
 We upgraded the Camera plugin to the
 [new plugin API][], and made some bug fixes.
+
+我们将相机插件升级为[new plugin API][]，并修复了一些错误。
+
 
 [2057]({{site.github}}/flutter/plugins/pull/2057) [Camera] Fixes NullPointerException
 
@@ -2438,7 +2589,13 @@ We upgraded the Camera plugin to the
 
 #### Plugin: Connectivity
 
+#### 插件：连接
+
+
 General bug fixes in the Connectivity plugin.
+
+连接插件中的一般错误修复。
+
 
 [2212]({{site.github}}/flutter/plugins/pull/2212) [connectivity]remove AndroidX constraint
 
@@ -2447,7 +2604,13 @@ General bug fixes in the Connectivity plugin.
 
 #### Plugin: e2e
 
+#### 插件：e2e
+
+
 General bug fixes in the e2e plugin.
+
+e2e 插件中的一般错误修复。
+
 
 [2022]({{site.github}}/flutter/plugins/pull/2022) [instrumentation_adapter] Update README instructions
 
@@ -2468,7 +2631,13 @@ General bug fixes in the e2e plugin.
 
 #### Plugin: Google Maps Flutter
 
+#### 插件：谷歌地图 Flutter
+
+
 We have made several improvements in the Google Maps plugin including adding support for displaying the traffic layer.
+
+我们对 Google 地图插件进行了多项改进，包括添加对显示交通层的支持。
+
 
 [1702]({{site.github}}/flutter/plugins/pull/1702) [google_maps_flutter]Marker drag event
 
@@ -2493,10 +2662,16 @@ We have made several improvements in the Google Maps plugin including adding sup
 
 #### Plugin: Google Sign In
 
+#### 插件：谷歌登录
+
+
 We made some bug fixes in Google Sign in plugin.
 Meanwhile, we converted it to a federated plugin
 to help it scale more efficiently to multiple platforms.
 For more information, refer to [Federated plugins][].
+
+我们在 Google 登录插件中修复了一些错误。同时，我们将其转换为联合插件，以帮助其更有效地扩展到多个平台。欲了解更多信息，请参阅[Federated plugins][].
+
 
 [Federated plugins]: /packages-and-plugins/developing-packages#federated-plugins
 
@@ -2513,7 +2688,13 @@ For more information, refer to [Federated plugins][].
 
 #### Plugin: Image Picker
 
+#### 插件：图像选择器
+
+
 General bug fixes in the Image Picker plugin.
+
+图像选择器插件中的一般错误修复。
+
 
 [2070]({{site.github}}/flutter/plugins/pull/2070) [image_picker] swap width and height when source image orientation is left or right
 
@@ -2522,7 +2703,13 @@ General bug fixes in the Image Picker plugin.
 
 #### Plugin: In App Purchase
 
+#### 插件：应用内购买
+
+
 General bug fixes in the In App Purchase plugin.
+
+应用内购买插件中的一般错误修复。
+
 
 [2014]({{site.github}}/flutter/plugins/pull/2014) [In_App_Purchase] Avoids possible NullPointerException with background registrations.
 
@@ -2535,7 +2722,13 @@ General bug fixes in the In App Purchase plugin.
 
 #### Plugin: Local Auth
 
+#### 插件：本地验证
+
+
 General bug fixes in the Local Auth plugin.
+
+本地身份验证插件中的一般错误修复。
+
 
 [2047]({{site.github}}/flutter/plugins/pull/2047) [local_auth] Avoid user confirmation on face unlock
 
@@ -2544,14 +2737,26 @@ General bug fixes in the Local Auth plugin.
 
 #### Plugin: Package Info
 
+#### 插件：包信息
+
+
 General bug fixes in the Package Info plugin.
+
+包信息插件中的一般错误修复。
+
 
 [2218]({{site.github}}/flutter/plugins/pull/2218) [package_info]remove AndroidX constraint
 
 
 #### Plugin: Path Provider
 
+#### 插件：路径提供者
+
+
 In the Path Provider plugin, we added getApplicationLibraryDirectory, which is contributed by a community member!
+
+在 Path Provider 插件中，我们添加了 getApplicationLibraryDirectory，这是由社区成员贡献的！
+
 
 [1953]({{site.github}}/flutter/plugins/pull/1953) [path_provider] add getApplicationLibraryDirectory
 
@@ -2562,14 +2767,26 @@ In the Path Provider plugin, we added getApplicationLibraryDirectory, which is c
 
 #### Plugin: Share
 
+#### 插件：分享
+
+
 Documentation update in the Share plugin.
+
+共享插件中的文档更新。
+
 
 [2297]({{site.github}}/flutter/plugins/pull/2297) [share] README update
 
 
 #### Plugin: Shared Preferences
 
+#### 插件：共享首选项
+
+
 General bug fixes in the Shared Preferences plugin.
+
+共享首选项插件中的一般错误修复。
+
 
 [2241]({{site.github}}/flutter/plugins/pull/2241) [Shared_preferences]suppress warnings
 
@@ -2578,11 +2795,17 @@ General bug fixes in the Shared Preferences plugin.
 
 #### Plugin: Url launcher
 
+#### 插件：URL 启动器
+
+
 We upgraded the Url launcher plugin to the [new plugin API][],
 and fixed some bugs. Meanwhile,
 we have converted the Url launcher into a federated plugin
 to help it scale more efficiently to multiple platforms.
 For more information, refer to [Federated plugins][].
+
+我们将 Url 启动器插件升级为[new plugin API][]，并修复了一些错误。同时，我们已将 Url 启动器转换为联合插件，以帮助其更有效地扩展到多个平台。欲了解更多信息，请参阅[Federated plugins][].
+
 
 [2038]({{site.github}}/flutter/plugins/pull/2038) [url_launcher] Removed reference to rootViewController during initialization
 
@@ -2601,11 +2824,17 @@ For more information, refer to [Federated plugins][].
 
 #### Plugin: Video Player
 
+#### 插件：视频播放器
+
+
 We upgraded the Video Player plugin to the [new plugin API][],
 and made some bug fixes. Meanwhile,
 we have converted it into a federated plugin to help it
 scale more efficiently to multiple platforms.
 For more information, refer to [Federated plugins][].
+
+我们将视频播放器插件升级为[new plugin API][]，并修复了一些错误。同时，我们已将其转换为联合插件，以帮助其更有效地扩展到多个平台。欲了解更多信息，请参阅[Federated plugins][].
+
 
 [1813]({{site.github}}/flutter/plugins/pull/1813) [video-player] add support for content uris as urls
 
@@ -2622,8 +2851,14 @@ For more information, refer to [Federated plugins][].
 
 #### Plugin: Webview Flutter
 
+#### 插件：Webview Flutter
+
+
 We upgraded the Webview Flutter plugin to the [new plugin API][],
 and made some bug fixes.
+
+我们将 Webview Flutter 插件升级到[new plugin API][]，并修复了一些错误。
+
 
 [1996]({{site.github}}/flutter/plugins/pull/1996) [webview_flutter] Allow underscores anywhere for Javascript Channel name
 
@@ -2632,40 +2867,91 @@ and made some bug fixes.
 
 ## Tooling
 
+## 工装
+
+
 Flutter tooling is another big investment in this release. We launched a new version of [DartPad](http://dartpad.dev) that allows you to play with Flutter directly in your browser without installing anything, released a new feature "Hot UI" (in preview) that allows you to interact with widgets directly in the IDE, enhanced Dart DevTools with a new visual layout view, enabled simultaneous multi-device debugging in Visual Studio Code, and added support for "golden" image testing.
 
+Flutter 工具是此版本中的另一项重大投资。我们推出了新版本[DartPad](http://dartpad.dev)让你直接在浏览器中使用 Flutter 而无需安装任何东西，发布了新功能“Hot UI”（预览版），让你直接在 IDE 中与 widgets 交互，使用新的视觉布局视图增强了 Dart DevTools，在 Visual Studio Code 中启用了同步多设备调试，并添加了对“黄金”图像测试的支持。
+
+
 In addition to the PRs listed below, please also check out the following releases for the IntelliJ and Android Studio Flutter plugin, the VS Code Flutter plugin and Dart DevTools:
+
+除了下面列出的 PR 之外，还请查看 IntelliJ 和 Android Studio Flutter 插件、VS Code Flutter 插件和 Dart DevTools 的以下版本：
+
 
 
 ### VS Code
 
+### VS代码
+
+
 
 
 *   10/1/2019: [dartcode.org/releases/v3-5/](https://dartcode.org/releases/v3-5/)
+
+  10/1/2019:[dartcode.org/releases/v3-5/](https://dartcode.org/releases/v3-5/)
+
 *   11/1/2019: [dartcode.org/releases/v3-6/](https://dartcode.org/releases/v3-6/)
+
+  11/1/2019:[dartcode.org/releases/v3-6/](https://dartcode.org/releases/v3-6/)
+
 *   12/5/2019: [dartcode.org/releases/v3-7/](https://dartcode.org/releases/v3-7/)
+
+  12/5/2019:[dartcode.org/releases/v3-7/](https://dartcode.org/releases/v3-7/)
+
 
 
 ### Flutter IntelliJ and Android Studio plugin
 
+### Flutter IntelliJ 和 Android Studio 插件
+
+
 
 
 *   10/1/2019: Flutter IntelliJ Plugin [M40 Release](https://groups.google.com/d/msg/flutter-dev/s2AxzJ2TbkU/RC3S508rBwAJ)
+
+  2019 年 10 月 1 日：Flutter IntelliJ 插件[M40 Release](https://groups.google.com/d/msg/flutter-dev/s2AxzJ2TbkU/RC3S508rBwAJ)
+
 *   11/1/2019: Flutter IntelliJ Plugin [M41 Release](https://groups.google.com/d/msg/flutter-dev/4TSSi_niovs/piNoRPr6EgAJ)
+
+  2019 年 11 月 1 日：Flutter IntelliJ 插件[M41 Release](https://groups.google.com/d/msg/flutter-dev/4TSSi_niovs/piNoRPr6EgAJ)
+
 *   12/5/2019: Flutter IntelliJ Plugin [M42 Release](https://groups.google.com/forum/#!topic/flutter-announce/EmOelPrGwGo)
+
+  2019 年 12 月 5 日：Flutter IntelliJ 插件[M42 Release](https://groups.google.com/forum/#!topic/flutter-announce/EmOelPrGwGo)
+
 
 
 ### DevTools
 
+### 开发工具
+
+
 
 
 *   10/2/2019: New Dart DevTools [Release 0.1.8](https://groups.google.com/d/msg/flutter-dev/J6zDXzZOsts/vOWn7mcWCgAJ)
+
+  2019 年 10 月 2 日：新 Dart 开发工具[Release 0.1.8](https://groups.google.com/d/msg/flutter-dev/J6zDXzZOsts/vOWn7mcWCgAJ)
+
 *   10/17/2019: New Dart DevTools [Release 0.1.9](https://groups.google.com/d/msg/flutter-dev/WuzEEENGsXU/zb0IDhkhDgAJ)
+
+  2019 年 10 月 17 日：新 Dart 开发工具[Release 0.1.9](https://groups.google.com/d/msg/flutter-dev/WuzEEENGsXU/zb0IDhkhDgAJ)
+
 *   11/8/2019: New Dart DevTools [Release 0.1.11](https://groups.google.com/d/msg/flutter-dev/VdAni_rhpS4/UP3mBH-2AAAJ)
+
+  2019 年 11 月 8 日：新 Dart 开发工具[Release 0.1.11](https://groups.google.com/d/msg/flutter-dev/VdAni_rhpS4/UP3mBH-2AAAJ)
+
 *   12/6/2019: New Dart DevTools [Release 0.1.12](https://groups.google.com/forum/#!topic/flutter-dev/EGLBgQAOoC8)
+
+  2019 年 12 月 6 日：新 Dart 开发工具[Release 0.1.12](https://groups.google.com/forum/#!topic/flutter-dev/EGLBgQAOoC8)
+
 
 
 ### Tooling PRs
+
+### 工具 PRs
+
 
 [37508]({{site.repo.flutter}}/pull/37508) build bundle with assemble
 
@@ -3008,7 +3294,13 @@ In addition to the PRs listed below, please also check out the following release
 
 ## Full PR List
 
+## 完整 PR 列表
+
+
  See the [full list](/release/release-notes/changelogs/changelog-1.12.13) of merged PRs for the 1.12 release.
+
+请参阅[full list](/release/release-notes/changelogs/changelog-1.12.13)1.12 版本的合并 PRs。
+
 
 
 [breaking change policy on the Flutter wiki]: {{site.repo.flutter}}/blob/main/docs/contributing/Tree-hygiene.md#handling-breaking-changes

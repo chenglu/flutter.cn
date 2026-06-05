@@ -1,13 +1,23 @@
 ---
-title: Change log for Flutter 1.5.4
-shortTitle: 1.5.4 change log
-description: Change log for Flutter 1.5.4 containing a list of all PRs merged for this release.
+# title: Change log for Flutter 1.5.4
+title: Flutter 1.5.4 的更改日志
+# shortTitle: 1.5.4 change log
+shortTitle: 1.5.4 变更日志
+# description: Change log for Flutter 1.5.4 containing a list of all PRs merged for this release.
+description: Flutter 1.5.4 的更改日志包含为此版本合并的所有 PR 的列表。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 ## PRs closed in this release of flutter/flutter
 
+## PRs 在此版本的 flutter/flutter 中关闭
+
+
 From Thu Feb 21 20:22:00 2019 -0800 to Wed May 1 16:56:00 2019 -0700
+
+从2019年2月21日星期四20:22:00 -0800 到2019年5月1日星期三16:56:00 -0700
+
 
 
 [21834](https://github.com/flutter/flutter/pull/21834)  Add shapeBorder option on App Bar (cla: yes, f: material design, framework)
@@ -1149,7 +1159,13 @@ From Thu Feb 21 20:22:00 2019 -0800 to Wed May 1 16:56:00 2019 -0700
 
 ## PRs closed in this release of flutter/engine
 
+## PRs 在此版本的 flutter/engine 中关闭
+
+
 From Thu Feb 21 20:22:00 2019 -0800 to Wed May 1 16:56:00 2019 -0700
+
+从2019年2月21日星期四20:22:00 -0800 到2019年5月1日星期三16:56:00 -0700
+
 
 
 [7494](https://github.com/flutter/engine/pull/7494) Add engine support for scrollwheel events (cla: yes)
@@ -1889,7 +1905,13 @@ From Thu Feb 21 20:22:00 2019 -0800 to Wed May 1 16:56:00 2019 -0700
 
 ## PRs closed in this release of flutter/plugins
 
+## PRs 在此版本的 flutter/plugins 中关闭
+
+
 From Thu Feb 21 20:22:00 2019 -0800 to Wed May 1 16:56:00 2019 -0700
+
+从2019年2月21日星期四20:22:00 -0800 到2019年5月1日星期三16:56:00 -0700
+
 
 
 [721](https://github.com/flutter/plugins/pull/721) [google_sign_in]Fix filename in google_sign_in docs, which leads to crash (bugfix, cla: yes, documentation)

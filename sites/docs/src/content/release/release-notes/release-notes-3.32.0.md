@@ -1,8 +1,12 @@
 ---
-title: Flutter 3.32.0 release notes
-shortTitle: 3.32.0 release notes
-description: Release notes for Flutter 3.32.0.
+# title: Flutter 3.32.0 release notes
+title: Flutter 3.32.0 发行说明
+# shortTitle: 3.32.0 release notes
+shortTitle: 3.32.0 发行说明
+# description: Release notes for Flutter 3.32.0.
+description: Flutter 3.32.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.32.0.
@@ -13,7 +17,13 @@ check out the Flutter [CHANGELOG][].
 
 ## Flutter framework
 
+## Flutter 框架
+
+
 ### Framework
+
+### 框架
+
 
 * Do not block vertical drag gestures in CupertinoSheetRoute body by @MitchellGoodwin in [161696](https://github.com/flutter/flutter/pull/161696)
 * Make `PipelineOwner` a `base` class by @LongCatIsLooong in [161789](https://github.com/flutter/flutter/pull/161789)
@@ -213,6 +223,7 @@ check out the Flutter [CHANGELOG][].
 
 ### Material
 
+
 * feat: Change default value of keyboardDismissBehavior by @EArminjon in [158580](https://github.com/flutter/flutter/pull/158580)
 * Reland "#143249 Autocomplete options width" by @victorsanni in [161695](https://github.com/flutter/flutter/pull/161695)
 * fix reorderable_list_test.dart by @yjbanov in [161836](https://github.com/flutter/flutter/pull/161836)
@@ -325,6 +336,7 @@ check out the Flutter [CHANGELOG][].
 
 ### iOS
 
+
 * Enabled provisioning updates and device registration during building xcarchive. by @czarny in [159622](https://github.com/flutter/flutter/pull/159622)
 * When parsing flavors, handle Xcode build configurations that are not lowercase by @jmagman in [161455](https://github.com/flutter/flutter/pull/161455)
 * Avoid iOS text selection crash by returning nil range by @importRyan in [161996](https://github.com/flutter/flutter/pull/161996)
@@ -358,6 +370,7 @@ check out the Flutter [CHANGELOG][].
 * Trim any text before osascript JSON response by @vashworth in [166296](https://github.com/flutter/flutter/pull/166296)
 
 ### Android
+
 
 * fix failing lint : findByPath requires a specific ordering of project evaluation in `aar_init_script.gradle` by @AbdeMohlbi in [159301](https://github.com/flutter/flutter/pull/159301)
 * Add a README with instructions for editing and running tests for the FGP by @gmackall in [161830](https://github.com/flutter/flutter/pull/161830)
@@ -436,6 +449,7 @@ check out the Flutter [CHANGELOG][].
 
 ### Windows
 
+
 * [Windows] Allow apps to prefer low power GPUs by @zaiste-linganer in [162490](https://github.com/flutter/flutter/pull/162490)
 * [windows] Implement merged UI and platform thread by @knopp in [162935](https://github.com/flutter/flutter/pull/162935)
 * [Windows] Use enum to configure UI thread policy by @knopp in [163727](https://github.com/flutter/flutter/pull/163727)
@@ -443,6 +457,7 @@ check out the Flutter [CHANGELOG][].
 * [Windows] Make lifecycle manager updates atomic by @knopp in [164872](https://github.com/flutter/flutter/pull/164872)
 
 ### Linux
+
 
 * Remove some stray printf debugging by @robert-ancell in [161706](https://github.com/flutter/flutter/pull/161706)
 * Make fl_keyboard_manager_handle_event async by @robert-ancell in [161637](https://github.com/flutter/flutter/pull/161637)
@@ -466,6 +481,7 @@ check out the Flutter [CHANGELOG][].
 * Rename FlRenderer to FlCompositorOpenGL by @robert-ancell in [166037](https://github.com/flutter/flutter/pull/166037)
 
 ### Web
+
 
 * Get `et` working for local web engine builds. by @eyebrowsoffire in [161825](https://github.com/flutter/flutter/pull/161825)
 * [web] Remove spam from test output by @mdebbar in [161774](https://github.com/flutter/flutter/pull/161774)
@@ -517,6 +533,9 @@ check out the Flutter [CHANGELOG][].
 * [CP-beta][skwasm] Use `queueMicrotask` instead of `postMessage` when single-threaded by @flutteractionsbot in [167154](https://github.com/flutter/flutter/pull/167154)
 
 ### Tooling
+
+### 工具
+
 
 * route CLI command usage information through the logger instead of using `print` by @andrewkolos in [161533](https://github.com/flutter/flutter/pull/161533)
 * remove usage of `Usage` from build system by @andrewkolos in [160663](https://github.com/flutter/flutter/pull/160663)
@@ -641,9 +660,15 @@ check out the Flutter [CHANGELOG][].
 
 ### Documentation
 
+### 文档
+
+
 * Update `generate_gradle_lockfiles.dart` to handle batch updating kotlin Gradle files by @gmackall in [162628](https://github.com/flutter/flutter/pull/162628)
 
 ### Other changes
+
+### 其他变更
+
 
 * Roll pub packages by @flutter-pub-roller-bot in [161680](https://github.com/flutter/flutter/pull/161680)
 * [Impeller] Update partial repaint to use a fullsize onscreen. by @jonahwilliams in [161626](https://github.com/flutter/flutter/pull/161626)
@@ -999,6 +1024,9 @@ check out the Flutter [CHANGELOG][].
 * Make a NOP edit to (re)-trigger postsubmits by @matanlurey in [167407](https://github.com/flutter/flutter/pull/167407)
 
 ## New contributors
+
+## 新贡献者
+
 
 * @lukepighetti made their first contribution in [161803](https://github.com/flutter/flutter/pull/161803)
 * @mernen made their first contribution in [161863](https://github.com/flutter/flutter/pull/161863)

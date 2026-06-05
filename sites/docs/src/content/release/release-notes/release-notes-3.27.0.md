@@ -1,8 +1,12 @@
 ---
-title: Flutter 3.27.0 release notes
-shortTitle: 3.27.0 release notes
-description: Release notes for Flutter 3.27.0.
+# title: Flutter 3.27.0 release notes
+title: Flutter 3.27.0 发行说明
+# shortTitle: 3.27.0 release notes
+shortTitle: 3.27.0 发行说明
+# description: Release notes for Flutter 3.27.0.
+description: Flutter 3.27.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.27.0.
@@ -13,7 +17,13 @@ check out the Flutter [CHANGELOG][].
 
 ## Flutter framework
 
+## Flutter 框架
+
+
 ### Framework
+
+### 框架
+
 
 * Add example of goldenFileComparator usage in widget tests by @alestiago in [150422](https://github.com/flutter/flutter/pull/150422)
 * content dimensions are not established get controller value error by @hello-coder-xu in [148938](https://github.com/flutter/flutter/pull/148938)
@@ -265,6 +275,7 @@ check out the Flutter [CHANGELOG][].
 
 ### Material
 
+
 * Add tests for material_state_border_side.0_test.dart by @ValentinVignal in [151089](https://github.com/flutter/flutter/pull/151089)
 * [Reland] - Enable `explicitChildNodes` for the `AlertDialog` content by @TahaTesser in [149597](https://github.com/flutter/flutter/pull/149597)
 * Re-enable `SemanticsAction.focus` matchers by @gspencergoog in [150990](https://github.com/flutter/flutter/pull/150990)
@@ -417,6 +428,7 @@ check out the Flutter [CHANGELOG][].
 
 ### iOS
 
+
 * Launch DDS from Dart SDK and prepare to serve DevTools from DDS by @bkonyi in [146593](https://github.com/flutter/flutter/pull/146593)
 * Reverts "Launch DDS from Dart SDK and prepare to serve DevTools from DDS (#146593)" by @auto-submit in [151781](https://github.com/flutter/flutter/pull/151781)
 * Use Xcode build setting PRODUCT_NAME to find app and archive paths by @jmagman in [140242](https://github.com/flutter/flutter/pull/140242)
@@ -429,6 +441,9 @@ check out the Flutter [CHANGELOG][].
 * [tool] Update description of where to install platforms in XCode by @kevmoo in [156432](https://github.com/flutter/flutter/pull/156432)
 
 ### Tooling
+
+### 工具
+
 
 * Handle a SocketException thrown when sending the browser close command to Chrome by @jason-simmons in [151197](https://github.com/flutter/flutter/pull/151197)
 * Fix project name fallback by @navaronbracke in [150614](https://github.com/flutter/flutter/pull/150614)
@@ -569,9 +584,15 @@ check out the Flutter [CHANGELOG][].
 
 ### Documentation
 
+### 文档
+
+
 * Fix crash in Linux platform channel example. by @robert-ancell in [155735](https://github.com/flutter/flutter/pull/155735)
 
 ### Other changes
+
+### 其他变更
+
 
 * Force regeneration of platform-specific manifests before running performance tests by @jason-simmons in [151003](https://github.com/flutter/flutter/pull/151003)
 * Roll pub packages by @flutter-pub-roller-bot in [151203](https://github.com/flutter/flutter/pull/151203)
@@ -769,6 +790,9 @@ check out the Flutter [CHANGELOG][].
 
 ## New contributors
 
+## 新贡献者
+
+
 * @xiaoxianBoy made their first contribution in [150402](https://github.com/flutter/flutter/pull/150402)
 * @veloce made their first contribution in [149102](https://github.com/flutter/flutter/pull/149102)
 * @Dispersia made their first contribution in [150999](https://github.com/flutter/flutter/pull/150999)
@@ -817,9 +841,16 @@ check out the Flutter [CHANGELOG][].
 
 **Full Changelog**: https://github.com/flutter/flutter/compare/3.24.0...3.27.0-0.1.pre
 
+**完整变更日志**： https://github.com/flutter/flutter/compare/3.24.0...3.27.0-0.1.pre
+
+
 ## Flutter engine
 
+## Flutter 引擎
+
+
 ### Impeller
+
 
 * [Impeller] Document how to debug/profile OpenGL ES on macOS. by @chinmaygarde in [53671](https://github.com/flutter/engine/pull/53671)
 * [Impeller] Make storage sizes typed. by @chinmaygarde in [53700](https://github.com/flutter/engine/pull/53700)
@@ -994,6 +1025,7 @@ check out the Flutter [CHANGELOG][].
 
 ### Android
 
+
 * Move `//third_party/android_embedding_dependencies` to `//flutter/third_party`. by @matanlurey in [53587](https://github.com/flutter/engine/pull/53587)
 * [engine] support combined UI/Platform thread for iOS/Android. by @jonahwilliams in [53656](https://github.com/flutter/engine/pull/53656)
 * Move `//third_party/java` to `//flutter/third_party/java` by @matanlurey in [53590](https://github.com/flutter/engine/pull/53590)
@@ -1036,6 +1068,7 @@ check out the Flutter [CHANGELOG][].
 
 ### iOS
 
+
 * [Impeller] mark the end of a frame boundary for system compositor interop. by @jonahwilliams in [53722](https://github.com/flutter/engine/pull/53722)
 * [iOS] Mark EmbeddedViewCount const by @cbracken in [54062](https://github.com/flutter/engine/pull/54062)
 * [iOS] Flush layer pool after platform view dispose by @cbracken in [54056](https://github.com/flutter/engine/pull/54056)
@@ -1072,6 +1105,7 @@ check out the Flutter [CHANGELOG][].
 * Revert "iOS: Migrate FlutterEngine to ARC (#55590)" by @cbracken in [55699](https://github.com/flutter/engine/pull/55699)
 
 ### Web
+
 
 * fix: mask disappeared when having nested mask filter on Flutter web HTML by @Kingtous in [45166](https://github.com/flutter/engine/pull/45166)
 * [Flutter Web(HTML)] fix: shader mask is painted incorrectly on shared offscreen canvas by @Kingtous in [44998](https://github.com/flutter/engine/pull/44998)
@@ -1156,6 +1190,9 @@ check out the Flutter [CHANGELOG][].
 
 ### Desktop
 
+### 桌面端
+
+
 * [macOS] Multiview compositor by @dkwingsmt in [52253](https://github.com/flutter/engine/pull/52253)
 * macOS: Update platform node when AXNodeData role changes by @knopp in [54364](https://github.com/flutter/engine/pull/54364)
 * [Windows] Improve texture format logic by @loic-sharma in [54329](https://github.com/flutter/engine/pull/54329)
@@ -1171,6 +1208,9 @@ check out the Flutter [CHANGELOG][].
 * Beta fix macos xcprivacy manifest copy location by @christopherfujino in [55938](https://github.com/flutter/engine/pull/55938)
 
 ### Other changes
+
+### 其他变更
+
 
 * Convert `run_ios_tests.sh` to `run_ios_tests.dart`. by @matanlurey in [53645](https://github.com/flutter/engine/pull/53645)
 * [Embedder] Document incorrectly named field in FlutterOpenGLFramebuffer. by @chinmaygarde in [53720](https://github.com/flutter/engine/pull/53720)
@@ -1440,6 +1480,9 @@ check out the Flutter [CHANGELOG][].
 
 ## New contributors
 
+## 新贡献者
+
+
 * @darkwater made their first contribution in [54053](https://github.com/flutter/engine/pull/54053)
 * @charafau made their first contribution in [54173](https://github.com/flutter/engine/pull/54173)
 * @smart7even made their first contribution in [54544](https://github.com/flutter/engine/pull/54544)
@@ -1452,3 +1495,6 @@ check out the Flutter [CHANGELOG][].
 * @art-snake made their first contribution in [55520](https://github.com/flutter/engine/pull/55520)
 
 **Full Changelog**: https://github.com/flutter/engine/compare/3.24.0...3.27.0-0.1.pre
+
+**完整变更日志**： https://github.com/flutter/engine/compare/3.24.0...3.27.0-0.1.pre
+

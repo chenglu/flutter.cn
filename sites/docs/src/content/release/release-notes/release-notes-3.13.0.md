@@ -1,17 +1,29 @@
 ---
-title: Flutter 3.13.0 release notes
-shortTitle: 3.13.0 release notes
-description: Release notes for Flutter 3.13.0.
+# title: Flutter 3.13.0 release notes
+title: Flutter 3.13.0 发行说明
+# shortTitle: 3.13.0 release notes
+shortTitle: 3.13.0 发行说明
+# description: Release notes for Flutter 3.13.0.
+description: Flutter 3.13.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.13.0.
 For information about subsequent bug-fix releases,
 see our [CHANGELOG][].
 
+此页面包含 3.13.0 的发行说明。
+有关后续错误修复版本的信息，
+请参阅我们的 [CHANGELOG][]。
+
+
 [CHANGELOG]: https://github.com/flutter/flutter/blob/main/CHANGELOG.md
 
 ## Framework
+
+## 框架
+
 
 * Fix EditableText misplaces caret when selection is invalid by @bleroux in [123777](https://github.com/flutter/flutter/pull/123777)
 * Fixes IgnorePointer and AbsorbPointer to only block user interactions… by @chunhtai in [120619](https://github.com/flutter/flutter/pull/120619)
@@ -377,6 +389,9 @@ see our [CHANGELOG][].
 * [Cp] Fix Tooltip crash when selected in a SelectableRegion (#130181) by @LongCatIsLooong in [131288](https://github.com/flutter/flutter/pull/131288)
 * [CP] Constrain _RenderScaledInlineWidget child size in computeDryLayout #131765 by @LongCatIsLooong in [132096](https://github.com/flutter/flutter/pull/132096)
 ### Tooling
+
+### 工具
+
 * Update getGradleVersion to ignore commented out lines by @reidbaker in [124260](https://github.com/flutter/flutter/pull/124260)
 * Update gradle_utils.dart and flutter.gradle to have the same versions as the documentation in file says is required. by @reidbaker in [123213](https://github.com/flutter/flutter/pull/123213)
 * Force plugin transitive dependencies to an ARC compatible version by @jmagman in [124349](https://github.com/flutter/flutter/pull/124349)
@@ -523,6 +538,9 @@ see our [CHANGELOG][].
 * [CP] Fix ConcurrentModificationError in DDS by @christopherfujino in [130740](https://github.com/flutter/flutter/pull/130740)
 
 ## New Contributors
+
+## 新贡献者
+
 * @Rexios80 made their first contribution in [123726](https://github.com/flutter/flutter/pull/123726)
 * @adityathakurxd made their first contribution in [124511](https://github.com/flutter/flutter/pull/124511)
 * @gabrielgarciagava made their first contribution in [124459](https://github.com/flutter/flutter/pull/124459)
@@ -573,9 +591,16 @@ see our [CHANGELOG][].
 
 **Full Changelog**: https://github.com/flutter/flutter/compare/3.10.0...3.13.0
 
+**完整变更日志**： https://github.com/flutter/flutter/compare/3.10.0...3.13.0
+
+
 ## Engine
 
+## 引擎
+
+
 ### Android
+
 * Revert "Add support for double tap action from Apple Pencil 2" by @LouiseHsu in [41138](https://github.com/flutter/engine/pull/41138)
 * [Android] Send connectionClosed message when keyboard becomes invisible to ensure framework focus state is correct. by @ksballetba in [40746](https://github.com/flutter/engine/pull/40746)
 * Revert "[Android] Send connectionClosed message when keyboard becomes invisible to ensure framework focus state is correct." by @CaseyHillers in [41211](https://github.com/flutter/engine/pull/41211)
@@ -625,6 +650,7 @@ see our [CHANGELOG][].
 * Add a note in ImeSyncDeferringInsetsCallback explaining the reason behind capturing the latest final inset state by @gmackall in [43109](https://github.com/flutter/engine/pull/43109)
 * [Impeller] Give Impeller a dedicated raster priority level worker loop. by @jonahwilliams in [43166](https://github.com/flutter/engine/pull/43166)
 ### iOS
+
 * Fix UIWindowSceneGeometryPreferencesIOS leak by @jmagman in [40957](https://github.com/flutter/engine/pull/40957)
 * Reland [iOS] Send connectionClosed message when resignFirstResponder to ensure framework focus state is correct. by @luckysmg in [41022](https://github.com/flutter/engine/pull/41022)
 * [ios] fix background crash when FlutterViewController is destroyed after engine destroyed context by @cyanglaz in [41037](https://github.com/flutter/engine/pull/41037)
@@ -671,6 +697,7 @@ see our [CHANGELOG][].
 * [CP][iOS][A11Y] fix hittest with non-SemanticsObject  by @cyanglaz in [44342](https://github.com/flutter/engine/pull/44342)
 * [CP][ios][autocorrection]disable autocorrection for ios 17 by @hellohuanlin in [44354](https://github.com/flutter/engine/pull/44354)
 ### Web
+
 * [web] Make 'Noto Color Emoji' opt-in by @mdebbar in [40990](https://github.com/flutter/engine/pull/40990)
 * Skwasm scene by @eyebrowsoffire in [40330](https://github.com/flutter/engine/pull/40330)
 * Re-enable some wasm tests which have been fixed now. by @eyebrowsoffire in [40931](https://github.com/flutter/engine/pull/40931)
@@ -767,6 +794,9 @@ see our [CHANGELOG][].
 * [web] Move web-only initialization APIs to `dart:ui_web` by @mdebbar in [43111](https://github.com/flutter/engine/pull/43111)
 * [web] Add nonce configuration. by @ditman in [42829](https://github.com/flutter/engine/pull/42829)
 ### Desktop
+
+### 桌面端
+
 * Fix flaky Windows exit unit test, remove error messages by @yaakovschectman in [40945](https://github.com/flutter/engine/pull/40945)
 * [mac] Build mac framework with app extension flag by @cyanglaz in [41011](https://github.com/flutter/engine/pull/41011)
 * [Windows] Ignore case optionally in `AXPlatformNodeTextRangeProviderWin::FindText` by @yaakovschectman in [39922](https://github.com/flutter/engine/pull/39922)
@@ -800,6 +830,9 @@ see our [CHANGELOG][].
 * Fix inverted boolean in Windows document selection changed a11y event by @yaakovschectman in [43281](https://github.com/flutter/engine/pull/43281)
 
 ## New Contributors
+
+## 新贡献者
+
 * @drwez made their first contribution in [41154](https://github.com/flutter/engine/pull/41154)
 * @bastionkid made their first contribution in [41082](https://github.com/flutter/engine/pull/41082)
 * @maRci002 made their first contribution in [40599](https://github.com/flutter/engine/pull/40599)
@@ -812,3 +845,6 @@ see our [CHANGELOG][].
 * @mk12 made their first contribution in [42667](https://github.com/flutter/engine/pull/42667)
 
 **Full Changelog**: https://github.com/flutter/engine/compare/3.10.0...3.13.0
+
+**完整变更日志**： https://github.com/flutter/engine/compare/3.10.0...3.13.0
+

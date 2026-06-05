@@ -1,19 +1,32 @@
 ---
-title: Flutter 3.16.0 release notes
-shortTitle: 3.16.0 release notes
-description: Release notes for Flutter 3.16.0.
+# title: Flutter 3.16.0 release notes
+title: Flutter 3.16.0 发行说明
+# shortTitle: 3.16.0 release notes
+shortTitle: 3.16.0 发行说明
+# description: Release notes for Flutter 3.16.0.
+description: Flutter 3.16.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.16.0.
 For information about subsequent bug-fix releases,
 see our [CHANGELOG][].
 
+此页面包含 3.16.0 的发行说明。
+有关后续错误修复版本的信息，
+请参阅我们的 [CHANGELOG][]。
+
+
 [CHANGELOG]: https://github.com/flutter/flutter/blob/main/CHANGELOG.md
 
 ## Flutter
 
+
 ### Framework
+
+### 框架
+
 
 * Super tiny code optimization: No need to redundantly check whether value has changed by @fzyzcjy in [130050](https://github.com/flutter/flutter/pull/130050)
 * Revert "fix a bug when android uses CupertinoPageTransitionsBuilder..." by @HansMuller in [130144](https://github.com/flutter/flutter/pull/130144)
@@ -504,6 +517,9 @@ see our [CHANGELOG][].
 
 ### Tooling
 
+### 工具
+
+
 * Add debugging for iOS startup test flakes by @vashworth in [130099](https://github.com/flutter/flutter/pull/130099)
 * Fix XCode download link by @CaiqueR in [129795](https://github.com/flutter/flutter/pull/129795)
 * fix: duplicated Intellij IDE message when running flutter doctor by @cychiang in [129030](https://github.com/flutter/flutter/pull/129030)
@@ -632,6 +648,9 @@ see our [CHANGELOG][].
 
 ## New Contributors
 
+## 新贡献者
+
+
 * @CaiqueR made their first contribution in [129795](https://github.com/flutter/flutter/pull/129795)
 * @cychiang made their first contribution in [129030](https://github.com/flutter/flutter/pull/129030)
 * @ttanimichi made their first contribution in [129891](https://github.com/flutter/flutter/pull/129891)
@@ -666,9 +685,16 @@ see our [CHANGELOG][].
 
 **Full Changelog**: https://github.com/flutter/flutter/compare/3.13.0...3.16.0-0.5.pre
 
+**完整变更日志**： https://github.com/flutter/flutter/compare/3.13.0...3.16.0-0.5.pre
+
+
 ## Engine
 
+## 引擎
+
+
 ### Android
+
 
 * Eagerly remove the PlatformView from the view hierarchy on Android by @johnmccutchan in [43423](https://github.com/flutter/engine/pull/43423)
 * Make updating window metrics multi-view by @dkwingsmt in [43366](https://github.com/flutter/engine/pull/43366)
@@ -744,6 +770,7 @@ see our [CHANGELOG][].
 
 ### iOS
 
+
 * [iOS] Fix FlutterViewController retain cycle by @LinXunFeng in [43379](https://github.com/flutter/engine/pull/43379)
 * Revert "[iOS][Keyboard] Wait vsync on UI thread and update viewport inset to avoid jitter." by @cyanglaz in [43422](https://github.com/flutter/engine/pull/43422)
 * Add Look Up to iOS selection controls by @LouiseHsu in [43308](https://github.com/flutter/engine/pull/43308)
@@ -807,6 +834,7 @@ see our [CHANGELOG][].
 * [cp][ios] Link PlatformView back to semantics tree (#46471) by @cyanglaz in [46715](https://github.com/flutter/engine/pull/46715)
 
 ### Web
+
 
 * Add a flag to `ParagraphBuilder` for rounding hack migration by @LongCatIsLooong in [43118](https://github.com/flutter/engine/pull/43118)
 * Reland "Refactor JSNumber.toDart and Object.toJS" by @srujzs in [43363](https://github.com/flutter/engine/pull/43363)
@@ -898,6 +926,9 @@ see our [CHANGELOG][].
 
 ### Desktop
 
+### 桌面端
+
+
 * [Windows] Fix `FlutterWindow::GetNativeViewAccessible` crash by @loic-sharma in [43368](https://github.com/flutter/engine/pull/43368)
 * Use Windows Display Language by @yaakovschectman in [43341](https://github.com/flutter/engine/pull/43341)
 * [macOS] Fix assertion typo by @loic-sharma in [43179](https://github.com/flutter/engine/pull/43179)
@@ -935,6 +966,9 @@ see our [CHANGELOG][].
 
 ## New Contributors
 
+## 新贡献者
+
+
 * @dballard made their first contribution in [42555](https://github.com/flutter/engine/pull/42555)
 * @gmittert made their first contribution in [43567](https://github.com/flutter/engine/pull/43567)
 * @XuanTung95 made their first contribution in [43807](https://github.com/flutter/engine/pull/43807)
@@ -950,3 +984,6 @@ see our [CHANGELOG][].
 * @ajihyf made their first contribution in [45611](https://github.com/flutter/engine/pull/45611)
 
 **Full Changelog**: https://github.com/flutter/engine/compare/3.13.0...3.16.0-0.5.pre
+
+**完整变更日志**： https://github.com/flutter/engine/compare/3.13.0...3.16.0-0.5.pre
+

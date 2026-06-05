@@ -1,18 +1,31 @@
 ---
-title: Flutter 2.0.0 release notes
-shortTitle: 2.0.0 release notes
-description: Release notes for Flutter 2.0.0.
+# title: Flutter 2.0.0 release notes
+title: Flutter 2.0.0 发行说明
+# shortTitle: 2.0.0 release notes
+shortTitle: 2.0.0 发行说明
+# description: Release notes for Flutter 2.0.0.
+description: Flutter 2.0.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 2.0.0.
 For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
+此页面包含 2.0.0 的发行说明。有关后续错误修复版本的信息，请参阅我们的[CHANGELOG][]
+
+
 [CHANGELOG]: https://github.com/flutter/flutter/blob/mainHANGELOG.md
 
 ## Merged PRs by labels for `flutter/flutter`
 
+## 按标签分类的 `flutter/flutter` 已合并 PR
+
+
 ### framework - 793 pull request(s)
+
+### 框架 - 793 个拉取请求
+
 
 [48223](https://github.com/flutter/flutter/pull/48223) Add HeroMode widget (a: animation, cla: yes, f: cupertino, f: routes, framework, waiting for tree to go green)
 
@@ -2395,6 +2408,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### tool - 578 pull request(s)
 
+### 工具 - 578 个拉取请求
+
+
 [58853](https://github.com/flutter/flutter/pull/58853) [flutter_tools] Support IntelliJ 2020.1 and later on Linux and Windows (cla: yes, tool)
 
 
@@ -4131,6 +4147,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### team - 506 pull request(s)
 
+### 团队 - 506 个拉取请求
+
+
 [59797](https://github.com/flutter/flutter/pull/59797) [web] Support custom url strategies (cla: yes, f: routes, platform-web, team, waiting for tree to go green)
 
 
@@ -5651,6 +5670,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### f: material design - 365 pull request(s)
 
+### f：材料设计 - 365 个拉取请求
+
+
 [55209](https://github.com/flutter/flutter/pull/55209) Updated SearchDelegate to follow custom InputDecorationTheme (cla: yes, f: material design, framework)
 
 
@@ -6748,6 +6770,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### f: cupertino - 136 pull request(s)
 
+### f：库比蒂诺 - 136 个拉取请求
+
+
 [48223](https://github.com/flutter/flutter/pull/48223) Add HeroMode widget (a: animation, cla: yes, f: cupertino, f: routes, framework, waiting for tree to go green)
 
 
@@ -7158,6 +7183,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: tests - 104 pull request(s)
 
+### a：测试 - 104 个拉取请求
+
+
 [63834](https://github.com/flutter/flutter/pull/63834) Treat hover events as normal pointer events, and bring them back to Listener (a: tests, cla: yes, f: material design, framework, team, waiting for tree to go green)
 
 
@@ -7472,6 +7500,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-ios - 54 pull request(s)
 
+### platform-ios - 54 个拉取请求
+
+
 [65198](https://github.com/flutter/flutter/pull/65198) Avoid thinning frameworks in iOS extensions  (cla: yes, platform-ios, team, tool, waiting for tree to go green)
 
 
@@ -7636,6 +7667,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### engine - 52 pull request(s)
 
+### 引擎 - 52 个拉取请求
+
+
 [65787](https://github.com/flutter/flutter/pull/65787) Flutter Stable Framework Cherrypicks 1.20.4 (a: internationalization, cla: yes, d: examples, engine, f: material design, framework, team, tool)
 
 
@@ -7794,6 +7828,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: accessibility - 46 pull request(s)
 
+### a：可访问性 - 46 个拉取请求
+
+
 [62616](https://github.com/flutter/flutter/pull/62616) Migrate foundation test to nullsafety (a: accessibility, a: null-safety, cla: yes, framework)
 
 
@@ -7934,6 +7971,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### d: examples - 43 pull request(s)
 
+### d：示例 - 43 个拉取请求
+
+
 [64240](https://github.com/flutter/flutter/pull/64240) Add sample code to FadeTransition (cla: yes, d: api docs, d: examples, documentation, framework, waiting for tree to go green)
 
 
@@ -8065,6 +8105,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### d: api docs - 34 pull request(s)
 
+### d：api 文档 - 34 个拉取请求
+
+
 [63910](https://github.com/flutter/flutter/pull/63910) Improve Stepper controlsBuilder docs (cla: yes, d: api docs, documentation, f: material design, framework, waiting for tree to go green)
 
 
@@ -8169,6 +8212,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: internationalization - 30 pull request(s)
 
+### a：国际化 - 30 个拉取请求
+
+
 [61981](https://github.com/flutter/flutter/pull/61981) Positioning IME bars on iOS (a: fidelity, a: internationalization, a: text input, cla: yes, framework, waiting for tree to go green)
 
 
@@ -8261,6 +8307,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### t: xcode - 29 pull request(s)
 
+### t: xcode - 29 拉取请求
+
+
 [66524](https://github.com/flutter/flutter/pull/66524) [Icons] Update icon version to point to file that iOS will prefer. (cla: yes, f: material design, platform-ios, t: xcode, waiting for tree to go green)
 
 
@@ -8350,6 +8399,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### f: scrolling - 25 pull request(s)
 
+### f：滚动 - 25 个拉取请求
+
+
 [64140](https://github.com/flutter/flutter/pull/64140) [ReorderableListView] Fix item dropping animation (a: animation, cla: yes, f: material design, f: scrolling, framework, waiting for tree to go green)
 
 
@@ -8426,6 +8478,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### documentation - 25 pull request(s)
+
+### 文档 - 25 个拉取请求
+
 
 [63910](https://github.com/flutter/flutter/pull/63910) Improve Stepper controlsBuilder docs (cla: yes, d: api docs, documentation, f: material design, framework, waiting for tree to go green)
 
@@ -8504,6 +8559,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-mac - 22 pull request(s)
 
+### platform-mac - 22 个拉取请求
+
+
 [68050](https://github.com/flutter/flutter/pull/68050) Run Xcode command lines tools in native ARM (cla: yes, platform-mac, tool)
 
 
@@ -8572,6 +8630,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: null-safety - 21 pull request(s)
 
+### a：空安全 - 21 个拉取请求
+
+
 [62616](https://github.com/flutter/flutter/pull/62616) Migrate foundation test to nullsafety (a: accessibility, a: null-safety, cla: yes, framework)
 
 
@@ -8637,6 +8698,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### will affect goldens - 20 pull request(s)
 
+### 将影响黄金 - 20 个拉取请求
+
+
 [64468](https://github.com/flutter/flutter/pull/64468) Fix CupertinoAlertDialog TextStyle (cla: yes, f: cupertino, framework, waiting for tree to go green, will affect goldens)
 
 
@@ -8699,6 +8763,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### severe: API break - 18 pull request(s)
 
+### 严重：API 中断 - 18 个拉取请求
+
+
 [61366](https://github.com/flutter/flutter/pull/61366) Continue the clipBehavior breaking change (cla: yes, f: cupertino, framework, severe: API break)
 
 
@@ -8755,6 +8822,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### adopt a widget - 17 pull request(s)
 
+### 采用 widget - 17 个拉取请求
+
+
 [69498](https://github.com/flutter/flutter/pull/69498) AdoptAWidget - Progress indicator (adopt a widget, cla: yes, f: material design, framework)
 
 
@@ -8808,6 +8878,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### team: infra - 15 pull request(s)
 
+### 团队：infra - 15 个拉取请求
+
+
 [66054](https://github.com/flutter/flutter/pull/66054) Add versioning to gold endpoints (a: quality, a: tests, cla: yes, framework, team, team: infra, waiting for tree to go green)
 
 
@@ -8855,6 +8928,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: quality - 14 pull request(s)
 
+### a：质量 - 14 个拉取请求
+
+
 [64678](https://github.com/flutter/flutter/pull/64678) Wrap PopupMenu with SafeArea to respect status bar (a: layout, a: quality, cla: yes, f: material design, framework, waiting for tree to go green)
 
 
@@ -8898,6 +8974,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### platform-web - 14 pull request(s)
+
+### platform-web - 14 个拉取请求
+
 
 [59797](https://github.com/flutter/flutter/pull/59797) [web] Support custom url strategies (cla: yes, f: routes, platform-web, team, waiting for tree to go green)
 
@@ -8943,6 +9022,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: desktop - 14 pull request(s)
 
+### a：桌面版 - 14 个拉取请求
+
+
 [65667](https://github.com/flutter/flutter/pull/65667) Fix the `character` field of the `RawKeyEvent` to hold correct data on non-Android platforms. (a: desktop, a: tests, cla: yes, framework, team)
 
 
@@ -8987,6 +9069,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### severe: new feature - 13 pull request(s)
 
+### 严重：新功能 - 13 个拉取请求
+
+
 [62927](https://github.com/flutter/flutter/pull/62927) AutocompleteCore (a: text input, cla: yes, framework, severe: new feature)
 
 
@@ -9028,6 +9113,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: existing-apps - 11 pull request(s)
 
+### a：现有应用程序 - 11 个拉取请求
+
+
 [69720](https://github.com/flutter/flutter/pull/69720) Deprecate build ios-framework --universal (a: existing-apps, cla: yes, platform-ios, team, tool, waiting for tree to go green)
 
 
@@ -9063,6 +9151,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: text input - 9 pull request(s)
 
+### a：文本输入 - 9 个拉取请求
+
+
 [61981](https://github.com/flutter/flutter/pull/61981) Positioning IME bars on iOS (a: fidelity, a: internationalization, a: text input, cla: yes, framework, waiting for tree to go green)
 
 
@@ -9092,6 +9183,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### severe: performance - 7 pull request(s)
 
+### 严重：性能 - 7 个拉取请求
+
+
 [66386](https://github.com/flutter/flutter/pull/66386) Default measureCpuGpu to true (cla: yes, perf: energy, severe: performance, team, waiting for tree to go green)
 
 
@@ -9114,6 +9208,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### a: animation - 7 pull request(s)
+
+### a：动画 - 7 个拉取请求
+
 
 [48223](https://github.com/flutter/flutter/pull/48223) Add HeroMode widget (a: animation, cla: yes, f: cupertino, f: routes, framework, waiting for tree to go green)
 
@@ -9138,6 +9235,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### f: focus - 5 pull request(s)
 
+### f：焦点 - 5 个拉取请求
+
+
 [67359](https://github.com/flutter/flutter/pull/67359) Mark keys that match a shortcut, but have no action defined as "not handled". (a: accessibility, a: internationalization, a: tests, a: text input, cla: yes, d: examples, engine, f: cupertino, f: focus, f: material design, framework, team)
 
 
@@ -9155,6 +9255,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### f: routes - 4 pull request(s)
 
+### f：路线 - 4 个拉取请求
+
+
 [48223](https://github.com/flutter/flutter/pull/48223) Add HeroMode widget (a: animation, cla: yes, f: cupertino, f: routes, framework, waiting for tree to go green)
 
 
@@ -9168,6 +9271,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### a: state restoration - 4 pull request(s)
+
+### a：状态恢复 - 4 个拉取请求
+
 
 [71653](https://github.com/flutter/flutter/pull/71653) [State Restoration] RestorableBoolN (a: state restoration, cla: yes, framework, waiting for tree to go green)
 
@@ -9183,6 +9289,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: layout - 4 pull request(s)
 
+### a：布局 - 4 个拉取请求
+
+
 [64678](https://github.com/flutter/flutter/pull/64678) Wrap PopupMenu with SafeArea to respect status bar (a: layout, a: quality, cla: yes, f: material design, framework, waiting for tree to go green)
 
 
@@ -9196,6 +9305,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### customer: money (g3) - 4 pull request(s)
+
+### 客户：钱 (g3) - 4 个拉取请求
+
 
 [66504](https://github.com/flutter/flutter/pull/66504) Re-land ScaffoldMessenger (a: quality, cla: yes, customer: money (g3), f: material design, framework, severe: new feature, waiting for tree to go green)
 
@@ -9211,6 +9323,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### f: gestures - 3 pull request(s)
 
+### f：手势 - 3 个拉取请求
+
+
 [63813](https://github.com/flutter/flutter/pull/63813) Lazily compute PointerEvent's transformed positions (cla: yes, f: gestures, framework)
 
 
@@ -9221,6 +9336,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### severe: regression - 3 pull request(s)
+
+### 严重：回归 - 3 个拉取请求
+
 
 [68644](https://github.com/flutter/flutter/pull/68644) Fix overscroll edge case that puts NestedScrollViews out of sync (cla: yes, f: scrolling, framework, severe: regression, waiting for tree to go green)
 
@@ -9233,6 +9351,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: fidelity - 3 pull request(s)
 
+### a：保真度 - 3 个拉取请求
+
+
 [61981](https://github.com/flutter/flutter/pull/61981) Positioning IME bars on iOS (a: fidelity, a: internationalization, a: text input, cla: yes, framework, waiting for tree to go green)
 
 
@@ -9243,6 +9364,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### a: error message - 3 pull request(s)
+
+### a：错误消息 - 3 个拉取请求
+
 
 [62502](https://github.com/flutter/flutter/pull/62502) Fix typo subetting should be subsetting (a: error message, cla: yes, tool, waiting for tree to go green)
 
@@ -9255,6 +9379,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### perf: memory - 2 pull request(s)
 
+### perf：内存 - 2 个拉取请求
+
+
 [66570](https://github.com/flutter/flutter/pull/66570) Let perf tests measure memory by default (cla: yes, perf: memory, severe: performance, team)
 
 
@@ -9262,6 +9389,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### perf: speed - 2 pull request(s)
+
+### perf：速度 - 2 个拉取请求
+
 
 [67147](https://github.com/flutter/flutter/pull/67147) 5x startup test repitition to reduce noise (cla: yes, customer: money (g3), perf: speed, severe: performance, team, waiting for tree to go green)
 
@@ -9271,6 +9401,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-android - 2 pull request(s)
 
+### platform-android - 2 个拉取请求
+
+
 [71738](https://github.com/flutter/flutter/pull/71738) Allow flavors and build types when using plugins (cla: yes, platform-android, t: gradle, team, tool, waiting for tree to go green)
 
 
@@ -9278,6 +9411,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### platform-windows - 2 pull request(s)
+
+### platform-windows - 2 个拉取请求
+
 
 [67029](https://github.com/flutter/flutter/pull/67029) Improve Windows symlink instructions (a: build, a: desktop, cla: yes, platform-windows, tool)
 
@@ -9287,6 +9423,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### t: flutter driver - 2 pull request(s)
 
+### t：颤振驱动程序 - 2 个拉取请求
+
+
 [68065](https://github.com/flutter/flutter/pull/68065) Improve performance of collectAllElements (a: tests, cla: yes, framework, perf: speed, severe: performance, t: flutter driver, team, waiting for tree to go green)
 
 
@@ -9294,6 +9433,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### t: gradle - 2 pull request(s)
+
+### t: gradle - 2 个拉取请求
+
 
 [71738](https://github.com/flutter/flutter/pull/71738) Allow flavors and build types when using plugins (cla: yes, platform-android, t: gradle, team, tool, waiting for tree to go green)
 
@@ -9303,6 +9445,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### team: flakes - 2 pull request(s)
 
+### 团队：flakes - 2 个拉取请求
+
+
 [69339](https://github.com/flutter/flutter/pull/69339) Do not fail if average_memory_usage is not recorded (cla: yes, team, team: flakes)
 
 
@@ -9311,70 +9456,112 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### work in progress; do not review - 1 pull request(s)
 
+### 正在进行的工作；不审查 - 1 个拉取请求
+
+
 [70058](https://github.com/flutter/flutter/pull/70058) [flutter_tools] remove branch migration and standardize constructor style for version interface (cla: yes, tool, work in progress; do not review)
 
 
 ### platform-linux - 1 pull request(s)
+
+### platform-linux - 1 个拉取请求
+
 
 [68658](https://github.com/flutter/flutter/pull/68658) Enable dev/bots/ build_tests for Linux (a: desktop, cla: yes, platform-linux, team)
 
 
 ### cp: 1.25 completed - 1 pull request(s)
 
+### cp：1.25 已完成 - 1 个拉取请求
+
+
 [72120](https://github.com/flutter/flutter/pull/72120) Revert "Remove duplicate code in Element.rebuild() and BuildOwner.buildScope()" (cla: yes, cp: 1.25, cp: 1.25 completed, framework)
 
 
 ### f: date/time picker - 1 pull request(s)
+
+### f：日期/时间选择器 - 1 个拉取请求
+
 
 [65010](https://github.com/flutter/flutter/pull/65010) Fix Semi Hidden helpText in showDatePicker (a: internationalization, cla: yes, f: date/time picker, f: material design, framework)
 
 
 ### a: triage improvements - 1 pull request(s)
 
+### a：分类改进 - 1 个拉取请求
+
+
 [66621](https://github.com/flutter/flutter/pull/66621) Remove "Try accepting the local network permissions popup" warning (a: triage improvements, cla: yes, platform-ios, tool, waiting for tree to go green)
 
 
 ### severe: crash - 1 pull request(s)
+
+### 严重：崩溃 - 1 个拉取请求
+
 
 [73016](https://github.com/flutter/flutter/pull/73016) fix an assertion causes by zero offset pointer scroll (cla: yes, f: scrolling, framework, severe: crash, waiting for tree to go green)
 
 
 ### a: typography - 1 pull request(s)
 
+### a：排版 - 1 个拉取请求
+
+
 [66375](https://github.com/flutter/flutter/pull/66375) Provide defaulting for textScaleFactor when passing to dart:ui (a: typography, cla: yes, framework, waiting for tree to go green)
 
 
 ### t: flutter doctor - 1 pull request(s)
+
+### t：flutter doctor - 1 个拉取请求
+
 
 [69194](https://github.com/flutter/flutter/pull/69194) Include VS Code + Android Studio URLs in the No IDE message (cla: yes, t: flutter doctor, tool, waiting for tree to go green)
 
 
 ### cp: 1.25 - 1 pull request(s)
 
+### cp：1.25 - 1 个拉取请求
+
+
 [72120](https://github.com/flutter/flutter/pull/72120) Revert "Remove duplicate code in Element.rebuild() and BuildOwner.buildScope()" (cla: yes, cp: 1.25, cp: 1.25 completed, framework)
 
 
 ### a: build - 1 pull request(s)
+
+### a：构建 - 1 个拉取请求
+
 
 [67029](https://github.com/flutter/flutter/pull/67029) Improve Windows symlink instructions (a: build, a: desktop, cla: yes, platform-windows, tool)
 
 
 ### p: integration_test - 1 pull request(s)
 
+### p：integration_test - 1 个拉取请求
+
+
 [71934](https://github.com/flutter/flutter/pull/71934) Add integration_test to integration tests build shard (cla: yes, p: integration_test, team, waiting for tree to go green)
 
 
 ### waiting for customer response - 1 pull request(s)
+
+### 等待客户响应 - 1 个拉取请求
+
 
 [71829](https://github.com/flutter/flutter/pull/71829) Add --dart-define option support to build aar command (cla: yes, tool, waiting for customer response)
 
 
 ### perf: energy - 1 pull request(s)
 
+### perf：能量 - 1 个拉取请求
+
+
 [66386](https://github.com/flutter/flutter/pull/66386) Default measureCpuGpu to true (cla: yes, perf: energy, severe: performance, team, waiting for tree to go green)
 
 
 ### a: mouse - 1 pull request(s)
+
+### a：鼠标 - 1 个拉取请求
+
 
 [66039](https://github.com/flutter/flutter/pull/66039) fix mouse wheel scroll miscontrol of ScrollPosition. (a: desktop, a: mouse, cla: yes, f: scrolling, framework, waiting for tree to go green)
 
@@ -9382,10 +9569,16 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ## Merged PRs by labels for `flutter/engine`
 
+## 按 `flutter/engine` 的标签合并 PRs
+
+
 
 
 
 ### cla: yes - 1864 pull request(s)
+
+### cla：是 - 1864 个拉取请求
+
 
 [17881](https://github.com/flutter/engine/pull/17881) Enabled metal on ios simulator (cla: yes, waiting for tree to go green)
 
@@ -14981,6 +15174,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### waiting for tree to go green - 1287 pull request(s)
 
+### 等待树变绿 - 1287 个拉取请求
+
+
 [17881](https://github.com/flutter/engine/pull/17881) Enabled metal on ios simulator (cla: yes, waiting for tree to go green)
 
 
@@ -18844,6 +19040,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-android - 126 pull request(s)
 
+### platform-android - 126 个拉取请求
+
+
 [20330](https://github.com/flutter/engine/pull/20330) Minor documentation details/breadcrumbs (cla: yes, platform-android)
 
 
@@ -19224,6 +19423,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-ios - 113 pull request(s)
 
+### platform-ios - 113 个拉取请求
+
+
 [19292](https://github.com/flutter/engine/pull/19292) [iOS] Fix platfotm view called multiple times (cla: yes, platform-ios, waiting for tree to go green)
 
 
@@ -19565,6 +19767,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-web - 85 pull request(s)
 
+### platform-web - 85 个拉取请求
+
+
 [19134](https://github.com/flutter/engine/pull/19134) [web] Support custom url strategies (cla: yes, platform-web)
 
 
@@ -19822,6 +20027,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### affects: desktop - 26 pull request(s)
 
+### 影响：桌面 - 26 个拉取请求
+
+
 [20836](https://github.com/flutter/engine/pull/20836) Track lock key down state instead of lock state (affects: desktop, cla: yes, needs tests, platform-linux)
 
 
@@ -19902,6 +20110,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### needs tests - 18 pull request(s)
 
+### 需要测试 - 18 个拉取请求
+
+
 [20836](https://github.com/flutter/engine/pull/20836) Track lock key down state instead of lock state (affects: desktop, cla: yes, needs tests, platform-linux)
 
 
@@ -19958,6 +20169,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-linux - 16 pull request(s)
 
+### platform-linux - 16 个拉取请求
+
+
 [20836](https://github.com/flutter/engine/pull/20836) Track lock key down state instead of lock state (affects: desktop, cla: yes, needs tests, platform-linux)
 
 
@@ -20008,6 +20222,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-fuchsia - 15 pull request(s)
 
+### platform-fuchsia - 15 个拉取请求
+
+
 [21392](https://github.com/flutter/engine/pull/21392) fuchsia: Don't send ViewportMetrics w/ 0 DPR (cla: yes, platform-fuchsia)
 
 
@@ -20055,6 +20272,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### affects: text input - 14 pull request(s)
 
+### 影响：文本输入 - 14 个拉取请求
+
+
 [21194](https://github.com/flutter/engine/pull/21194) [web] Integration test for selectable text (affects: text input, cla: yes, platform-web)
 
 
@@ -20098,6 +20318,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### platform-windows - 14 pull request(s)
+
+### platform-windows - 14 个拉取请求
+
 
 [21523](https://github.com/flutter/engine/pull/21523) Add missing returns in system channels handlers (affects: desktop, cla: yes, needs tests, platform-windows)
 
@@ -20143,6 +20366,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-macos - 10 pull request(s)
 
+### platform-macos - 10 个拉取请求
+
+
 [21525](https://github.com/flutter/engine/pull/21525) Smooth window resizing on macOS (affects: desktop, cla: yes, needs tests, platform-macos, waiting for tree to go green)
 
 
@@ -20175,6 +20401,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### affects: engine - 6 pull request(s)
 
+### 影响：引擎 - 6 个拉取请求
+
+
 [21497](https://github.com/flutter/engine/pull/21497) [linux] Allow engine flags via environment vars (affects: desktop, affects: engine, cla: yes, platform-linux)
 
 
@@ -20195,6 +20424,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### code health - 4 pull request(s)
 
+### 代码健康状况 - 4 个拉取请求
+
+
 [21904](https://github.com/flutter/engine/pull/21904) Eliminate FLUTTER_NOLINT where possible (cla: yes, code health, platform-android)
 
 
@@ -20209,6 +20441,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### perf: speed - 3 pull request(s)
 
+### perf：速度 - 3 个拉取请求
+
+
 [21179](https://github.com/flutter/engine/pull/21179) Discard wrong size layer tree instead of rendering it (cla: yes, perf: speed, severe: performance, waiting for tree to go green)
 
 
@@ -20220,6 +20455,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### accessibility - 2 pull request(s)
 
+### 可访问性 - 2 个拉取请求
+
+
 [21484](https://github.com/flutter/engine/pull/21484) [fuchsia][a11y] Don't populate hidden state. (accessibility, cla: yes, platform-fuchsia, waiting for tree to go green)
 
 
@@ -20227,6 +20465,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### severe: performance - 2 pull request(s)
+
+### 严重：性能 - 2 个拉取请求
+
 
 [21179](https://github.com/flutter/engine/pull/21179) Discard wrong size layer tree instead of rendering it (cla: yes, perf: speed, severe: performance, waiting for tree to go green)
 
@@ -20236,20 +20477,32 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### Work in progress (WIP) - 1 pull request(s)
 
+### 正在进行的工作 (WIP) - 1 个拉取请求
+
+
 [19405](https://github.com/flutter/engine/pull/19405) Add windows plugin texture support (Work in progress (WIP), cla: yes, waiting for tree to go green)
 
 
 ### affects: tests - 1 pull request(s)
+
+### 影响：测试 - 1 个拉取请求
+
 
 [21543](https://github.com/flutter/engine/pull/21543) fuchsia: Fix test compile (affects: tests, cla: yes, platform-fuchsia)
 
 
 ### perf: memory - 1 pull request(s)
 
+### perf：内存 - 1 个拉取请求
+
+
 [22620](https://github.com/flutter/engine/pull/22620) Set SkPath::setIsVolatile based on whether the path survives at least two frames (cla: yes, perf: memory, perf: speed, severe: performance)
 
 
 ### waiting for customer response - 1 pull request(s)
+
+### 等待客户响应 - 1 个拉取请求
+
 
 [21316](https://github.com/flutter/engine/pull/21316) Add FlEventChannel (cla: yes, waiting for customer response)
 
@@ -20257,10 +20510,16 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ## Merged PRs by labels for `flutter/plugins`
 
+## 按 `flutter/plugins` 的标签合并 PRs
+
+
 
 
 
 ### cla: yes - 253 pull request(s)
+
+### cla：是 - 253 个拉取请求
+
 
 [1721](https://github.com/flutter/plugins/pull/1721) [google_maps_flutter] Adds support for holes in polygon overlays to the Google Maps plugin (cla: yes, waiting for tree to go green)
 
@@ -21023,6 +21282,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### waiting for tree to go green - 22 pull request(s)
 
+### 等待树变绿 - 22 个拉取请求
+
+
 [1721](https://github.com/flutter/plugins/pull/1721) [google_maps_flutter] Adds support for holes in polygon overlays to the Google Maps plugin (cla: yes, waiting for tree to go green)
 
 
@@ -21091,6 +21353,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### waiting for test harness - 6 pull request(s)
 
+### 等待测试工具 - 6 个拉取请求
+
+
 [3070](https://github.com/flutter/plugins/pull/3070) [path_provider_android] Move Path operations to background thread (cla: yes, waiting for test harness)
 
 
@@ -21111,6 +21376,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### feature - 4 pull request(s)
 
+### 功能 - 4 个拉取请求
+
+
 [3154](https://github.com/flutter/plugins/pull/3154) Prepare url_launcher for the Link widget (cla: yes, feature)
 
 
@@ -21125,6 +21393,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: google_maps_flutter - 2 pull request(s)
 
+### p：google_maps_flutter - 2 个拉取请求
+
+
 [3418](https://github.com/flutter/plugins/pull/3418) [google_maps_flutter_platform_interface] add custom tile support (cla: yes, p: google_maps_flutter, waiting for tree to go green)
 
 
@@ -21132,6 +21403,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: path_provider - 2 pull request(s)
+
+### p：path_provider - 2 个拉取请求
+
 
 [3410](https://github.com/flutter/plugins/pull/3410) [path_provider] Migrate path_provider_windows to nullsafety (cla: yes, p: path_provider)
 
@@ -21141,28 +21415,49 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: camera - 1 pull request(s)
 
+### p：相机 - 1 个拉取请求
+
+
 [3444](https://github.com/flutter/plugins/pull/3444) [camera] Ensure that channel.invokeMethod runs on the main thread (cla: yes, p: camera, waiting for tree to go green)
 
 
 ### p: cross_file - 1 pull request(s)
+
+### p: cross_file - 1 个拉取请求
+
 
 [3462](https://github.com/flutter/plugins/pull/3462) Support breaking http change (cla: yes, p: cross_file)
 
 
 ### p: image_picker - 1 pull request(s)
 
+### p: image_picker - 1 个拉取请求
+
+
 [3459](https://github.com/flutter/plugins/pull/3459) Revert "[ci][image_picker]enable xcode 12/iOS 14 for all tasks except lint" (cla: yes, p: image_picker)
 
 
 ### p: integration_test - 1 pull request(s)
+
+### p：integration_test - 1 个拉取请求
+
 
 [3463](https://github.com/flutter/plugins/pull/3463) bump vmservice (cla: yes, p: integration_test)
 
 
 ## All merged pull requests
 
+## 所有合并的拉取请求
+
+
 ### Merged PRs in `flutter/flutter` from 2020-09-11T02:17:00.000Z to 2021-01-26T18:58:00.000Z
+
+### 从 2020-09-11T02:17:00.000Z 到 2021-01-26T18:58:00.000Z 合并了 `flutter/flutter` 中的 PRs
+
 There were 1974 pull requests.
+
+有 1974 个拉取请求。
+
 
 [48223](https://github.com/flutter/flutter/pull/48223) Add HeroMode widget (a: animation, cla: yes, f: cupertino, f: routes, framework, waiting for tree to go green)
 
@@ -25113,7 +25408,13 @@ There were 1974 pull requests.
 [74694](https://github.com/flutter/flutter/pull/74694) Roll Engine from 6e391c5942b4 to f47ab4434dbe (1 revision) (cla: yes, waiting for tree to go green)
 
 ### Merged PRs in `flutter/engine` from 2020-09-11T02:17:00.000Z to 2021-01-26T18:58:00.000Z
+
+### 从 2020-09-11T02:17:00.000Z 到 2021-01-26T18:58:00.000Z 合并了 `flutter/engine` 中的 PRs
+
 There were 1864 pull requests.
+
+有 1864 个拉取请求。
+
 
 [17881](https://github.com/flutter/engine/pull/17881) Enabled metal on ios simulator (cla: yes, waiting for tree to go green)
 
@@ -28844,7 +29145,13 @@ There were 1864 pull requests.
 [23959](https://github.com/flutter/engine/pull/23959) Roll Dart SDK from 38c2cddbe277 to 15dfe858c4a6 (1 revision) (cla: yes, waiting for tree to go green)
 
 ### Merged PRs in `flutter/plugins` from 2020-09-11T02:17:00.000Z to 2021-01-26T18:58:00.000Z
+
+### 从 2020-09-11T02:17:00.000Z 到 2021-01-26T18:58:00.000Z 合并了 `flutter/plugins` 中的 PRs
+
 There were 253 pull requests.
+
+有 253 个拉取请求。
+
 
 [1721](https://github.com/flutter/plugins/pull/1721) [google_maps_flutter] Adds support for holes in polygon overlays to the Google Maps plugin (cla: yes, waiting for tree to go green)
 

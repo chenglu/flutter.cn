@@ -1,15 +1,25 @@
 ---
-title: Change log for Flutter 1.9.1
-shortTitle: 1.9.1 change log
-description: Change log for Flutter 1.9.1 containing a list of all PRs merged for this release.
+# title: Change log for Flutter 1.9.1
+title: Flutter 1.9.1 的更改日志
+# shortTitle: 1.9.1 change log
+shortTitle: 1.9.1 变更日志
+# description: Change log for Flutter 1.9.1 containing a list of all PRs merged for this release.
+description: Flutter 1.9.1 的更改日志包含为此版本合并的所有 PR 的列表。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 
 
 ## PRs closed in this release of flutter/flutter
 
+## PRs 在此版本的 flutter/flutter 中关闭
+
+
 From Fri Jun 21 22:31:55 2019 -0400 to Sun Aug 18 12:22:00 2019 -0700
+
+从 2019 年 6 月 21 日星期五 22:31:55 -0400 到 2019 年 8 月 18 日星期日 12:22:00 -0700
+
 
 
 [28090](https://github.com/flutter/flutter/pull/28090) Ensure that cache dirs and files have appropriate permissions (cla: yes, tool)
@@ -1048,7 +1058,13 @@ From Fri Jun 21 22:31:55 2019 -0400 to Sun Aug 18 12:22:00 2019 -0700
 
 ## PRs closed in this release of `flutter/engine`
 
+## PRs 在此版本的 `flutter/engine` 中关闭
+
+
 From Fri Jun 21 22:31:55 2019 -0400 to Sun Aug 18 12:22:00 2019 -0700
+
+从 2019 年 6 月 21 日星期五 22:31:55 -0400 到 2019 年 8 月 18 日星期日 12:22:00 -0700
+
 
 
 [9041](https://github.com/flutter/engine/pull/9041) TextStyle.height property as a multiple of font size instead of multiple of ascent+descent+leading. (affects: text input, cla: yes, prod: API break)

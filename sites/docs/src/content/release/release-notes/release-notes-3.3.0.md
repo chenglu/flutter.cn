@@ -1,21 +1,39 @@
 ---
-title: Flutter 3.3.0 release notes
-shortTitle: 3.3.0 release notes
-description: Release notes for Flutter 3.3.0.
+# title: Flutter 3.3.0 release notes
+title: Flutter 3.3.0 发行说明
+# shortTitle: 3.3.0 release notes
+shortTitle: 3.3.0 发行说明
+# description: Release notes for Flutter 3.3.0.
+description: Flutter 3.3.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.3.0.
 For information about subsequent bug-fix releases,
 see our [CHANGELOG][].
 
+此页面包含 3.3.0 的发行说明。
+有关后续错误修复版本的信息，
+请参阅我们的 [CHANGELOG][]。
+
+
 [CHANGELOG]: https://github.com/flutter/flutter/blob/main/CHANGELOG.md
 
 ## What's changed
 
+## 变更内容
+
+
 The following changes happened in this release:
 
+本版本包含以下变更：
+
+
 ### Framework
+
+### 框架
+
 * Improve A11Y tests for text contrast by @matasb-google in https://github.com/flutter/flutter/pull/100267
 * Fixes `FadeInImage` to follow gapless playback by @werainkhatri in https://github.com/flutter/flutter/pull/94601
 * Remove deprecated RaisedButton by @Piinks in https://github.com/flutter/flutter/pull/98547
@@ -435,6 +453,9 @@ The following changes happened in this release:
 * CP: Fix Android platform view creation flow by @stuartmorgan in https://github.com/flutter/flutter/pull/109544
 * fix flutter not finding custom device (#108884) by @zanderso in https://github.com/flutter/flutter/pull/109957
 ### Tooling
+
+### 工具
+
 * Run CADisableMinimumFrameDurationOnPhone migration on all example apps by @jmagman in https://github.com/flutter/flutter/pull/101314
 * Catch errors in ProxiedDevice to make sure we don't crash on errors. by @chingjun in https://github.com/flutter/flutter/pull/101332
 * Use single quotes for `dartSdkVersionBounds` by @creativecreatorormaybenot in https://github.com/flutter/flutter/pull/101270
@@ -612,10 +633,16 @@ The following changes happened in this release:
 * CP Catch more general XmlException #106365 by @christopherfujino in https://github.com/flutter/flutter/pull/108839
 * Remove deprecated Ruby File.exists? in helper script by @jmagman in https://github.com/flutter/flutter/pull/110045
 ### MacOS
+
+### macOS
+
 * macos support for image_list by @Abhishek01039 in https://github.com/flutter/flutter/pull/84899
 * [macOS] Adds macOS project files to layers example by @cbracken in https://github.com/flutter/flutter/pull/102539
 
 ## New Contributors
+
+## 新贡献者
+
 * @matasb-google made their first contribution in https://github.com/flutter/flutter/pull/100267
 * @guillempuche made their first contribution in https://github.com/flutter/flutter/pull/100893
 * @JankoLancer made their first contribution in https://github.com/flutter/flutter/pull/100377
@@ -659,3 +686,6 @@ The following changes happened in this release:
 * @akbiggs made their first contribution in https://github.com/flutter/flutter/pull/105169
 
 **Full Changelog**: https://github.com/flutter/flutter/compare/3.0.0...3.3.0-0.5.pre
+
+**完整变更日志**： https://github.com/flutter/flutter/compare/3.0.0...3.3.0-0.5.pre
+

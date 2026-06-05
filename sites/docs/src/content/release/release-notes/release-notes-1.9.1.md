@@ -1,30 +1,70 @@
 ---
-title: Flutter 1.9.1 release notes
-shortTitle: 1.9.1 release notes
-description: Release notes for Flutter 1.9.1.
+# title: Flutter 1.9.1 release notes
+title: Flutter 1.9.1 发行说明
+# shortTitle: 1.9.1 release notes
+shortTitle: 1.9.1 发行说明
+# description: Release notes for Flutter 1.9.1.
+description: Flutter 1.9.1 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 Hello and welcome to another stable release of Flutter. So far this year, we've been right on target with one stable release each quarter, as per [our plan](https://github.com/flutter/flutter/blob/main/docs/releases/Flutter-build-release-channels.md) (well, less of a plan and more of a goal, but still, it's been working out pretty well so far…). This release is our biggest yet, with 620 Pull Requests merged from 116 contributors. As always, the interesting PRs are listed below. And there are lots of interesting things to discuss in this release, including:
 
+你好，欢迎使用 Flutter 的另一个稳定版本。今年到目前为止，我们已经实现了每个季度发布一个稳定版本的目标，根据[our plan](https://github.com/flutter/flutter/blob/main/docs/releases/Flutter-build-release-channels.md)（好吧，与其说是计划，不如说是目标，但到目前为止，一切进展顺利……）。此版本是我们迄今为止最大的版本，共有 116 个贡献者合并了 620 个 Pull 请求。与往常一样，下面列出了有趣的 PR。此版本中有很多有趣的事情值得讨论，包括：
+
+
 *   One regression fixed but also one added
+
+  修复了一项回归，但还添加了一项
+
 *   Some breaking API changes
+
+  一些重大 API 更改
+
 *   Some severe issues caught and fixed
+
+  一些严重的 issues 被捕获并修复
+
 *   Support for macOS Catalina and iOS 13
+
+  支持 macOS Catalina 和 iOS 13
+
 *   A number of new features
+
+  多项新功能
+
 *   And more!
 
+  还有更多！
+
+
 And to be clear, when I say "we," I mean the Flutter community as a whole. The Flutter team couldn't possibly continue to scale as we have without all of our contributors, no matter who your employer is. Thanks everyone for your contributions!
+
+需要明确的是，当我说“我们”时，我指的是整个 Flutter 社区。如果没有所有贡献者，无论你的雇主是谁，Flutter 团队都不可能继续扩大规模。感谢大家的贡献！
+
 
 
 ## Regressions
 
+## 回归
+
+
 In this release, we fixed one regression ([37955](https://github.com/flutter/flutter/pull/37955) Update shader warm-up for recent Skia changes) and caused another ([38167](https://github.com/dart-lang/sdk/issues/38167) Incremental compiler re-issuing of errors from constant evaluator). The new regression is fixed after the 1.9.1 stable release ([00d14e7](https://github.com/dart-lang/sdk/commit/00d14e7) [CFE] Always start constant evaluation error where we are asked to evaluate), so if you're seeing it, you can choose a more recent build to bring it into your Flutter apps.
+
+在此版本中，我们修复了一个回归（[37955](https://github.com/flutter/flutter/pull/37955)更新最近 Skia 更改的着色器预热）并导致另一个（[38167](https://github.com/dart-lang/sdk/issues/38167)增量编译器重新发出来自常量求值器的错误）。新的回归在 1.9.1 稳定版发布后得到修复（[00d14e7](https://github.com/dart-lang/sdk/commit/00d14e7)[CFE] 始终在要求我们评估的地方启动持续的评估错误），因此如果你看到它，你可以选择更新的版本将其带入你的 Flutter 应用程序中。
+
 
 
 ## Breaking API Changes
 
+## API 重大变更
+
+
 We try hard not to make breaking changes, but we also don't want to create unintuitive APIs as we move Flutter forward to new scenarios and new platforms. These are the breaking changes in this release. Please see the associated announcements so you can move your code forward.
+
+我们努力不做出重大更改，但我们也不想在将 Flutter 转向新场景和新平台时创建不直观的 API。这些是此版本中的重大更改。请参阅相关公告，以便你可以继续改进你的代码。
+
 
 [33281](https://github.com/flutter/flutter/pull/33281) ([announcement](https://groups.google.com/forum/#!msg/flutter-announce/ZmnseDOW9Wc/5K7xD0V8BwAJ)) Update TextStyle and StrutStyle height docs
 
@@ -63,7 +103,13 @@ We try hard not to make breaking changes, but we also don't want to create unint
 
 ## Severe: Crash, Customer Critical and Performance Fixes
 
+## 严重：崩溃、客户关键和性能修复
+
+
 In Flutter, we try to add a little bit of quality to every release. This time around, we fixed several severe issues, including crashes, customer critical issues and performance issues.
+
+在 Flutter 中，我们尝试为每个版本添加一点质量。这一次，我们修复了几个严重的 issues，包括崩溃、客户关键 issues 和性能 issues。
+
 
 [34907](https://github.com/flutter/flutter/pull/34907) Fixed LicensePage to close page before loaded the License causes an error
 
@@ -84,7 +130,13 @@ In Flutter, we try to add a little bit of quality to every release. This time ar
 
 ## New Features
 
+## 新功能
+
+
 This release also brings with it two new Material widgets: the ToggleButtons widget (called a [segmented control](https://developer.apple.com/design/human-interface-guidelines/ios/controls/segmented-controls/) on iOS) and a ColorFilter widget (described below in the Text & Accessibility section). To see these widgets in action, check out short [ToggleButtons ](https://github.com/csells/flutter_toggle_buttons)and [ColorFilter](https://github.com/csells/flutter_color_filter) samples. Also, the SelectableText widget allows the user to select read-only text.
+
+此版本还带来了两个新材质 widgets：ToggleButtons widget（称为[segmented control](https://developer.apple.com/design/human-interface-guidelines/ios/controls/segmented-controls/)iOS）和 ColorFilter widget（在下文的文本和辅助功能部分中进行了描述）。要查看这些 widget 的实际效果，请查看简短的[ToggleButtons ](https://github.com/csells/flutter_toggle_buttons)和[ColorFilter](https://github.com/csells/flutter_color_filter)样品。此外，SelectableText widget 允许用户选择只读文本。
+
 
 [34599](https://github.com/flutter/flutter/pull/34599) [Material] ToggleButtons
 
@@ -109,7 +161,13 @@ This release also brings with it two new Material widgets: the ToggleButtons wid
 
 ## macOS Catalina Support
 
+## macOS Catalina 支持
+
+
 With the release of macOS Catalina just around the corner, we've made sure that our tooling continues to work smoothly as you migrate to Catalina, iOS 13 and Xcode 11. I should note that **you'll want to upgrade to the Flutter 1.9.1 stable release before upgrading to Catalina**. The other order works, too, but you'll see an error when you do it that way (the [error](https://github.com/flutter/flutter/issues/33890) is benign, but still…).
+
+随着 macOS Catalina 的发布即将到来，我们确保当你迁移到 Catalina、iOS 13 和 Xcode 11 时，我们的工具能够继续顺利工作。我应该注意，**在升级到 Catalina 之前，你需要先升级到 Flutter 1.9.1 稳定版本**。其他顺序也有效，但是当你这样做时你会看到错误（[error](https://github.com/flutter/flutter/issues/33890)是良性的，但仍然......）。
+
 
 [38325](https://github.com/flutter/flutter/pull/38325) refactor flutter upgrade to be 2 part, with the second part re-entrant
 
@@ -134,7 +192,13 @@ With the release of macOS Catalina just around the corner, we've made sure that 
 
 ## iOS
 
+## iOS
+
+
 With over 50 PRs in this release, iOS support continues to be a big focus for Flutter, including an iOS 13 scrollbar implementation (that includes long-press, drag-from-right and vibration feedback support), an update to the CupertinoSwitch widget to match iOS 13 and continued experimentation with bitcode.
+
+此版本中包含超过 50 个 PR，iOS 支持仍然是 Flutter 的一大焦点，包括 iOS 13 滚动条实现（包括长按、从右侧拖动和振动反馈支持）、CupertinoSwitch 的更新widget 匹配 iOS 13 并继续使用位码进行实验。
+
 
 [35829](https://github.com/flutter/flutter/pull/35829) iOS 13 scrollbar
 
@@ -243,7 +307,13 @@ With over 50 PRs in this release, iOS support continues to be a big focus for Fl
 
 ## Android
 
+## Android
+
+
 The biggest addition to Android this release is support for a new flutter command: 'flutter build aar'. This new build command works just like 'flutter build apk' or 'flutter build appbundle', but for plugins and module projects. By building the plugins as [AARs](https://developer.android.com/studio/projects/android-library), the Android Gradle plugin can use Jetifier to translate support libraries into AndroidX libraries for all the plugin's native code, which reduces the error rate when using AndroidX in apps.
+
+此版本对 Android 的最大补充是支持新的 flutter 命令：“flutter build aar”。这个新的构建命令的工作方式与“flutter build apk”或“flutter build appbundle”类似，但适用于插件和模块项目。通过将插件构建为[AARs](https://developer.android.com/studio/projects/android-library)，Android Gradle 插件可以使用 Jetifier 将所有插件本机代码的支持库转换为 AndroidX 库，从而降低在应用程序中使用 AndroidX 时的错误率。
+
 
 [35217](https://github.com/flutter/flutter/pull/35217) Add flutter build aar
 
@@ -294,7 +364,13 @@ The biggest addition to Android this release is support for a new flutter comman
 
 ## Material
 
+## 材料
+
+
 Of course, the Material design language also continues to be a major focus for Flutter.
+
+当然，Material 设计语言也仍然是 Flutter 的主要关注点。
+
 
 [34869](https://github.com/flutter/flutter/pull/34869) [Material] Properly call onChangeStart and onChangeEnd in Range Slider
 
@@ -359,7 +435,13 @@ Of course, the Material design language also continues to be a major focus for F
 
 ## Text & Accessibility
 
+## 文本和辅助功能
+
+
 The biggest change in text & accessibility for this release is the new ColorFilter support, which enables you to recolor an entire widget tree according, for example, to adjust your app for users with red/green color blindness. To see it in action, check out this [ColorFilter sample](https://github.com/csells/flutter_color_filter).
+
+此版本在文本和可访问性方面最大的变化是新的 ColorFilter 支持，它使你能够根据需要重新着色整个 widget 树，例如，为红/绿色盲用户调整你的应用程序。要查看它的实际效果，请查看此[ColorFilter sample](https://github.com/csells/flutter_color_filter).
+
 
 [35468](https://github.com/flutter/flutter/pull/35468) Add colorFilterLayer/Widget
 
@@ -396,7 +478,13 @@ The biggest change in text & accessibility for this release is the new ColorFilt
 
 ## Web (tech preview)
 
+## Web（技术预览）
+
+
 Work continues on adding to the technical preview of web platform support to Flutter in this release, including a flag to tell if an app is running on the web. To see it in action, check out [main.dart](https://github.com/csells/flutter_mazegen/blob/master/lib/main.dart) in the [flutter_mazegen sample](https://github.com/csells/flutter_mazegen/). To learn more, see [Flutter for web](https://docs.flutter.dev/web).
+
+在此版本中，我们仍在继续向 Flutter 添加 Web 平台支持的技术预览版，包括用于判断应用程序是否在 Web 上运行的标志。要查看它的实际效果，请查看[main.dart](https://github.com/csells/flutter_mazegen/blob/master/lib/main.dart)在[flutter_mazegen sample](https://github.com/csells/flutter_mazegen/)。要了解更多信息，请参阅[Flutter for web](https://docs.flutter.dev/web).
+
 
 [36135](https://github.com/flutter/flutter/pull/36135) add a kIsWeb constant to foundation
 
@@ -433,7 +521,13 @@ Work continues on adding to the technical preview of web platform support to Flu
 
 ## Desktop (experimental)
 
+## 桌面（实验性）
+
+
 We continue to move forward with the experimental support for the desktop platform in Flutter. If you'd like to take part in the experiment, see [Flutter Desktop shells](https://docs.flutter.dev/desktop).
+
+我们继续在 Flutter 中推进对桌面平台的实验性支持。如果你想参与实验，请参阅[Flutter Desktop shells](https://docs.flutter.dev/desktop).
+
 
 [32770](https://github.com/flutter/flutter/pull/32770) Dismiss modal with any button press
 
@@ -498,7 +592,13 @@ We continue to move forward with the experimental support for the desktop platfo
 
 ## Framework
 
+## 框架
+
+
 The core framework for Flutter saw several important features in this release, including support for an additional 24 new locales (ranging [from Afrikaans to Zulu](https://github.com/flutter/flutter/pull/36589)).
+
+Flutter 的核心框架在此版本中看到了几个重要功能，包括对另外 24 个新语言环境的支持（范围[from Afrikaans to Zulu](https://github.com/flutter/flutter/pull/36589)).
+
 
 [36589](https://github.com/flutter/flutter/pull/36589) Update Localizations: added 24 new locales (reprise)
 
@@ -615,7 +715,13 @@ The core framework for Flutter saw several important features in this release, i
 
 ## Engine
 
+## 引擎
+
+
 The core engine continues to see many improvements across the board in this release.
+
+在此版本中，核心引擎继续得到全面改进。
+
 
 [9041](https://github.com/flutter/engine/pull/9041) TextStyle.height property as a multiple of font size instead of multiple of ascent+descent+leading.
 
@@ -1010,20 +1116,53 @@ The core engine continues to see many improvements across the board in this rele
 
 ## Tools
 
+## 工具
+
+
 As always, the end-to-end experience for Flutter relies heavily on its tools. With that in mind, in addition to the PRs listed below, which focus on the flutter CLI tool, you should also check out the following releases for the IntelliJ/Android Studio Flutter plugin, the VSCode Flutter plugin and Dart DevTools:
+
+与往常一样，Flutter 的端到端体验在很大程度上依赖于其工具。考虑到这一点，除了下面列出的 PR 专注于 flutter CLI 工具之外，你还应该查看 IntelliJ/Android Studio Flutter 插件、VSCode Flutter 插件和 Dart DevTools 的以下版本：
+
 
 
 
 *   [DevTools 0.1.6 Release Notes](https://groups.google.com/forum/#!topic/flutter-announce/x9eiBq-OZUk) - Sept 5, 2019
+
+  [DevTools 0.1.6 Release Notes](https://groups.google.com/forum/#!topic/flutter-announce/x9eiBq-OZUk)- 2019 年 9 月 5 日
+
 *   [IntelliJ Plugin M39 Release Notes](https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!msg/flutter-announce/HH2-z-wYMH4/Yb1mzIPWBgAJ) - Sept 3, 2019
+
+  [IntelliJ Plugin M39 Release Notes](https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!msg/flutter-announce/HH2-z-wYMH4/Yb1mzIPWBgAJ)- 2019 年 9 月 3 日
+
 *   [VSCode Plugin v3.4](https://dartcode.org/releases/v3-4/) - Sept 3, 2019
+
+  [VSCode Plugin v3.4](https://dartcode.org/releases/v3-4/)- 2019 年 9 月 3 日
+
 *   [DevTools 0.1.5 Release Notes](https://groups.google.com/forum/#!searchin/flutter-announce/release$20notes|sort:date/flutter-announce/_tBeov94GEk/8IMoZnV0DQAJ) - Aug 5, 2019
+
+  [DevTools 0.1.5 Release Notes](https://groups.google.com/forum/#!searchin/flutter-announce/release$20notes|sort:date/flutter-announce/_tBeov94GEk/8IMoZnV0DQAJ)- 2019 年 8 月 5 日
+
 *   [VSCode Plugin v3.3](https://dartcode.org/releases/v3-3/) - Aug 2, 2019
+
+  [VSCode Plugin v3.3](https://dartcode.org/releases/v3-3/)- 2019 年 8 月 2 日
+
 *   [IntelliJ Plugin M38 Release Notes](https://groups.google.com/forum/#!searchin/flutter-announce/intellij|sort:date/flutter-announce/-LQPz3C3JAM/ZR2WnOklEQAJ) - Aug 2, 2019
+
+  [IntelliJ Plugin M38 Release Notes](https://groups.google.com/forum/#!searchin/flutter-announce/intellij|sort:date/flutter-announce/-LQPz3C3JAM/ZR2WnOklEQAJ)- 2019 年 8 月 2 日
+
 *   [DevTools 0.1.4 Release Notes](https://groups.google.com/forum/#!searchin/flutter-announce/release$20notes|sort:date/flutter-announce/ZUcqjzEDTKc/ABZtXXOpCgAJ) - Jul 19, 2019
+
+  [DevTools 0.1.4 Release Notes](https://groups.google.com/forum/#!searchin/flutter-announce/release$20notes|sort:date/flutter-announce/ZUcqjzEDTKc/ABZtXXOpCgAJ)- 2019 年 7 月 19 日
+
 *   [VSCode Plugin v3.2](https://dartcode.org/releases/v3-2/) - Jun 28, 2019
 
+  [VSCode Plugin v3.2](https://dartcode.org/releases/v3-2/)- 2019 年 6 月 28 日
+
+
 In addition, this release also has a lot going on under the hood to provide you with better, more actionable error messages. You can read about those details in [this blog post](https://blog.flutter.dev/improving-flutters-error-messages-e098513cecf9) from the Flutter User Experience team.
+
+此外，此版本还进行了很多底层操作，为你提供更好、更可操作的错误消息。你可以阅读有关这些详细信息[this blog post](https://blog.flutter.dev/improving-flutters-error-messages-e098513cecf9)来自 Flutter 用户体验团队。
+
 
 [32511](https://github.com/flutter/flutter/pull/32511) Rendering errors with root causes in the widget layer should have a reference to the widget
 
@@ -1240,4 +1379,10 @@ In addition, this release also has a lot going on under the hood to provide you 
 
 ## Full PR List
 
+## 完整 PR 列表
+
+
 You can see the full list of merged PRs in this release [here](/release/release-notes/changelogs/changelog-1.9.1).
+
+你可以在此版本中查看合并的 PRs 的完整列表[here](/release/release-notes/changelogs/changelog-1.9.1).
+

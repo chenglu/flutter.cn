@@ -1,15 +1,28 @@
 ---
-title: Flutter 3.41.0 release notes
-shortTitle: 3.41.0 release notes
-description: Release notes for Flutter 3.41.0.
+# title: Flutter 3.41.0 release notes
+title: Flutter 3.41.0 发行说明
+# shortTitle: 3.41.0 release notes
+shortTitle: 3.41.0 发行说明
+# description: Release notes for Flutter 3.41.0.
+description: Flutter 3.41.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for Flutter 3.41.
 
+此页面包含 Flutter 3.41 的发行说明。
+
+
 ## What's changed
 
+## 变更内容
+
+
 ### Framework
+
+### 框架
+
 
 * Add saturation ColorFilter. by @ksokolovskyi in [176464](https://github.com/flutter/flutter/pull/176464)
 * Remove unnecessary nullable types in examples. by @ksokolovskyi in [176713](https://github.com/flutter/flutter/pull/176713)
@@ -211,6 +224,7 @@ This page has release notes for Flutter 3.41.
 
 ### Material
 
+
 * Feat: Add carousel view builder by @rkishan516 in [172837](https://github.com/flutter/flutter/pull/172837)
 * Make sure that a DesktopTextSelectionToolbarButton doesn't crash in 0… by @ahmedsameha1 in [173827](https://github.com/flutter/flutter/pull/173827)
 * Simplify `if-else` block into single `return` statement by @ValentinVignal in [175574](https://github.com/flutter/flutter/pull/175574)
@@ -391,6 +405,7 @@ This page has release notes for Flutter 3.41.
 
 ### iOS
 
+
 * Add structured warning event for slow wireless debugging on iOS 26+ d… by @okorohelijah in [176673](https://github.com/flutter/flutter/pull/176673)
 * Fix Xcode cache errors by @okorohelijah in [175659](https://github.com/flutter/flutter/pull/175659)
 * iOS can set application locale before view controller is set by @chunhtai in [176592](https://github.com/flutter/flutter/pull/176592)
@@ -418,6 +433,7 @@ This page has release notes for Flutter 3.41.
 * flutter_tools: Auto-generate ExportOptions.plist for manual iOS code signing by @MohammedTarigg in [177888](https://github.com/flutter/flutter/pull/177888)
 
 ### Android
+
 
 * Keyboard Animation Fix by @mboetger in [176418](https://github.com/flutter/flutter/pull/176418)
 * [HCPP] Properly remove hcpp views that are no longer visible by @gmackall in [176742](https://github.com/flutter/flutter/pull/176742)
@@ -483,9 +499,11 @@ This page has release notes for Flutter 3.41.
 
 ### macOS
 
+
 * Fix no op host debug builds doing work by @gmackall in [178077](https://github.com/flutter/flutter/pull/178077)
 
 ### Windows
+
 
 * Fixing WindowManagerTest::DialogCanNeverBeFullscreen possibly hanging by @mattkae in [177179](https://github.com/flutter/flutter/pull/177179)
 * Workaround for lag when dragging window titlebar on Windows by @knopp in [177597](https://github.com/flutter/flutter/pull/177597)
@@ -502,6 +520,7 @@ This page has release notes for Flutter 3.41.
 
 ### Linux
 
+
 * Change default Linux thread policy to merge platform and UI threads. by @robert-ancell in [176759](https://github.com/flutter/flutter/pull/176759)
 * Fix accessibility events not being correctly translated to ATK by @robert-ancell in [176991](https://github.com/flutter/flutter/pull/176991)
 * [Desktop] Propagate SemanticsNode::identifier to AXPlatformNodeDelegate::AuthorUniqueId by @loic-peron-inetum-public in [175405](https://github.com/flutter/flutter/pull/175405)
@@ -511,6 +530,7 @@ This page has release notes for Flutter 3.41.
 * Remove obsolete windowing channel by @robert-ancell in [179718](https://github.com/flutter/flutter/pull/179718)
 
 ### Web
+
 
 * [web] Match the behavior of other platforms in Web Locale.toString if the country code is an empty string by @jason-simmons in [176862](https://github.com/flutter/flutter/pull/176862)
 * impeller: allows access of float uniforms by name by @gaaclarke in [176728](https://github.com/flutter/flutter/pull/176728)
@@ -558,6 +578,9 @@ This page has release notes for Flutter 3.41.
 * [CP] Fix style_manager_test for Firefox (#181084) by @harryterkelsen in [181204](https://github.com/flutter/flutter/pull/181204)
 
 ### Tooling
+
+### 工具
+
 
 * Roll pub packages by @flutter-pub-roller-bot in [176743](https://github.com/flutter/flutter/pull/176743)
 * [native_assets] create macOS CCompilerConfig via xcrun --find by @GregoryConrad in [175717](https://github.com/flutter/flutter/pull/175717)
@@ -655,12 +678,18 @@ This page has release notes for Flutter 3.41.
 
 ### Documentation
 
+### 文档
+
+
 * Remove unnecessary location permission by @mboetger in [176672](https://github.com/flutter/flutter/pull/176672)
 * Making the multiple_windows example app demonstrate dialogs of dialogs by @mattkae in [177786](https://github.com/flutter/flutter/pull/177786)
 * Add missing flutter_lints dev dependencies by @guidezpl in [178105](https://github.com/flutter/flutter/pull/178105)
 * Update window settings as they change rather than the more outdated "Apply" pattern. by @robert-ancell in [179861](https://github.com/flutter/flutter/pull/179861)
 
 ### Other changes
+
+### 其他变更
+
 
 * Configure FfiNative resolver on dart:io by @mraleph in [176621](https://github.com/flutter/flutter/pull/176621)
 * fix: build windows_arm artifacts for cah by @jtmcdole in [176723](https://github.com/flutter/flutter/pull/176723)
@@ -862,6 +891,9 @@ This page has release notes for Flutter 3.41.
 
 ## New contributors
 
+## 新贡献者
+
+
 * @jwlilly made their first contribution in [174374](https://github.com/flutter/flutter/pull/174374)
 * @progamax made their first contribution in [174497](https://github.com/flutter/flutter/pull/174497)
 * @leuchte made their first contribution in [177078](https://github.com/flutter/flutter/pull/177078)
@@ -898,3 +930,6 @@ This page has release notes for Flutter 3.41.
 * @nathannewyen made their first contribution in [180326](https://github.com/flutter/flutter/pull/180326)
 
 **Full Changelog**: https://github.com/flutter/flutter/compare/3.38.0...3.41.0-0.2.pre
+
+**完整变更日志**： https://github.com/flutter/flutter/compare/3.38.0...3.41.0-0.2.pre
+

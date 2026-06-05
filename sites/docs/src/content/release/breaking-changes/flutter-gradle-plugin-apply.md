@@ -1,17 +1,28 @@
 ---
-title: Deprecated imperative apply of Flutter's Gradle plugins
-description: >-
-  How to migrate your Flutter app's Android Gradle build files to the
-  new, declarative format.
+# title: Deprecated imperative apply of Flutter's Gradle plugins
+# description: >-
+#   How to migrate your Flutter app's Android Gradle build files to the
+#   new, declarative format.
+title: 弃用 Flutter Gradle 插件的命令式 apply 方式
+description: 如何将 Flutter 应用的 Android Gradle 构建文件迁移到新的声明式格式。
+ai-translated: true
 ---
 
 {% render "docs/breaking-changes.md" %}
 
+
+
 ## Summary
+
+## 摘要
 
 To build a Flutter app for Android, Flutter's Gradle plugins must be applied.
 Historically, this was done imperatively with Gradle's
 [legacy, imperative apply script method][].
+
+要为 Android 构建 Flutter 应用，必须应用 Flutter 的 Gradle 插件。
+历史上，这是通过 Gradle 的
+[旧版命令式 apply 脚本方法][legacy, imperative apply script method] 完成的。
 
 In Flutter 3.16, support was added for applying these plugins with Gradle's
 [declarative plugins {} block][] (also called the Plugin DSL) and it is
@@ -19,28 +30,56 @@ now the recommended approach. Since Flutter 3.16, projects generated with
 `flutter create` use the Plugin DSL to apply Gradle plugins. Projects created
 with versions of Flutter prior to 3.16 need to be migrated manually.
 
+在 Flutter 3.16 中，添加了使用 Gradle 的
+[声明式 plugins {} 块][declarative plugins {} block]（也称为 Plugin DSL）应用这些插件的支持，
+现在是推荐方式。自 Flutter 3.16 起，通过 `flutter create` 生成的项目
+使用 Plugin DSL 应用 Gradle 插件。使用 Flutter 3.16 之前版本创建的项目
+需要手动迁移。
+
 Applying Gradle plugins using the `plugins {}` block executes the same code as
 before and should produce equivalent app binaries.
 
+使用 `plugins {}` 块应用 Gradle 插件执行与之前相同的代码，
+应产生等效的应用二进制文件。
+
 To learn about advantages the new Plugin DSL syntax has over the legacy `apply`
 script syntax, see [Gradle docs][plugins block].
+
+要了解新 Plugin DSL 语法相对于旧版 `apply` 脚本语法的优势，
+请参阅 [Gradle 文档][plugins block]。
 
 Migrating the app ecosystem to use the new approach will also make it easier for
 Flutter team to develop Flutter's Gradle plugins, and to enable exciting new
 features in the future, such as using Kotlin instead of Groovy in Gradle
 buildscripts.
 
+将应用生态系统迁移到使用新方法也将让 Flutter 团队
+更容易开发 Flutter 的 Gradle 插件，
+并在未来启用令人兴奋的新功能，例如在 Gradle 构建脚本中使用 Kotlin 而非 Groovy。
+
 ## Migrate
+
+## 迁移
+
+### android/settings.gradle
 
 ### android/settings.gradle
 
 First, find the values of the Android Gradle Plugin (AGP)
 and Kotlin that the project currently uses.
+
+首先，找到项目当前使用的 Android Gradle Plugin（AGP）
+和 Kotlin 的值。
 Unless they have been moved,
 they are likely defined in the buildscript block of the
 `<app-src>/android/build.gradle` file.
+
+除非已移动，
+它们可能定义在 `<app-src>/android/build.gradle` 文件的 buildscript 块中。
 As an example, consider the `build.gradle` file from
 a new Flutter app created before this change:
+
+例如，考虑此变更之前创建的新 Flutter 应用的 `build.gradle` 文件：
 
 ```groovy
 buildscript {
@@ -81,10 +120,17 @@ The AGP version is the number that comes at the end of the line
 in this case. Similarly, the Kotlin version comes at the end of the line
 `ext.kotlin_version = '1.7.10'`, in this case `1.7.10`.
 
+AGP 版本是行 `classpath 'com.android.tools.build:gradle:7.3.0'` 末尾的数字，
+此例为 `7.3.0`。同样，Kotlin 版本是行 `ext.kotlin_version = '1.7.10'` 末尾的数字，
+此例为 `1.7.10`。
+
 Next, replace the contents of
 `<app-src>/android/settings.gradle` with the following,
 remembering to replace `{agpVersion}` and `{kotlinVersion}` with previously
 identified values:
+
+接下来，将 `<app-src>/android/settings.gradle` 的内容替换为以下内容，
+记得将 `{agpVersion}` 和 `{kotlinVersion}` 替换为之前识别的值：
 
 ```groovy
 pluginManagement {
@@ -118,14 +164,24 @@ If you made some changes to this file, make sure they're placed after
 `pluginManagement {}` and `plugins {}` blocks, since Gradle enforces
 that no other code can be placed before these blocks.
 
+如果你对此文件做了一些更改，确保它们放在 `pluginManagement {}` 和 `plugins {}` 块之后，
+因为 Gradle 强制要求这些块之前不能放置其他代码。
+
 The settings Flutter Gradle Plugin (`dev.flutter.flutter-plugin-loader`)
 should not have apply false (the default is true) or should be explicitly
 set to true.
 
+settings Flutter Gradle Plugin（`dev.flutter.flutter-plugin-loader`）
+不应有 apply false（默认为 true）或应显式设为 true。
+
 
 ### android/build.gradle
 
-Remove the whole `buildscript` block from `<app-src/android/build.gradle`:
+### android/build.gradle
+
+Remove the whole `buildscript` block from `<app-src/android/build.gradle>`:
+
+从 `<app-src>/android/build.gradle>` 中移除整个 `buildscript` 块：
 
 ```groovy diff
 - buildscript {
@@ -142,6 +198,8 @@ Remove the whole `buildscript` block from `<app-src/android/build.gradle`:
 ```
 
 Here's how that file will likely end up:
+
+该文件最终可能如下：
 
 ```groovy
 allprojects {
@@ -166,10 +224,17 @@ tasks.register("clean", Delete) {
 
 ### android/app/build.gradle
 
+### android/app/build.gradle
+
 The following changes to code that is, by default
 found in `<app-src>/android/app/build.gradle`, also need to be made.
+
+默认位于 `<app-src>/android/app/build.gradle` 的代码也需要进行以下更改。
+
 First, remove the following 2 chunks of code that use the
 legacy imperative apply method:
+
+首先，移除以下使用旧版命令式 apply 方法的两段代码：
 
 ```groovy diff
 - def flutterRoot = localProperties.getProperty('flutter.sdk')
@@ -188,6 +253,10 @@ Now apply the plugins again,
 but this time using the Plugin DSL syntax.
 At the very top of your file, add:
 
+现在再次应用插件，
+但这次使用 Plugin DSL 语法。
+在文件最顶部添加：
+
 ```groovy
 plugins {
     id "com.android.application"
@@ -199,9 +268,16 @@ plugins {
 Gradle Plugin, which is a different string than the value applied
 in settings.gradle(.kts) (`"dev.flutter.flutter-plugin-loader"`).
 
+`"dev.flutter.flutter-gradle-plugin"` 是项目 Flutter Gradle Plugin，
+其字符串与 settings.gradle(.kts) 中应用的值（`"dev.flutter.flutter-plugin-loader"`）不同。
+
 Finally, if your `dependencies` block contains a dependency
 on `"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"`,
 then remove that dependency.
+
+最后，如果你的 `dependencies` 块包含对
+`"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"` 的依赖，
+则移除该依赖。
 
 ```groovy diff
   dependencies {
@@ -211,17 +287,31 @@ then remove that dependency.
 If it was the only dependency in the `dependencies` block,
 then you can instead remove the block entirely.
 
+如果它是 `dependencies` 块中唯一的依赖，
+则可以完全移除该块。
+
 ### Validation
+
+### 验证
 
 Execute `flutter run` to confirm that your app builds and
 launches on a connected Android device or emulator.
 
+运行 `flutter run` 确认应用在已连接的 Android 设备或模拟器上构建并启动。
+
 ## Examples
+
+## 示例
 
 ### Google Mobile Services and Crashlytics
 
+### Google Mobile Services 和 Crashlytics
+
 If your app was using Google Mobile Services and Crashlytics,
 remove the following lines from `<app-src>/android/build.gradle`:
+
+如果你的应用使用 Google Mobile Services 和 Crashlytics，
+从 `<app-src>/android/build.gradle` 移除以下行：
 
 ```groovy diff
   buildscript {
@@ -237,6 +327,8 @@ remove the following lines from `<app-src>/android/build.gradle`:
 
 Then remove these 2 lines from `<app-src>/android/app/build.gradle`:
 
+然后从 `<app-src>/android/app/build.gradle` 移除以下 2 行：
+
 ```groovy diff
 - apply plugin: 'com.google.gms.google-services'
 - apply plugin: 'com.google.firebase.crashlytics'
@@ -248,6 +340,11 @@ in your app's `<app-src>/android/settings.gradle` file.
 The additions should look similar to the following,
 but with your desired plugin versions, likely matching
 the ones you removed from the `<app-src>/android/build.gradle` file.
+
+要将 GMS 和 Crashlytics 插件迁移到新的声明式 apply 语法，
+将它们添加到应用 `<app-src>/android/settings.gradle` 文件的 `plugins` 块中。
+添加内容应类似于以下内容，
+但使用你所需的插件版本，可能与从 `<app-src>/android/build.gradle` 文件移除的版本一致。
 
 ```groovy diff
   plugins {
@@ -261,6 +358,8 @@ the ones you removed from the `<app-src>/android/build.gradle` file.
 
 Add the following lines to `<app-src>/android/app/build.gradle`:
 
+将以下行添加到 `<app-src>/android/app/build.gradle`：
+
 ```groovy diff
   plugins {
       id "com.android.application"
@@ -273,16 +372,28 @@ Add the following lines to `<app-src>/android/app/build.gradle`:
 
 ## Timeline
 
+## 时间线
+
 Support in stable release: 3.16.0
 Recommended in stable release: 3.19.0
 
+稳定版支持：3.16.0
+稳定版推荐：3.19.0
+
 ## References
+
+## 参考资料
 
 Gradle build files generated by `flutter create`
 differ across Flutter versions.
 For a detailed overview, see [issue #135392][].
 You should consider using the
 latest versions of build files.
+
+`flutter create` 生成的 Gradle 构建文件
+因 Flutter 版本而异。
+详细概述请参阅 [issue #135392][]。
+你应考虑使用最新版本的构建文件。
 
 [legacy, imperative apply script method]: https://docs.gradle.org/8.5/userguide/plugins.html#sec:script_plugins
 [declarative plugins {} block]: https://docs.gradle.org/8.5/userguide/plugins.html#sec:plugins_block

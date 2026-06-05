@@ -1,18 +1,31 @@
 ---
-title: Flutter 2.5.0 release notes
-shortTitle: 2.5.0 release notes
-description: Release notes for Flutter 2.5.0.
+# title: Flutter 2.5.0 release notes
+title: Flutter 2.5.0 发行说明
+# shortTitle: 2.5.0 release notes
+shortTitle: 2.5.0 发行说明
+# description: Release notes for Flutter 2.5.0.
+description: Flutter 2.5.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 2.5.0.
 For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
+此页面包含 2.5.0 的发行说明。有关后续错误修复版本的信息，请参阅我们的[CHANGELOG][]
+
+
 [CHANGELOG]: https://github.com/flutter/flutter/blob/main/CHANGELOG.md
 
 ## Merged PRs by labels for `flutter/flutter`
 
+## 按标签分类的 `flutter/flutter` 已合并 PR
+
+
 ### framework - 530 pull request(s)
+
+### 框架 - 530 个拉取请求
+
 
 [69826](https://github.com/flutter/flutter/pull/69826) Added enableFeedback property to FloatingActionButton (framework, f: material design, cla: yes, waiting for tree to go green)
 
@@ -1606,6 +1619,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### team - 474 pull request(s)
 
+### 团队 - 474 个拉取请求
+
+
 [73440](https://github.com/flutter/flutter/pull/73440) Hardware keyboard: codegen (a: text input, team, framework, cla: yes)
 
 
@@ -3030,6 +3046,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### tool - 412 pull request(s)
 
+### 工具 - 412 个拉取请求
+
+
 [78276](https://github.com/flutter/flutter/pull/78276) Remove MockStdIn and MockStream (team, tool, cla: yes, waiting for tree to go green, tech-debt)
 
 
@@ -4268,6 +4287,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### f: material design - 254 pull request(s)
 
+### f：材料设计 - 254 个拉取请求
+
+
 [69826](https://github.com/flutter/flutter/pull/69826) Added enableFeedback property to FloatingActionButton (framework, f: material design, cla: yes, waiting for tree to go green)
 
 
@@ -5032,6 +5054,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: tests - 118 pull request(s)
 
+### a：测试 - 118 个拉取请求
+
+
 [76288](https://github.com/flutter/flutter/pull/76288) Migrate to ChannelBuffers.push (a: tests, team, framework, f: material design, a: accessibility, cla: yes, f: cupertino, d: examples)
 
 
@@ -5388,6 +5413,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### f: cupertino - 89 pull request(s)
 
+### f：库比蒂诺 - 89 个拉取请求
+
+
 [75497](https://github.com/flutter/flutter/pull/75497) Added axisOrientation property to Scrollbar (framework, f: material design, f: scrolling, cla: yes, f: cupertino, waiting for tree to go green)
 
 
@@ -5657,6 +5685,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: null-safety - 75 pull request(s)
 
+### a：空安全 - 75 个拉取请求
+
+
 [78032](https://github.com/flutter/flutter/pull/78032) Added null check before NavigationRail.onDestinationSelected is called (severe: crash, framework, f: material design, cla: yes, a: quality, waiting for tree to go green, a: null-safety)
 
 
@@ -5884,6 +5915,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: accessibility - 51 pull request(s)
 
+### a：可访问性 - 51 个拉取请求
+
+
 [76288](https://github.com/flutter/flutter/pull/76288) Migrate to ChannelBuffers.push (a: tests, team, framework, f: material design, a: accessibility, cla: yes, f: cupertino, d: examples)
 
 
@@ -6039,6 +6073,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### tech-debt - 48 pull request(s)
 
+### 技术债务 - 48 个拉取请求
+
+
 [78276](https://github.com/flutter/flutter/pull/78276) Remove MockStdIn and MockStream (team, tool, cla: yes, waiting for tree to go green, tech-debt)
 
 
@@ -6185,6 +6222,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### d: examples - 44 pull request(s)
 
+### d：示例 - 44 个拉取请求
+
+
 [76288](https://github.com/flutter/flutter/pull/76288) Migrate to ChannelBuffers.push (a: tests, team, framework, f: material design, a: accessibility, cla: yes, f: cupertino, d: examples)
 
 
@@ -6319,6 +6359,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: quality - 28 pull request(s)
 
+### a：质量 - 28 个拉取请求
+
+
 [76145](https://github.com/flutter/flutter/pull/76145) Add support for pointer scrolling to trigger floats & snaps (framework, a: fidelity, f: scrolling, cla: yes, a: quality, platform-web, waiting for tree to go green, a: desktop, a: mouse)
 
 
@@ -6404,6 +6447,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### engine - 28 pull request(s)
+
+### 引擎 - 28 个拉取请求
+
 
 [80459](https://github.com/flutter/flutter/pull/80459) [flutter_releases] Flutter Dev 2.2.0-10.1.pre Framework Cherrypicks (tool, framework, engine, cla: yes)
 
@@ -6491,6 +6537,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-ios - 27 pull request(s)
 
+### platform-ios - 27 个拉取请求
+
+
 [80904](https://github.com/flutter/flutter/pull/80904) Only run xcodebuild -showBuildSettings once (platform-ios, tool, cla: yes, t: xcode)
 
 
@@ -6574,6 +6623,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### team: flakes - 24 pull request(s)
 
+### 团队：flakes - 24 个拉取请求
+
+
 [79961](https://github.com/flutter/flutter/pull/79961) Mark integration_test_test as unflaky (team, cla: yes, team: flakes, waiting for tree to go green)
 
 
@@ -6648,6 +6700,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: text input - 23 pull request(s)
 
+### a：文本输入 - 23 个拉取请求
+
+
 [73440](https://github.com/flutter/flutter/pull/73440) Hardware keyboard: codegen (a: text input, team, framework, cla: yes)
 
 
@@ -6719,6 +6774,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### will affect goldens - 22 pull request(s)
 
+### 将影响黄金 - 22 个拉取请求
+
+
 [76742](https://github.com/flutter/flutter/pull/76742) Add a bitmap operation property to transform widgets to enable/control bitmap transforms (team, framework, cla: yes, will affect goldens)
 
 
@@ -6786,6 +6844,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### f: scrolling - 22 pull request(s)
+
+### f：滚动 - 22 个拉取请求
+
 
 [75497](https://github.com/flutter/flutter/pull/75497) Added axisOrientation property to Scrollbar (framework, f: material design, f: scrolling, cla: yes, f: cupertino, waiting for tree to go green)
 
@@ -6855,6 +6916,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### documentation - 21 pull request(s)
 
+### 文档 - 21 个拉取请求
+
+
 [78173](https://github.com/flutter/flutter/pull/78173) Improved AssetImage Docs (framework, cla: yes, d: api docs, waiting for tree to go green, documentation)
 
 
@@ -6920,6 +6984,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### d: api docs - 18 pull request(s)
 
+### d：api 文档 - 18 个拉取请求
+
+
 [78173](https://github.com/flutter/flutter/pull/78173) Improved AssetImage Docs (framework, cla: yes, d: api docs, waiting for tree to go green, documentation)
 
 
@@ -6976,6 +7043,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: internationalization - 15 pull request(s)
 
+### a：国际化 - 15 个拉取请求
+
+
 [80541](https://github.com/flutter/flutter/pull/80541) l10n updates (f: material design, a: internationalization, cla: yes, f: cupertino, waiting for tree to go green)
 
 
@@ -7023,6 +7093,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### severe: new feature - 14 pull request(s)
 
+### 严重：新功能 - 14 个拉取请求
+
+
 [81295](https://github.com/flutter/flutter/pull/81295) Override MediaQuery for WidgetsApp (severe: new feature, framework, f: material design, cla: yes, a: quality, waiting for tree to go green)
 
 
@@ -7067,6 +7140,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### t: xcode - 13 pull request(s)
 
+### t：xcode - 13 拉取请求
+
+
 [80904](https://github.com/flutter/flutter/pull/80904) Only run xcodebuild -showBuildSettings once (platform-ios, tool, cla: yes, t: xcode)
 
 
@@ -7108,6 +7184,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### f: gestures - 8 pull request(s)
 
+### f：手势 - 8 个拉取请求
+
+
 [81858](https://github.com/flutter/flutter/pull/81858) Deprecate `GestureDetector.kind` in favor of new `supportedDevices` (severe: new feature, framework, cla: yes, f: gestures, waiting for tree to go green, a: desktop, a: mouse)
 
 
@@ -7133,6 +7212,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### skip-test - 8 pull request(s)
+
+### 跳过测试 - 8 个拉取请求
+
 
 [87063](https://github.com/flutter/flutter/pull/87063) Updated the skipped tests for animation (framework, cla: yes, tech-debt, skip-test)
 
@@ -7160,6 +7242,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: desktop - 8 pull request(s)
 
+### a：桌面 - 8 个拉取请求
+
+
 [76145](https://github.com/flutter/flutter/pull/76145) Add support for pointer scrolling to trigger floats & snaps (framework, a: fidelity, f: scrolling, cla: yes, a: quality, platform-web, waiting for tree to go green, a: desktop, a: mouse)
 
 
@@ -7185,6 +7270,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### platform-host-arm - 8 pull request(s)
+
+### platform-host-arm - 8 个拉取请求
+
 
 [80758](https://github.com/flutter/flutter/pull/80758) Launch Chrome natively on ARM macOS (tool, platform-mac, cla: yes, platform-host-arm)
 
@@ -7212,6 +7300,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### team: infra - 7 pull request(s)
 
+### 团队：infra - 7 个拉取请求
+
+
 [78761](https://github.com/flutter/flutter/pull/78761) removed CIRRUS_CHANGE_MESSAGE and CIRRUS_COMMIT_MESSAGE (team, cla: yes, team: infra)
 
 
@@ -7234,6 +7325,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### integration_test - 7 pull request(s)
+
+### Integration_test - 7 个拉取请求
+
 
 [82712](https://github.com/flutter/flutter/pull/82712) [flutter_test/integration_test] added setSurfaceSize test coverage (a: tests, framework, cla: yes, will affect goldens, integration_test)
 
@@ -7258,6 +7352,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: animation - 6 pull request(s)
 
+### a：动画 - 6 个拉取请求
+
+
 [81706](https://github.com/flutter/flutter/pull/81706) Integrate MaterialBanner with the ScaffoldMessenger API (severe: new feature, framework, a: animation, f: material design, a: fidelity, cla: yes, d: api docs, d: examples, a: quality, waiting for tree to go green, documentation)
 
 
@@ -7277,6 +7374,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### a: fidelity - 6 pull request(s)
+
+### a：保真度 - 6 个拉取请求
+
 
 [76145](https://github.com/flutter/flutter/pull/76145) Add support for pointer scrolling to trigger floats & snaps (framework, a: fidelity, f: scrolling, cla: yes, a: quality, platform-web, waiting for tree to go green, a: desktop, a: mouse)
 
@@ -7298,6 +7398,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-mac - 6 pull request(s)
 
+### platform-mac - 6 个拉取请求
+
+
 [80475](https://github.com/flutter/flutter/pull/80475) Find Android Studio installations with Spotlight query on macOS (tool, platform-mac, cla: yes, t: flutter doctor, waiting for tree to go green)
 
 
@@ -7318,6 +7421,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-web - 5 pull request(s)
 
+### platform-web - 5 个拉取请求
+
+
 [76145](https://github.com/flutter/flutter/pull/76145) Add support for pointer scrolling to trigger floats & snaps (framework, a: fidelity, f: scrolling, cla: yes, a: quality, platform-web, waiting for tree to go green, a: desktop, a: mouse)
 
 
@@ -7334,6 +7440,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### a: error message - 5 pull request(s)
+
+### a：错误消息 - 5 个拉取请求
+
 
 [81278](https://github.com/flutter/flutter/pull/81278) Assert for valid ScrollController in Scrollbar gestures (framework, f: scrolling, cla: yes, f: cupertino, a: quality, waiting for tree to go green, a: error message)
 
@@ -7352,6 +7461,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### severe: API break - 4 pull request(s)
 
+### 严重：API 中断 - 4 个拉取请求
+
+
 [80756](https://github.com/flutter/flutter/pull/80756) Migrate LogicalKeySet to SingleActivator (a: tests, a: text input, team, framework, f: material design, severe: API break, cla: yes, f: cupertino)
 
 
@@ -7365,6 +7477,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### platform-android - 4 pull request(s)
+
+### platform-android - 4 个拉取请求
+
 
 [81303](https://github.com/flutter/flutter/pull/81303) [Framework] Support for Android Fullscreen Modes (severe: new feature, e: device-specific, platform-android, framework, engine, f: material design, a: fidelity, cla: yes, a: quality, customer: crowd, waiting for tree to go green, a: layout)
 
@@ -7380,6 +7495,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### t: flutter doctor - 4 pull request(s)
 
+### t：flutter doctor - 4 个拉取请求
+
+
 [80475](https://github.com/flutter/flutter/pull/80475) Find Android Studio installations with Spotlight query on macOS (tool, platform-mac, cla: yes, t: flutter doctor, waiting for tree to go green)
 
 
@@ -7394,6 +7512,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: typography - 3 pull request(s)
 
+### a：版式 - 3 个拉取请求
+
+
 [78927](https://github.com/flutter/flutter/pull/78927) Add TextOverflow into TextStyle (framework, f: material design, cla: yes, a: typography, waiting for tree to go green)
 
 
@@ -7404,6 +7525,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### a: platform-views - 3 pull request(s)
+
+### a：平台视图 - 3 个拉取请求
+
 
 [84055](https://github.com/flutter/flutter/pull/84055) Allow Flutter focus to interop with Android view hierarchies (a: text input, framework, cla: yes, a: platform-views, f: focus)
 
@@ -7416,6 +7540,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### severe: crash - 3 pull request(s)
 
+### 严重：崩溃 - 3 个拉取请求
+
+
 [78032](https://github.com/flutter/flutter/pull/78032) Added null check before NavigationRail.onDestinationSelected is called (severe: crash, framework, f: material design, cla: yes, a: quality, waiting for tree to go green, a: null-safety)
 
 
@@ -7426,6 +7553,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### customer: crowd - 3 pull request(s)
+
+### 客户：人群 - 3 个拉取请求
+
 
 [81303](https://github.com/flutter/flutter/pull/81303) [Framework] Support for Android Fullscreen Modes (severe: new feature, e: device-specific, platform-android, framework, engine, f: material design, a: fidelity, cla: yes, a: quality, customer: crowd, waiting for tree to go green, a: layout)
 
@@ -7438,6 +7568,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### a: mouse - 3 pull request(s)
 
+### a：鼠标 - 3 个拉取请求
+
+
 [76145](https://github.com/flutter/flutter/pull/76145) Add support for pointer scrolling to trigger floats & snaps (framework, a: fidelity, f: scrolling, cla: yes, a: quality, platform-web, waiting for tree to go green, a: desktop, a: mouse)
 
 
@@ -7449,6 +7582,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-windows - 2 pull request(s)
 
+### platform-windows - 2 个拉取请求
+
+
 [82659](https://github.com/flutter/flutter/pull/82659) [tool] Improve Windows install process (tool, cla: yes, platform-windows, e: uwp)
 
 
@@ -7456,6 +7592,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### f: routes - 2 pull request(s)
+
+### f：路线 - 2 个拉取请求
+
 
 [83509](https://github.com/flutter/flutter/pull/83509) Router replaces browser history entry if state changes (framework, cla: yes, f: routes, platform-web, waiting for tree to go green)
 
@@ -7465,6 +7604,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### f: focus - 2 pull request(s)
 
+### f：焦点 - 2 个拉取请求
+
+
 [84055](https://github.com/flutter/flutter/pull/84055) Allow Flutter focus to interop with Android view hierarchies (a: text input, framework, cla: yes, a: platform-views, f: focus)
 
 
@@ -7472,6 +7614,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### severe: regression - 2 pull request(s)
+
+### 严重：回归 - 2 个拉取请求
+
 
 [83014](https://github.com/flutter/flutter/pull/83014) fix a DropdownButtonFormField label display issue (severe: regression, framework, f: material design, cla: yes, a: quality, waiting for tree to go green)
 
@@ -7481,6 +7626,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### e: device-specific - 2 pull request(s)
 
+### e：特定于设备 - 2 个拉取请求
+
+
 [81303](https://github.com/flutter/flutter/pull/81303) [Framework] Support for Android Fullscreen Modes (severe: new feature, e: device-specific, platform-android, framework, engine, f: material design, a: fidelity, cla: yes, a: quality, customer: crowd, waiting for tree to go green, a: layout)
 
 
@@ -7488,6 +7636,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### a: existing-apps - 2 pull request(s)
+
+### a：现有应用程序 - 2 个拉取请求
+
 
 [81009](https://github.com/flutter/flutter/pull/81009) Allow ios_add2app to be launched without tests (a: tests, team, cla: yes, a: existing-apps)
 
@@ -7497,6 +7648,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-target-arm - 2 pull request(s)
 
+### platform-target-arm - 2 个拉取请求
+
+
 [84411](https://github.com/flutter/flutter/pull/84411) Add Designed for iPad attach destination for ARM macOS (platform-ios, tool, platform-mac, cla: yes, waiting for tree to go green, platform-target-arm)
 
 
@@ -7505,65 +7659,104 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-fuchsia - 1 pull request(s)
 
+### platform-fuchsia - 1 个拉取请求
+
+
 [85586](https://github.com/flutter/flutter/pull/85586) [cleanup] Remove `run_fuchsia_tests.sh`. (platform-fuchsia, cla: yes)
 
 
 ### e: uwp - 1 pull request(s)
+
+### e: uwp - 1 个拉取请求
+
 
 [82659](https://github.com/flutter/flutter/pull/82659) [tool] Improve Windows install process (tool, cla: yes, platform-windows, e: uwp)
 
 
 ### dependency: dart - 1 pull request(s)
 
+### 依赖项：dart - 1 个拉取请求
+
+
 [85364](https://github.com/flutter/flutter/pull/85364) Update stack_trace.dart (team, dependency: dart, cla: yes, waiting for tree to go green)
 
 
 ### t: flutter driver - 1 pull request(s)
+
+### t：颤振驱动程序 - 1 个拉取请求
+
 
 [81565](https://github.com/flutter/flutter/pull/81565) Link to correct extended integration test driver file in integration_test README (a: tests, framework, cla: yes, t: flutter driver, waiting for tree to go green)
 
 
 ### t: hot reload - 1 pull request(s)
 
+### t：热重载 - 1 个拉取请求
+
+
 [84363](https://github.com/flutter/flutter/pull/84363) [flutter] unify reassemble and fast reassemble (framework, t: hot reload, cla: yes, waiting for tree to go green)
 
 
 ### cp: 2.2 - 1 pull request(s)
+
+### cp：2.2 - 1 个拉取请求
+
 
 [78649](https://github.com/flutter/flutter/pull/78649) Treat some exceptions as unhandled when a debugger is attached (tool, framework, cla: yes, waiting for tree to go green, cp: 2.2)
 
 
 ### cla: no - 1 pull request(s)
 
+### cla：否 - 1 个拉取请求
+
+
 [81022](https://github.com/flutter/flutter/pull/81022) fix resampling leads to Hard to tap (framework, cla: no)
 
 
 ### team: gallery - 1 pull request(s)
+
+### 团队：画廊 - 1 个拉取请求
+
 
 [84812](https://github.com/flutter/flutter/pull/84812) Disable auto scrollbars on desktop for legacy flutter gallery (a: tests, team, framework, team: gallery, f: scrolling, cla: yes, waiting for tree to go green, integration_test, tech-debt)
 
 
 ### a: state restoration - 1 pull request(s)
 
+### a：状态恢复 - 1 个拉取请求
+
+
 [78835](https://github.com/flutter/flutter/pull/78835) [State Restoration] Restorable FormField and TextFormField (framework, f: material design, cla: yes, a: state restoration)
 
 
 ### team: presubmit flakes - 1 pull request(s)
+
+### 团队：预提交薄片 - 1 个拉取请求
+
 
 [81792](https://github.com/flutter/flutter/pull/81792) Reduce potential collisions from Gold RNG (a: tests, team, framework, cla: yes, team: flakes, waiting for tree to go green, team: infra, team: presubmit flakes)
 
 
 ### a: layout - 1 pull request(s)
 
+### a：布局 - 1 个拉取请求
+
+
 [81303](https://github.com/flutter/flutter/pull/81303) [Framework] Support for Android Fullscreen Modes (severe: new feature, e: device-specific, platform-android, framework, engine, f: material design, a: fidelity, cla: yes, a: quality, customer: crowd, waiting for tree to go green, a: layout)
 
 
 ### waiting for customer response - 1 pull request(s)
 
+### 等待客户响应 - 1 个拉取请求
+
+
 [85736](https://github.com/flutter/flutter/pull/85736) Remove "unnecessary" imports. (waiting for customer response, tool, framework, f: material design, a: accessibility, cla: yes, waiting for tree to go green, will affect goldens)
 
 
 ### a: annoyance - 1 pull request(s)
+
+### a：烦恼 - 1 个拉取请求
+
 
 [82293](https://github.com/flutter/flutter/pull/82293) Better hover handling for Scrollbar (framework, f: material design, f: scrolling, cla: yes, a: quality, waiting for tree to go green, a: desktop, a: annoyance, a: mouse)
 
@@ -7571,10 +7764,16 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### Merged PRs by labels for `flutter/engine`
 
+### 按 `flutter/engine` 的标签合并 PRs
+
+
 
 
 
 ### cla: yes - 1729 pull request(s)
+
+### cla：是 - 1729 个拉取请求
+
 
 [19631](https://github.com/flutter/engine/pull/19631) Fix behavior of BackdropFilter on a transparent background (cla: yes)
 
@@ -12765,6 +12964,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### waiting for tree to go green - 1309 pull request(s)
 
+### 等待树变绿 - 1309 拉取请求
+
+
 [20535](https://github.com/flutter/engine/pull/20535) fuchsia: Delete unused compilation_trace code (cla: yes, waiting for tree to go green, platform-fuchsia)
 
 
@@ -16694,6 +16896,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-web - 164 pull request(s)
 
+### platform-web - 164 个拉取请求
+
+
 [25373](https://github.com/flutter/engine/pull/25373) Add API to the engine to support attributed text (platform-ios, platform-android, cla: yes, waiting for tree to go green, platform-web)
 
 
@@ -17188,6 +17393,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-fuchsia - 89 pull request(s)
 
+### platform-fuchsia - 89 个拉取请求
+
+
 [20535](https://github.com/flutter/engine/pull/20535) fuchsia: Delete unused compilation_trace code (cla: yes, waiting for tree to go green, platform-fuchsia)
 
 
@@ -17457,6 +17665,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-android - 85 pull request(s)
 
+### platform-android - 85 个拉取请求
+
+
 [25373](https://github.com/flutter/engine/pull/25373) Add API to the engine to support attributed text (platform-ios, platform-android, cla: yes, waiting for tree to go green, platform-web)
 
 
@@ -17714,6 +17925,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### needs tests - 61 pull request(s)
 
+### 需要测试 - 61 个拉取请求
+
+
 [26783](https://github.com/flutter/engine/pull/26783) Replace flutter_runner::Thread with fml::Thread (cla: yes, platform-web, platform-fuchsia, needs tests)
 
 
@@ -17899,6 +18113,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-ios - 45 pull request(s)
 
+### platform-ios - 45 个拉取请求
+
+
 [25070](https://github.com/flutter/engine/pull/25070) [iOS] Fixes crash of TextInputView when Flutter deallocated (platform-ios, waiting for customer response, cla: yes, waiting for tree to go green)
 
 
@@ -18036,6 +18253,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-macos - 34 pull request(s)
 
+### platform-macos - 34 个拉取请求
+
+
 [23467](https://github.com/flutter/engine/pull/23467) Hardware Keyboard: Linux (GTK) (affects: text input, cla: yes, platform-macos, platform-linux, platform-windows, embedder)
 
 
@@ -18139,6 +18359,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### platform-windows - 34 pull request(s)
+
+### platform-windows - 34 个拉取请求
+
 
 [23467](https://github.com/flutter/engine/pull/23467) Hardware Keyboard: Linux (GTK) (affects: text input, cla: yes, platform-macos, platform-linux, platform-windows, embedder)
 
@@ -18244,6 +18467,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### embedder - 26 pull request(s)
 
+### embedder - 26 个拉取请求
+
+
 [23467](https://github.com/flutter/engine/pull/23467) Hardware Keyboard: Linux (GTK) (affects: text input, cla: yes, platform-macos, platform-linux, platform-windows, embedder)
 
 
@@ -18324,6 +18550,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-linux - 11 pull request(s)
 
+### platform-linux - 11 个拉取请求
+
+
 [23467](https://github.com/flutter/engine/pull/23467) Hardware Keyboard: Linux (GTK) (affects: text input, cla: yes, platform-macos, platform-linux, platform-windows, embedder)
 
 
@@ -18359,6 +18588,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### affects: desktop - 9 pull request(s)
 
+### 影响：桌面 - 9 个拉取请求
+
+
 [25522](https://github.com/flutter/engine/pull/25522) Eliminate unnecessary conditional on UWP in build (cla: yes, affects: desktop, platform-windows, tech-debt)
 
 
@@ -18387,6 +18619,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### tech-debt - 9 pull request(s)
+
+### 技术债务 - 9 个拉取请求
+
 
 [25522](https://github.com/flutter/engine/pull/25522) Eliminate unnecessary conditional on UWP in build (cla: yes, affects: desktop, platform-windows, tech-debt)
 
@@ -18417,6 +18652,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### affects: text input - 7 pull request(s)
 
+### 影响：文本输入 - 7 个拉取请求
+
+
 [23467](https://github.com/flutter/engine/pull/23467) Hardware Keyboard: Linux (GTK) (affects: text input, cla: yes, platform-macos, platform-linux, platform-windows, embedder)
 
 
@@ -18440,6 +18678,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### affects: tests - 6 pull request(s)
 
+### 影响：测试 - 6 个拉取请求
+
+
 [26315](https://github.com/flutter/engine/pull/26315) [uwptool] Move Launch, Uninstall to AppStore class (affects: tests, cla: yes, affects: desktop, platform-windows)
 
 
@@ -18460,6 +18701,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### affects: engine - 3 pull request(s)
 
+### 影响：引擎 - 3 个拉取请求
+
+
 [26028](https://github.com/flutter/engine/pull/26028) Extract FML command_line target (affects: engine, cla: yes)
 
 
@@ -18471,6 +18715,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### cp: 2.2 - 2 pull request(s)
 
+### cp：2.2 - 2 个拉取请求
+
+
 [25548](https://github.com/flutter/engine/pull/25548) [macos] Release the copied pixel buffer after texture creation (cla: yes, waiting for tree to go green, platform-macos, embedder, cp: 2.2)
 
 
@@ -18479,20 +18726,32 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### Work in progress (WIP) - 1 pull request(s)
 
+### 正在进行的工作 (WIP) - 1 个拉取请求
+
+
 [26422](https://github.com/flutter/engine/pull/26422) fuchsia: Delete all the legacy code! (cla: yes, Work in progress (WIP), platform-web, platform-fuchsia, tech-debt)
 
 
 ### affects: docs - 1 pull request(s)
+
+### 影响：文档 - 1 个拉取请求
+
 
 [26892](https://github.com/flutter/engine/pull/26892) fix javadoc (platform-android, affects: docs, cla: yes, waiting for tree to go green, tech-debt)
 
 
 ### code health - 1 pull request(s)
 
+### 代码健康状况 - 1 个拉取请求
+
+
 [26031](https://github.com/flutter/engine/pull/26031) Use string_view inputs for conversion functions (code health, cla: yes, platform-windows)
 
 
 ### waiting for customer response - 1 pull request(s)
+
+### 等待客户响应 - 1 个拉取请求
+
 
 [25070](https://github.com/flutter/engine/pull/25070) [iOS] Fixes crash of TextInputView when Flutter deallocated (platform-ios, waiting for customer response, cla: yes, waiting for tree to go green)
 
@@ -18500,10 +18759,16 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### Merged PRs by labels for `flutter/plugins`
 
+### 按 `flutter/plugins` 的标签合并 PRs
+
+
 
 
 
 ### cla: yes - 333 pull request(s)
+
+### cla：是 - 333 个拉取请求
+
 
 [3103](https://github.com/flutter/plugins/pull/3103) [local_auth] docs update (cla: yes, p: local_auth)
 
@@ -19506,6 +19771,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### waiting for tree to go green - 152 pull request(s)
 
+### 等待树变绿 - 152 个拉取请求
+
+
 [3266](https://github.com/flutter/plugins/pull/3266) [webview_flutter] Fix broken keyboard issue link (cla: yes, waiting for tree to go green, p: webview_flutter)
 
 
@@ -19964,6 +20232,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-android - 74 pull request(s)
 
+### platform-android - 74 个拉取请求
+
+
 [3783](https://github.com/flutter/plugins/pull/3783) [image_picker] Multiple image support (cla: yes, waiting for tree to go green, p: image_picker, platform-ios, platform-android)
 
 
@@ -20188,6 +20459,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-ios - 67 pull request(s)
 
+### platform-ios - 67 个拉取请求
+
+
 [3360](https://github.com/flutter/plugins/pull/3360) [video_player] Fixed HLS Streams on iOS (cla: yes, p: video_player, platform-ios)
 
 
@@ -20391,6 +20665,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: in_app_purchase - 63 pull request(s)
 
+### p：in_app_purchase - 63 个拉取请求
+
+
 [3781](https://github.com/flutter/plugins/pull/3781) [in_app_purchase] Implementation of platform interface (cla: yes, p: in_app_purchase)
 
 
@@ -20582,6 +20859,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: camera - 40 pull request(s)
 
+### p：相机 - 40 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -20703,6 +20983,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: image_picker - 40 pull request(s)
+
+### p: image_picker - 40 个拉取请求
+
 
 [3782](https://github.com/flutter/plugins/pull/3782) [image_picker_platform_interface] Added pickMultiImage (cla: yes, p: image_picker)
 
@@ -20826,6 +21109,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-web - 30 pull request(s)
 
+### platform-web - 30 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -20917,6 +21203,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: url_launcher - 30 pull request(s)
+
+### p: url_launcher - 30 个拉取请求
+
 
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
@@ -21010,6 +21299,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: video_player - 28 pull request(s)
 
+### p: video_player - 28 个拉取请求
+
+
 [3360](https://github.com/flutter/plugins/pull/3360) [video_player] Fixed HLS Streams on iOS (cla: yes, p: video_player, platform-ios)
 
 
@@ -21096,6 +21388,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: webview_flutter - 27 pull request(s)
 
+### p: webview_flutter - 27 个拉取请求
+
+
 [3266](https://github.com/flutter/plugins/pull/3266) [webview_flutter] Fix broken keyboard issue link (cla: yes, waiting for tree to go green, p: webview_flutter)
 
 
@@ -21178,6 +21473,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: google_sign_in - 27 pull request(s)
+
+### p：google_sign_in - 27 个拉取请求
+
 
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
@@ -21262,6 +21560,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: google_maps_flutter - 25 pull request(s)
 
+### p：google_maps_flutter - 25 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -21339,6 +21640,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: path_provider - 22 pull request(s)
 
+### p：path_provider - 22 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -21407,6 +21711,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-macos - 19 pull request(s)
 
+### platform-macos - 19 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -21465,6 +21772,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: shared_preferences - 19 pull request(s)
+
+### p：shared_preferences - 19 个拉取请求
+
 
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
@@ -21525,6 +21835,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: connectivity - 18 pull request(s)
 
+### p：连接性 - 18 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -21581,6 +21894,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-windows - 16 pull request(s)
 
+### platform-windows - 16 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -21631,6 +21947,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### platform-linux - 15 pull request(s)
 
+### platform-linux - 15 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -21677,6 +21996,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: quick_actions - 15 pull request(s)
+
+### p：quick_actions - 15 个拉取请求
+
 
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
@@ -21725,6 +22047,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: sensors - 14 pull request(s)
 
+### p：传感器 - 14 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -21768,6 +22093,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: local_auth - 14 pull request(s)
+
+### p: local_auth - 14 个拉取请求
+
 
 [3103](https://github.com/flutter/plugins/pull/3103) [local_auth] docs update (cla: yes, p: local_auth)
 
@@ -21813,6 +22141,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: package_info - 13 pull request(s)
 
+### p: package_info - 13 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -21854,6 +22185,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: battery - 12 pull request(s)
 
+### p：电池 - 12 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -21892,6 +22226,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: wifi_info_flutter - 11 pull request(s)
 
+### p: wifi_info_flutter - 11 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -21926,6 +22263,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: device_info - 11 pull request(s)
+
+### p：device_info - 11 个拉取请求
+
 
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
@@ -21962,6 +22302,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: share - 11 pull request(s)
 
+### p：分享 - 11 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -21997,6 +22340,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### last mile - 8 pull request(s)
 
+### 最后一英里 - 8 个拉取请求
+
+
 [3727](https://github.com/flutter/plugins/pull/3727) [video_player] Pause video when it completes (cla: yes, waiting for tree to go green, p: video_player, last mile)
 
 
@@ -22022,6 +22368,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: espresso - 8 pull request(s)
+
+### p: espresso - 8 个拉取请求
+
 
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
@@ -22049,6 +22398,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: android_alarm_manager - 8 pull request(s)
 
+### p：android_alarm_manager - 8 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -22074,6 +22426,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: android_intent - 8 pull request(s)
+
+### p: android_intent - 8 个拉取请求
+
 
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
@@ -22101,6 +22456,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: flutter_plugin_android_lifecycle - 8 pull request(s)
 
+### p：flutter_plugin_android_lifecycle - 8 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -22127,6 +22485,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: ios_platform_images - 6 pull request(s)
 
+### p: ios_platform_images - 6 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -22146,6 +22507,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: file_selector - 6 pull request(s)
+
+### p: file_selector - 6 个拉取请求
+
 
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
@@ -22167,6 +22531,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### p: integration_test - 5 pull request(s)
 
+### p：integration_test - 5 个拉取请求
+
+
 [3792](https://github.com/flutter/plugins/pull/3792) Fix and update version checks (cla: yes, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: integration_test, p: local_auth, p: path_provider, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
 
@@ -22183,6 +22550,9 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 
 ### p: plugin_platform_interface - 5 pull request(s)
+
+### p：plugin_platform_interface - 5 个拉取请求
+
 
 [3822](https://github.com/flutter/plugins/pull/3822) Move all null safety packages' min dart sdk to 2.12.0 (cla: yes, waiting for tree to go green, p: battery, p: webview_flutter, p: android_alarm_manager, p: android_intent, p: camera, p: file_selector, p: google_maps_flutter, p: google_sign_in, p: image_picker, p: in_app_purchase, p: local_auth, p: path_provider, p: plugin_platform_interface, p: share, p: url_launcher, p: video_player, p: package_info, p: shared_preferences, p: espresso, p: wifi_info_flutter, p: sensors, p: quick_actions, p: connectivity, p: device_info, p: ios_platform_images, platform-windows, platform-macos, platform-linux, platform-web, p: flutter_plugin_android_lifecycle)
 
@@ -22201,9 +22571,15 @@ For information about subsequent bug-fix releases, see our [CHANGELOG][]
 
 ### needs-publishing - 1 pull request(s)
 
+### 需求发布 - 1 个拉取请求
+
+
 [4211](https://github.com/flutter/plugins/pull/4211) [url_launcher] Replaced reference to shared_preferences with correct reference to url_launcher in README. (cla: yes, waiting for tree to go green, p: url_launcher, platform-windows, platform-macos, platform-linux, platform-web, needs-publishing)
 
 
 ### in review - 1 pull request(s)
+
+### 正在审查 - 1 个拉取请求
+
 
 [3780](https://github.com/flutter/plugins/pull/3780) [local_auth] Fix iOS crash when no localizedReason (cla: yes, in review, waiting for tree to go green, p: local_auth)

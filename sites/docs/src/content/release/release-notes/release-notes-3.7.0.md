@@ -1,21 +1,39 @@
 ---
-title: Flutter 3.7.0 release notes
-shortTitle: 3.7.0 release notes
-description: Release notes for Flutter 3.7.0.
+# title: Flutter 3.7.0 release notes
+title: Flutter 3.7.0 发行说明
+# shortTitle: 3.7.0 release notes
+shortTitle: 3.7.0 发行说明
+# description: Release notes for Flutter 3.7.0.
+description: Flutter 3.7.0 的发行说明。
 skipTemplateRendering: true
+ai-translated: true
 ---
 
 This page has release notes for 3.7.0.
 For information about subsequent bug-fix releases,
 see our [CHANGELOG][].
 
+此页面包含 3.7.0 的发行说明。
+有关后续错误修复版本的信息，
+请参阅我们的 [CHANGELOG][]。
+
+
 [CHANGELOG]: https://github.com/flutter/flutter/blob/main/CHANGELOG.md
 
 ## What's changed
 
+## 变更内容
+
+
 The following changes happened in this release:
 
+本版本包含以下变更：
+
+
 ### Framework
+
+### 框架
+
 * Add a matcher for Matrix4 that includes epsilon by @jonahwilliams in https://github.com/flutter/flutter/pull/107326
 * Expose the duration and curve for theme animation in MaterialApp. by @darrenaustin in https://github.com/flutter/flutter/pull/107383
 * Persistent BottomSheet are not dismissible via a11y by @goderbauer in https://github.com/flutter/flutter/pull/107435
@@ -608,6 +626,9 @@ The following changes happened in this release:
 * Fix `NavigationRail` highlight (#117320) by @Piinks in https://github.com/flutter/flutter/pull/117344
 * Fix `InkRipple` doesn't respect `rectCallback` when rendering ink cir… by @Piinks in https://github.com/flutter/flutter/pull/117500
 ### Tooling
+
+### 工具
+
 * [flutter_tools] [dap] Add support for passing env variables to spawned processes by @DanTup in https://github.com/flutter/flutter/pull/107415
 * [flutter_tools] Replace android v2 embedding broken doc link by @RoyARG02 in https://github.com/flutter/flutter/pull/107456
 * Improve coverage speed by using new caching option for package:coverage by @jensjoha in https://github.com/flutter/flutter/pull/107395
@@ -872,11 +893,17 @@ The following changes happened in this release:
 * [flutter_tools] dont include material shaders in web builds (#116538) by @jonahwilliams in https://github.com/flutter/flutter/pull/116554
 * [CP] [flutter_tools] Add remap sampler support (#116861) by @jonahwilliams in https://github.com/flutter/flutter/pull/116922
 ### MacOS
+
+### macOS
+
 * Update CI to use Xcode 14 beta 5 by @jmagman in https://github.com/flutter/flutter/pull/110302
 * Remove Apple Silicon workarounds from plugin lint test by @jmagman in https://github.com/flutter/flutter/pull/111432
 * Update macOS gallery display name by @jmagman in https://github.com/flutter/flutter/pull/113658
 
 ## New Contributors
+
+## 新贡献者
+
 * @talisk made their first contribution in https://github.com/flutter/flutter/pull/107221
 * @0xba1 made their first contribution in https://github.com/flutter/flutter/pull/107836
 * @foongsq made their first contribution in https://github.com/flutter/flutter/pull/107201
@@ -936,3 +963,6 @@ The following changes happened in this release:
 * @jgoyvaerts made their first contribution in https://github.com/flutter/flutter/pull/115240
 
 **Full Changelog**: https://github.com/flutter/flutter/compare/3.3.0...3.7.0-1.4.pre
+
+**完整变更日志**： https://github.com/flutter/flutter/compare/3.3.0...3.7.0-1.4.pre
+
